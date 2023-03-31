@@ -1,4 +1,4 @@
-def generate_table_per_area (df, ch_opt, ch_unit, ch_at, ch_intern, ch_tcc1, ch_tcc2, ch_total):
+def generate_table_per_area (df, ch_opt, ch_unit, ch_at, ch_intern, ch_total):
   areas = {
     'Básico': df.loc[df['Núcleo'] == 'Básico'],
     'Específico': df.loc[df['Núcleo'] == 'Específico'],
@@ -39,8 +39,6 @@ Núcleo  & Unidades curriculares & CH [h]  & \% da CH da área em relação à C
   tex += '\multicolumn{2}{|l|}{\textbf{Carga Horária Total das Unidades Curriculares}} & \textbf{%d} &  \\\hline\n' % (ch_unit)
   tex += '\multicolumn{2}{|l|}{\textbf{Carga Horária de Atividades Complementares}} & \textbf{%d} &  \\\hline\n' % (ch_at)
   tex += '\multicolumn{2}{|l|}{\textbf{Carga Horária de Estágio Curricular Obrigatório}} & \textbf{%d} &  \\\hline\n' % (ch_intern)
-  tex += '\multicolumn{2}{|l|}{\textbf{Carga Horária de TCC1}} & \textbf{%d} &  \\\hline\n' % (ch_tcc1)
-  tex += '\multicolumn{2}{|l|}{\textbf{Carga Horária de TCC2}} & \textbf{%d} &  \\\hline\n' % (ch_tcc2)
   tex += '\multicolumn{2}{|l|}{\textbf{Carga Horária Total do Curso, incluindo AT, Estágio e TCC1/TCC2}} & \textbf{%d} & \\\hline' % (ch_total)
   tex += '''
 \end{tabular}
@@ -49,3 +47,31 @@ Núcleo  & Unidades curriculares & CH [h]  & \% da CH da área em relação à C
 
   with open('./tex/units_per_area.tex', 'w') as f:
     f.write(tex)
+
+
+def generate_ead_table (required_df, ch_opt, ch_total):
+  tex = '''\begin{quadro}[ht!]
+\caption{Cargas horárias presencial e EaD }
+\label{quad:ead}
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\rowcolor{blue1}
+ Modalidade &    Carga Horária  & \%\\
+\hline
+'''
+
+  ch_ead = required_df.loc[:, 'NP'].sum() + ch_opt
+  ch_presential = ch_total - ch_ead
+  tex += 'Presencial & %d & %.2f \\\n' % (ch_presential, ((ch_presential/ch_total) * 100))
+  tex += 'EaD & %d & %.2f \\\n' % (ch_ead, ((ch_ead/ch_total) * 100))
+  tex += '\hline\nTotal  & %d & 100,00\\' % (ch_total)
+
+  tex += '''\hline
+\end{tabular}
+\end{quadro}'''
+
+  with open('./tex/ch_ead.tex', 'w') as f:
+    f.write(tex)
+
+
