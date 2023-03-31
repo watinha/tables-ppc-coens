@@ -75,3 +75,36 @@ def generate_ead_table (required_df, ch_opt, ch_total):
     f.write(tex)
 
 
+def generate_ch_human_table (df_required, df_opt, ch_unit):
+  human_required = df_required.loc[df_required['Tipo'] == 'H'].to_dict('records')
+  total_human = df_required.loc[df_required['Tipo'] == 'H'].loc[:, 'TOTAL'].sum()
+  human_opt = df_opt.loc[df_opt['Tipo'] == 'H'].to_dict('records')
+
+  tex = '''\begin{quadro}[ht!]
+\caption{Representação das unidades curriculares do ciclo de humanidades.}
+\label{quad:ead}
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\rowcolor{blue1}
+ Unidade Curricular &    Carga Horária  & \%\\
+\hline
+'''
+  for unit in human_required:
+    tex += '%s & %d & %.2f \\\n' % (unit['Nome'], unit['TOTAL'], (unit['TOTAL'] / ch_unit) * 100)
+
+  tex += '\hline\n'
+
+  for unit in human_opt:
+    tex += '%s & %d & Optativa \\\n' % (unit['Nome'], unit['TOTAL'])
+
+  tex += '\hline\n'
+
+  tex += 'Total (Mínimo) & %d & %.2f\\\n' % (total_human, (total_human / ch_unit) * 100)
+
+  tex += '''\hline
+\end{tabular}
+\end{quadro}'''
+
+  with open('./tex/ch_human.tex', 'w') as f:
+    f.write(tex)
