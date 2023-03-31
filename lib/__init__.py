@@ -108,3 +108,58 @@ def generate_ch_human_table (df_required, df_opt, ch_unit):
 
   with open('./tex/ch_human.tex', 'w') as f:
     f.write(tex)
+
+
+def generate_units_table_per_period(df_required, df_opt, periodo_opt, ch_opt):
+  periodos = df_required['Período'].unique().tolist()
+
+  for periodo in periodos:
+    units = df_required.loc[df_required['Período'] == periodo].to_dict('records')
+
+    if periodo == periodo_opt:
+      opts = df_opt.to_dict('records')
+      for opt in opts:
+        opt['Nome'] = '%s (Optativa)' % (opt['Nome'])
+        opt['opt'] = True
+
+      units = units + opts
+
+    tex = '''\begin{quadro}[ht!]
+\centering
+'''
+    tex += '\caption{Conteúdos Curriculares do %d$^o$ Período}' % (periodo)
+    tex += '\label{qua:periodo%d}' % (periodo)
+    tex += '''
+\scriptsize
+\begin{tabular}{|p{5.0cm}|c|c|c|c|c|}
+\hline
+'''
+    tex += '\rowcolor{blue1} %d$^o$ Período & \multicolumn{5}{c}{\centering Carga-horária (horas)} \\ \hline\n' % (periodo)
+    tex += '\rowcolor{blue1} Unidade Curricular & Prática & Teórica & Total & EaD & AAE \\ \hline\n'
+    extensao = 0
+    total = 0
+    total_remoto = 0
+
+    for unit in units:
+      if ('opt' not in unit):
+        total += unit['TOTAL']
+        total_remoto += unit['NP']
+
+      if unit['Tipo'] != 'E' and unit['Tipo'] != 'T':
+        tex += '%s & %d & %d & %d & %d	&	0 \\	\hline\n' % (unit['Nome'], unit['TOTAL']/2, unit['TOTAL']/2, unit['TOTAL'], unit['NP'])
+      elif unit['Tipo'] == 'E':
+        tex += '%s & %d & 0 & %d & %d	&	%d \\	\hline\n' % (unit['Nome'], unit['TOTAL'], unit['TOTAL'], unit['NP'], unit['TOTAL'])
+        extensao = unit['TOTAL']
+      else:
+        tex += '%s & %d & 0 & %d & %d	&	0 \\	\hline\n' % (unit['Nome'], unit['TOTAL'], unit['TOTAL'], unit['NP'])
+
+    if periodo == periodo_opt:
+      total += ch_opt
+      total_remoto += ch_opt
+
+    tex += 'CH total do período & \multicolumn{2}{p{3.3cm}|}{\cellcolor{blue1}} & %d & %d	&	%d \\ \hline\n\end{tabular} \end{quadro}' % (total, total_remoto, extensao)
+
+    with open('./tex/periodo-%d.tex' % (periodo), 'w') as f:
+      f.write(tex)
+
+
