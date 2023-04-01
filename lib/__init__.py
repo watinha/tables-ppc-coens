@@ -134,7 +134,7 @@ def generate_units_table_per_period(df_required, df_opt, periodo_opt, ch_opt):
     tex += '\caption{Conteúdos Curriculares do %d$^o$ Período}' % (periodo)
     tex += '\label{qua:periodo%d}' % (periodo)
     tex += '''
-\\begin{tabular}{|p{5.0cm}|c|c|c|c|c|}
+\\begin{tabular}{|p{8.0cm}|c|c|c|c|c|}
 \hline
 '''
     tex += '\\rowcolor{blue1} %d$^o$ Período & \multicolumn{5}{|c|}{\centering Carga-horária (horas)} \\\\ \hline\n' % (periodo)
