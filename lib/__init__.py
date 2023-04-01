@@ -16,7 +16,7 @@ def generate_table_per_area (df, ch_opt, ch_unit, ch_at, ch_intern, ch_total):
 \\begin{tabular}{|l|l|c|p{3.2cm}|}
 \hline
 \\rowcolor{blue1}
-Núcleo  & Unidades curriculares & CH [h]  & \% da CH da área em relação à CH das unidades curriculares do curso\\\hline
+Núcleo  & Unidades curriculares & CH [h]  & \% da CH da área em relação à CH das unidades curriculares do curso\\\\\hline
 '''
 
   for k in areas:
@@ -30,13 +30,15 @@ Núcleo  & Unidades curriculares & CH [h]  & \% da CH da área em relação à C
 
     for i, unit in enumerate(l):
       if i == 0:
-        tex += '\multirow{4}{*}{Núcleo %s} & %s & %d & %d horas  \\\n' % (k, unit['Nome'], unit['TOTAL'], ch_area)
+        tex += '\multirow{4}{*}{Núcleo %s} & %s & %d & %d horas  \\\\\n' % (k, unit['Nome'], unit['TOTAL'], ch_area)
       elif i == 1:
-        tex += '\cline{2-3} & %s & %d & %d\%% (un. curriculares)\\\n' % (unit['Nome'], unit['TOTAL'], round((ch_area*100)/ch_unit))
+        tex += '\cline{2-3} & %s & %d & %d\%% (un. curriculares)\\\\\n' % (unit['Nome'], unit['TOTAL'], round((ch_area*100)/ch_unit))
       elif i == 2:
-        tex += '\cline{2-3} & %s & %d & %d\%% (CH total)\\\n' % (unit['Nome'], unit['TOTAL'], round((ch_area*100)/ch_total))
+        tex += '\cline{2-3} & %s & %d & %d\%% (CH total)\\\\\n' % (unit['Nome'], unit['TOTAL'], round((ch_area*100)/ch_total))
       else:
-        tex += '\cline{2-3} & %s & %d & \\\n' % (unit['Nome'], unit['TOTAL'])
+        tex += '\cline{2-3} & %s & %d & \\\\\n' % (unit['Nome'], unit['TOTAL'])
+
+    tex += '\hline\n'
 
   tex += '\multicolumn{2}{|l|}{\\textbf{Carga Horária Total das Unidades Curriculares}} & \\textbf{%d} &  \\\\\hline\n' % (ch_unit)
   tex += '\multicolumn{2}{|l|}{\\textbf{Carga Horária de Atividades Complementares}} & \\textbf{%d} &  \\\\\hline\n' % (ch_at)
@@ -132,11 +134,10 @@ def generate_units_table_per_period(df_required, df_opt, periodo_opt, ch_opt):
     tex += '\caption{Conteúdos Curriculares do %d$^o$ Período}' % (periodo)
     tex += '\label{qua:periodo%d}' % (periodo)
     tex += '''
-\scriptsize
 \\begin{tabular}{|p{5.0cm}|c|c|c|c|c|}
 \hline
 '''
-    tex += '\\rowcolor{blue1} %d$^o$ Período & \multicolumn{5}{c}{\centering Carga-horária (horas)} \\\\ \hline\n' % (periodo)
+    tex += '\\rowcolor{blue1} %d$^o$ Período & \multicolumn{5}{|c|}{\centering Carga-horária (horas)} \\\\ \hline\n' % (periodo)
     tex += '\\rowcolor{blue1} Unidade Curricular & Prática & Teórica & Total & EaD & AAE \\\\ \hline\n'
     extensao = 0
     total = 0
@@ -190,9 +191,9 @@ def generate_curricular_units (df_required, df_opt):
       tex += '\multicolumn{2}{|r}{		} &  \multicolumn{2}{r}{Presencial \Square} & \multicolumn{2}{r|}{EaD \XBox	} \\\\\hline\n'
     tex += '\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Unidade curricular de caráter extensionista} \\\\\hline\n'
     if unit['Tipo'] == 'E':
-      tex += '\multicolumn{4}{|r}{			Sim \Square	} & \multicolumn{2}{r|}{	Não \XBox	}\\\\\hline\n'
-    else:
       tex += '\multicolumn{4}{|r}{			Sim \XBox	} & \multicolumn{2}{r|}{	Não \Square	}\\\\\hline\n'
+    else:
+      tex += '\multicolumn{4}{|r}{			Sim \Square	} & \multicolumn{2}{r|}{	Não \XBox	}\\\\\hline\n'
     tex += '''\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Idioma da unidade curricular} \\\\ \hline
 \multicolumn{2}{|r}{	Português \XBox	} &  \multicolumn{2}{r}{	Inglês \Square	} & \multicolumn{2}{r|}{	Outro \Square	} \\\\ \hline
 \multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Pré-requisitos} & \multicolumn{5}{p{9cm}|}{}\\\\ \hline

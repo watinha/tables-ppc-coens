@@ -9,8 +9,8 @@ RA2: Criar algoritmos para os problemas delimitados utilizando descrição narra
 RA3: Implementar programas para solucionar os problemas estruturados utilizando tipos primitivos de dados, vetores, matrizes e registros, por meio de linguagem de programação (T3 e T4)
 R4: Validar a solução proposta por meio da execução do programa implementado verificando se as variáveis de entrada e saída condizem com o esperado. (T1, T2 e T3)
 RA5: Recriar algoritmos quando a solução proposta não for validada, utilizando testes de mesa e depuração de software. (T6)"
-H,Básico,1,Introdução a Engenharia de Software,2,30,0,30,"TE1: Profissional de Engenharia de Software: riscos no ambiente de trabalho (incêndio e desastres), visão geral do profissional, áreas de atuação e relações com o perfil do egresso do curso da UTFPR. (8h)                                                  
-TE2: Aspectos da profissão: desafios do profissional, conceitos de ética e código de ética profissional (8h) 
+H,Básico,1,Introdução a Engenharia de Software,2,30,0,30,"TE1: Profissional de Engenharia de Software: riscos no ambiente de trabalho (incêndio e desastres), visão geral do profissional, áreas de atuação e relações com o perfil do egresso do curso da UTFPR. (8h)
+TE2: Aspectos da profissão: desafios do profissional, conceitos de ética e código de ética profissional (8h)
 TE3: Visão de mercado: novas demandas e impactos no profissional, interdisciplinariedade e a aplicação em dimensões social, política, econômica, cultural e ambiental (14h)","RA1: Identificar contextos sociais de aplicação e áreas de atuação do profissional egresso do curso, considerando requisitos da profissão, responsabilidades e ética (TE1 e TE2).
 RA2: Analisar criticamente a aplicação de TI considerando problemáticas de dimensões social, política, econômica, cultural e ambiental, de forma crítica e criativa (TE3)."
 EC,Básico,1,Organização de Computadores,2,30,0,30,"TE1: Organização de computadores: hierarquia de memória e troca de dados, memória virtual, componentes da unidade central de processamento, barramentos e dispositivos de entrada e saída (15h)
@@ -24,7 +24,7 @@ TE4: Trigonometria no triângulo retângulo e no ciclo trigonométrico: razões 
 TE5: Números complexos: Conceito, representação na forma algébrica e operações, representação gráfica, representação polar e operações (6h)","RA1: Interpretar problemas estruturados representando-os adequadamente por meio de conjuntos, expressões algébricas, polinômios e números complexos (TE1, TE2 e TE5).
 RA2: Representar limites dos problemas corretamente por meio de equações, inequações e funções identificando variáveis de decisão e domínio do problema (TE3 e TE4).
 RA3: Resolver problemas delimitados, empregando corretamente equações, inequações e funções (TE3 e TE4)."
-H,Básico,1,Comunicação Oral e Escrita,4,60,0,60,"TE1: Estratégias de leitura acadêmica: antecipação, seleção e síntese de informações em artigos científicos. (10h)             
+H,Básico,1,Comunicação Oral e Escrita,4,60,0,60,"TE1: Estratégias de leitura acadêmica: antecipação, seleção e síntese de informações em artigos científicos. (10h)
 TE2: Processo de produção de resumo e resenha acadêmicos: diferença, estrutura composicional, planejamento, escrita e revisão (10h)
 TE3: Processo de produção de gêneros orais acadêmicos: planejamento, produção de materiais de apoio e técnicas de interação com o público. (10h)
 TE4: Processo de produção de gêneros orais empresariais: diretrizes da comunicação na organização, estratégias para comunicação externa e interna e o evento reunião empresarial. (15h)
@@ -135,7 +135,7 @@ RA2: Modelar estruturas de aplicações web com HTML e CSS, de forma autorregula
 RA3: Projetar layout de aplicações web com Design Responsivo e autorregulação (TE3).
 RA4: Implementar aplicações web de acordo com padrões de codificação, regras de design responsivo, acessibilidade na web e otimização de motores de busca, para diferentes plataformas (TE3 e TE4).
 RA5: Projetar aplicações web utilizando JavaScript, DOM e eventos com APIs de persistência de dados no navegador web e controle de eventos, com objetividade e clareza (TE5 e TE6)."
-ADS,Específico,4,Interação Homem Computador,2,30,0,30,"TE1: Usabilidade: interface de usuário, experiência de usuário, habilidades humanas e limitações, processo cognitivo, abordagens teóricas. (10h)                                                                   
+ADS,Específico,4,Interação Homem Computador,2,30,0,30,"TE1: Usabilidade: interface de usuário, experiência de usuário, habilidades humanas e limitações, processo cognitivo, abordagens teóricas. (10h)
 TE2: Princípios e diretrizes de usabilidade: metáforas, estilos e paradigmas de interação, padrões e guias para o projeto de interação. (10h)
 TE3: Avaliação de usabilidade: métodos de inspeção e de teste com usuários, planejamento da avaliação, análise e interpretação de resultados. (10h)","RA1: Identificar características de usabilidade no contexto da interface e experiência do usuário, considerando os aspectos humanos e tecnológicos (TE1).
 RA2: Examinar interfaces de usuário, com base nos princípios e diretrizes de usabilidade de forma crítica, científica, criativa e adaptativa às novas tecnologias (TE2).
@@ -169,7 +169,7 @@ TE2: Linguagens formais e gramáticas: geração de linguagens, forma normal de 
 TE3: Máquinas de Turing: princípios, computabilidade e modelos equivalentes. (20h)
 TE4: Complexidade computacional: complexidade de código-fonte e problemas P e NP. (20h)","RA1: Compreender a noção de computação, a tese de Turing e suas consequências ao estudo da computabilidade efetiva (TE1, TE3)
 RA2: Identificar características de linguagens de programação como gramática, alfabeto e cadeias, ambiguidade e formas normais (TE2)
-RA3: Modelar uma máquina de Turing para resolver problemas computacionais (TE3) 
+RA3: Modelar uma máquina de Turing para resolver problemas computacionais (TE3)
 RA4: Examinar complexidade de algoritmos para validação de requisitos de desempenho de programas computacionais (TE4)"
 ,Específico,5,Segurança da Informação,4,60,0,60,"TE1: Fundamentos de segurança: políticas, modelos de ameaça e mecanismos de segurança. (10 horas)
 TE2: Criptologia: sistemas criptográficos simétricos, assimétricos, funções de hash e suas aplicações. (15 horas)
@@ -208,7 +208,7 @@ RA4: Elaborar projeto e testes para validação de soluções de software e hard
 H,Básico,6,Estratégias de Inovação,2,30,0,30,"TE1: Fundamentos de Inovação: Conceitos de Estratégias empresariais, Tipos e graus de inovação. (10h)
 TE2: Estratégias de Inovação: culturas e ambientes de inovação, Cases de estratégia de Inovação e aplicações. (20h)","RA1: Identificar do ambiente competitivo das organizações e a importância do desenvolvimento da inovação, demonstrando a compreensão dos tipos e graus de inovação (TE1).
 RA2: Analisar criticamente estratégias de inovação descrevendo a cultura e o ambiente, propondo a aplicação de conceitos de inovação em uma organização com autonomia e responsabilidade (TE2)."
-E,,6,Oficina de Integração 1,2,30,90,120,"TE1: Integração dos conhecimentos das disciplinas do primeiro, segundo e terceiro, quarto e quinto períodos. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional que resolva um problema real da comunidade externa a UTFPR. (120h)",RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1).
+E,Específico,6,Oficina de Integração 1,2,30,90,120,"TE1: Integração dos conhecimentos das disciplinas do primeiro, segundo e terceiro, quarto e quinto períodos. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional que resolva um problema real da comunidade externa a UTFPR. (120h)",RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1).
 EC,Profissionalizante,7,Programação para Dispositivos Móveis,0,0,60,60,"TE1: Dispositivos móveis e tecnologias de desenvolvimento de aplicativos móveis: histórico, mercado, plataformas existentes e segurança (5h)
 TE2: Framework para desenvolvimento: características, ferramentas de desenvolvimento e aplicações (5h)
 TE3: Projeto de interfaces: recursos tecnológicos, componentes de interface, navegação, posicionamento e layout (20h)
@@ -223,7 +223,7 @@ TE4: Projeto de aplicação web fullstack: comunicação cliente-servidor utiliz
 RA2: Desenvolver Web APIs utilizando frameworks de back-end, com persistência de dados, escalabilidade e portabilidade das soluções (TE2)
 RA3: Aplicar frameworks de desenvolvimento web para projetar soluções com autonomia, responsabilidade e ética, considerando a segurança da aplicação web (TE3)
 RA4: Desenvolver projetos de aplicações web fullstack com frameworks, integrando o front-end e back-end, de forma colaborativa utilizando metodologias de gerenciamento de projeto (TE4)"
-E,,7,Oficina de Integração 2,0,0,210,210,TE1: Integração dos conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional para resolver um problema da comunidade externa a UTFPR. (210h),RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1).
+E,Específico,7,Oficina de Integração 2,0,0,210,210,TE1: Integração dos conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional para resolver um problema da comunidade externa a UTFPR. (210h),RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1).
 T,Profissionalizante,7,Trabalho de Conclusão de Curso 1,0,0,30,30,"TE1: Proposta de trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil
 do egresso. (30h)",
 T,Profissionalizante,8,Trabalho de Conclusão de Curso 2,0,0,90,90,TE2: Trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso. (90h),
