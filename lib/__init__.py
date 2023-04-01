@@ -86,7 +86,7 @@ def generate_ch_human_table (df_required, df_opt, ch_unit):
 
   tex = '''\\begin{quadro}[ht!]
 \caption{Representação das unidades curriculares do ciclo de humanidades.}
-\label{quad:ead}
+\label{quad:humanities}
 \centering
 \\begin{tabular}{|l|c|c|}
 \hline
@@ -171,12 +171,13 @@ def generate_curricular_units (df_required, df_opt):
   units = df_required.to_dict('records') + opts
   all_units = ''
 
-  for unit in units:
+  for i, unit in enumerate(units):
     tex = '''
 \\begin{quadro}[ht!]
   \centering\scriptsize
 '''
     tex += '\caption{Unidade Curricular %s}\n' % (unit['Nome'])
+    tex += '\label{unit_%d}\n' % (i)
     tex += '\\begin{tabular}{|p{3cm} p{2cm} p{3cm} p{2cm} p{3cm} p{2cm}|}\hline\n'
     tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Unidade curricular} & \multicolumn{5}{p{9cm}|}{%s}\\\\\hline\n' % (unit['Nome'])
     tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Núcleo} & \multicolumn{5}{p{11.5cm}|}{%s}\\\\\hline\n' % (unit['Núcleo'])
@@ -222,3 +223,37 @@ def generate_curricular_units (df_required, df_opt):
 
   with open('./tex/unidades_curriculares.tex', 'w') as f:
     f.write(all_units)
+
+
+def generate_themes_and_results (df_required):
+  units = df_required.to_dict('records')
+  all_tex = ''
+
+  for i, unit in enumerate(units):
+    if unit['Nome'].startswith('Trabalho de Conclusão de Curso'): continue
+
+    tex = '''
+\\begin{quadro}[ht!]
+  \centering
+'''
+    temas = [ '\\xitem %s' % (theme) for theme in unit['Temas de estudo'].split('\n') ]
+    ras = [ '\\xitem %s' % (ra) for ra in unit['Resultados de aprendizagem'].split('\n') ]
+
+    tex += '\caption{Unidade Curricular %s}\n' % (unit['Nome'])
+    tex += '\label{unit_themes_ras_%d}\n' % (i)
+    tex += '\\begin{tabular}{|p{5cm}|p{8cm}|}\hline\n'
+    tex += '{\cellcolor{blue1} Unidade curricular} & %s\\\\\hline\n' % (unit['Nome'])
+    tex += '{\cellcolor{blue1} Núcleo} & %s\\\\\hline\n' % (unit['Núcleo'])
+    tex += '{\cellcolor{blue1} Carga-horária (Horas)} & %d\\\\\hline\n' % (unit['TOTAL'])
+    tex += '\multicolumn{2}{|p{13cm}|}{Temas de Estudo} \\\\\hline\n'
+    tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\hline\n' % ('\\\\'.join(temas))
+    tex += '\multicolumn{2}{|p{13cm}|}{Resultados de Aprendizagem} \\\\\hline\n'
+    tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\hline\n' % ('\\\\'.join(ras))
+    tex += '''
+	\end{tabular}
+\end{quadro}'''
+
+    all_tex += tex
+
+  with open('./tex/themes_and_results.tex', 'w') as f:
+    f.write(all_tex)

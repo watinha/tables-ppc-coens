@@ -1,6 +1,6 @@
 import pandas as pd
 
-from lib import generate_table_per_area, generate_ead_table, generate_ch_human_table, generate_units_table_per_period, generate_curricular_units
+from lib import generate_table_per_area, generate_ead_table, generate_ch_human_table, generate_units_table_per_period, generate_curricular_units, generate_themes_and_results
 
 CH_OPT = 180
 CH_TCC1 = 30
@@ -18,3 +18,4 @@ generate_ead_table(df_required, CH_OPT, CH_TOTAL)
 generate_ch_human_table(df_required, df_opt, CH_UNIT)
 generate_units_table_per_period(df_required, df_opt, 8, CH_OPT)
 generate_curricular_units(df_required, df_opt)
+generate_themes_and_results(df_required)
