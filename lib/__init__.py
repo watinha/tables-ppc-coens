@@ -1,4 +1,4 @@
-import re
+import re, chevron
 
 def generate_table_per_area (df, ch_opt, ch_unit, ch_at, ch_intern, ch_total):
   areas = {
@@ -257,3 +257,51 @@ def generate_themes_and_results (df_required):
 
   with open('./tex/themes_and_results.tex', 'w') as f:
     f.write(all_tex)
+
+
+def generate_summary_table(df_required, df_opts, ch_opts, ch_at, ch_intern, ch_total):
+  ch_required = df_required['TOTAL'].sum()
+  ch_required_percent = round((ch_required / ch_total) * 100)
+  ch_opt = ch_opts
+  ch_ext = df_required.loc[df_required['Tipo'] == 'E']['TOTAL'].sum()
+  ch_ext_percent = round((ch_ext / ch_total) * 100)
+  ch_ead = df_required['NP'].sum() + ch_opts
+  ch_ead_percent = round((ch_ead / ch_total) * 100)
+  ch_unit = ch_required + ch_opts
+  ch_min_humanities = round(ch_unit / 10)
+  ch_humanities = df_required.loc[df_required['Tipo'] == 'H']['TOTAL'].sum()
+  ch_humanities_opt = df_opts.loc[df_opts['Tipo'] == 'H']['TOTAL'].sum()
+  ch_total_humanities = ch_humanities + ch_humanities_opt
+  ch_min_ext = round(ch_total / 10)
+  ch_max_ead = round(ch_total * 0.4)
+  ch_ead_required = df_required['NP'].sum()
+  ch_ead_opt = ch_opts
+  ch_ead_present = df_required.loc[df_required['P'] > 0]['NP'].sum()
+
+  params = {
+    'ch_required': ch_required,
+    'ch_opt': ch_opt,
+    'ch_ext': ch_ext,
+    'ch_ext_percent': ch_ext_percent,
+    'ch_intern': ch_intern,
+    'ch_ead': ch_ead,
+    'ch_ead_percent': ch_ead_percent,
+    'ch_total': ch_total,
+    'ch_unit': ch_unit,
+    'ch_min_humanities': ch_min_humanities,
+    'ch_humanities': ch_humanities,
+    'ch_humanities_opt': ch_humanities_opt,
+    'ch_total_humanities': ch_total_humanities,
+    'ch_min_ext': ch_min_ext,
+    'ch_ext': ch_ext,
+    'ch_max_ead': ch_max_ead,
+    'ch_ead_required': ch_ead_required,
+    'ch_ead_opt': ch_ead_opt,
+    'ch_ead_present': ch_ead_present
+  }
+
+  with open('templates/summary_table.tex') as f:
+    tex = chevron.render(f, params)
+
+  with open('./tex/summary_table.tex', 'w') as f:
+    f.write(tex)
