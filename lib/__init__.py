@@ -184,7 +184,11 @@ def generate_curricular_units (df_required, df_opt):
 
     periodo = str(unit['Período']) if str(unit['Período']) != '-' else 'Optativa'
 
-    tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Período} & \multicolumn{5}{p{9cm}|}{%s$^o$}\\\\\hline\n' % (periodo)
+    if periodo == 'Optativa':
+      tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Período} & \multicolumn{5}{p{9cm}|}{%s}\\\\\hline\n' % (periodo)
+    else:
+      tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Período} & \multicolumn{5}{p{9cm}|}{%s$^o$}\\\\\hline\n' % (periodo)
+
     tex += '\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Modalidade da unidade curricular} \\\\\hline\n'
     if unit['P'] > 0:
       tex += '\multicolumn{2}{|r}{		} &  \multicolumn{2}{r}{Presencial \XBox} & \multicolumn{2}{r|}{EaD \Square	} \\\\\hline\n'
@@ -245,10 +249,16 @@ def generate_themes_and_results (df_required):
     tex += '{\cellcolor{blue1} Unidade curricular} & %s\\\\\hline\n' % (unit['Nome'])
     tex += '{\cellcolor{blue1} Núcleo} & %s\\\\\hline\n' % (unit['Núcleo'])
     tex += '{\cellcolor{blue1} Carga-horária (Horas)} & %d\\\\\hline\n' % (unit['TOTAL'])
-    tex += '\multicolumn{2}{|p{13cm}|}{Temas de Estudo} \\\\\hline\n'
-    tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\hline\n' % ('\\\\'.join(temas))
-    tex += '\multicolumn{2}{|p{13cm}|}{Resultados de Aprendizagem} \\\\\hline\n'
-    tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\hline\n' % ('\\\\'.join(ras))
+    tex += '\multicolumn{2}{|p{13cm}|}{{\cellcolor{blue1} Temas de Estudo}}\\\\\hline\n'
+
+    for tema in temas:
+      tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\n' % (tema)
+
+    tex += '\multicolumn{2}{|p{13cm}|}{{\cellcolor{blue1} Resultados de Aprendizagem}} \\\\\hline\n'
+
+    for ra in ras:
+      tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\n' % (ra)
+
     tex += '''
 	\end{tabular}
 \end{quadro}'''
