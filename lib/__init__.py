@@ -172,58 +172,49 @@ def generate_curricular_units (df_required, df_opt):
   all_units = ''
 
   for i, unit in enumerate(units):
-    tex = '''
-\\begin{quadro}[ht!]
-  \centering\scriptsize
-'''
-    tex += '\caption{Unidade Curricular %s}\n' % (unit['Nome'])
-    tex += '\label{unit_%d}\n' % (i)
-    tex += '\\begin{tabular}{|p{3cm} p{2cm} p{3cm} p{2cm} p{3cm} p{2cm}|}\hline\n'
-    tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Unidade curricular} & \multicolumn{5}{p{9cm}|}{%s}\\\\\hline\n' % (unit['Nome'])
-    tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Núcleo} & \multicolumn{5}{p{11.5cm}|}{%s}\\\\\hline\n' % (unit['Núcleo'])
 
     periodo = str(unit['Período']) if str(unit['Período']) != '-' else 'Optativa'
 
-    if periodo == 'Optativa':
-      tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Período} & \multicolumn{5}{p{9cm}|}{%s}\\\\\hline\n' % (periodo)
-    else:
-      tex += '\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Período} & \multicolumn{5}{p{9cm}|}{%s$^o$}\\\\\hline\n' % (periodo)
+    if periodo != 'Optativa':
+      periodo = '%s$^o$' % (periodo)
 
-    tex += '\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Modalidade da unidade curricular} \\\\\hline\n'
-    if unit['P'] > 0:
-      tex += '\multicolumn{2}{|r}{		} &  \multicolumn{2}{r}{Presencial \XBox} & \multicolumn{2}{r|}{EaD \Square	} \\\\\hline\n'
-    else:
-      tex += '\multicolumn{2}{|r}{		} &  \multicolumn{2}{r}{Presencial \Square} & \multicolumn{2}{r|}{EaD \XBox	} \\\\\hline\n'
-    tex += '\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Unidade curricular de caráter extensionista} \\\\\hline\n'
-    if unit['Tipo'] == 'E':
-      tex += '\multicolumn{4}{|r}{			Sim \XBox	} & \multicolumn{2}{r|}{	Não \Square	}\\\\\hline\n'
-    else:
-      tex += '\multicolumn{4}{|r}{			Sim \Square	} & \multicolumn{2}{r|}{	Não \XBox	}\\\\\hline\n'
-    tex += '''\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Idioma da unidade curricular} \\\\ \hline
-\multicolumn{2}{|r}{	Português \XBox	} &  \multicolumn{2}{r}{	Inglês \Square	} & \multicolumn{2}{r|}{	Outro \Square	} \\\\ \hline
-\multicolumn{1}{|p{3cm}|}{\cellcolor{blue1} Pré-requisitos} & \multicolumn{5}{p{9cm}|}{}\\\\ \hline
-\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Carga horária presencial} \\\\ \hline
-'''
     if unit['Tipo'] == 'E' or unit['Tipo'] == 'T':
-      tex += '\multicolumn{1}{|p{3cm}|}{\\raggedleft Prática} & \multicolumn{1}{p{1cm}|}{\centering	%d	} &  \multicolumn{1}{p{3cm}|}{\\raggedleft Teórica}  & \multicolumn{1}{p{1cm}|}{\centering 0} & \multicolumn{1}{p{3cm}|}{\raggedleft Total em horas} & \multicolumn{1}{p{1cm}|}{\\raggedleft	%d} \\\\ \hline \n' % (unit['TOTAL'], unit['TOTAL'])
+      pratica_presencial = unit['P']
+      teorica_presencial = 0
+      total_presencial = pratica_presencial
+      pratica_ead = unit['NP']
     else:
-      tex += '\multicolumn{1}{|p{3cm}|}{\\raggedleft Prática} & \multicolumn{1}{p{1cm}|}{\centering	%d	} &  \multicolumn{1}{p{3cm}|}{\\raggedleft Teórica}  & \multicolumn{1}{p{1cm}|}{\centering 	%d	} & \multicolumn{1}{p{3cm}|}{\\raggedleft Total em horas} & \multicolumn{1}{p{1cm}|}{\\raggedleft	%d	} \\\\ \hline \n' % (unit['TOTAL'] / 2, unit['TOTAL'] / 2, unit['TOTAL'])
-
-    tex += '\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Carga horária EaD} \\\\ \hline\n'
-    tex += '\multicolumn{1}{|p{3cm}|}{\\raggedleft Prática} & \multicolumn{1}{p{1cm}|}{\centering	%d} &  \multicolumn{1}{p{3cm}|}{\\raggedleft Teórica}  & \multicolumn{1}{p{1cm}|}{\centering 0} & \multicolumn{1}{p{3cm}|}{\\raggedleft Total em horas} & \multicolumn{1}{p{1cm}|}{\\raggedleft %d} \\\\ \hline\n' % (unit['NP'], unit['NP'])
-    tex += '\multicolumn{5}{|p{13cm}|}{\cellcolor{blue1} Carga horária total da unidade curricular} & \multicolumn{1}{p{1cm}|}{\\raggedleft %d	}\\\\\hline\n' % (unit['TOTAL'])
-    tex += '\multicolumn{6}{|p{15cm}|}{\cellcolor{blue1} Ementa} \\\\\hline\n'
+      pratica_presencial = round(unit['P'] / 2)
+      teorica_presencial = round(unit['P'] / 2)
+      total_presencial = pratica_presencial + teorica_presencial
+      pratica_ead = unit['NP']
 
     tes = unit['Temas de estudo'].split('\n')
     tes = [ re.sub(' \(\d+h\)', '', te)[5:] for te in tes ]
     ementa = ' '.join(tes)
 
-    tex += '\hline\multicolumn{6}{|p{15cm}|}{\scriptsize %s}\\\\\hline \n' % (ementa)
-    tex += '''\hline
-	\end{tabular}
-\end{quadro}'''
+    params = {
+      'nome': unit['Nome'],
+      'id': 'unit_%d' % (i),
+      'nucleo': unit['Núcleo'],
+      'periodo': periodo,
+      'presencial': '\XBox' if unit['P'] > 0 else '\Square',
+      'ead': '\XBox' if unit['P'] == 0 else '\Square',
+      'extensionista': '\XBox' if unit['Tipo'] == 'E' else '\Square',
+      'nao_extensionista': '\XBox' if unit['Tipo'] != 'E' else '\Square',
+      'requisitos': '', # unit['Pré-requisitos'],
+      'pratica_presencial': pratica_presencial,
+      'teorica_presencial': teorica_presencial,
+      'total_presencial': total_presencial,
+      'pratica_ead': pratica_ead,
+      'total': unit['TOTAL'],
+      'ementa': ementa
+    }
 
-    all_units += tex + '\n\n'
+    with open('templates/curricular_unit.tex') as f:
+      all_units += chevron.render(f, params)
+
+
 
   with open('./tex/unidades_curriculares.tex', 'w') as f:
     f.write(all_units)
