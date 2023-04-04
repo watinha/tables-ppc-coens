@@ -1,0 +1,22 @@
+\begin{quadro}[h!]
+  \centering
+\caption{Unidade Curricular {{Nome}}}
+\label{ {{id}} }
+\begin{tabular}{|p{5cm}|p{8cm}|}\hline
+{\cellcolor{blue1} Unidade curricular} & {{Nome}}\\\hline
+{\cellcolor{blue1} Núcleo} & {{nucleo}}\\\hline
+{\cellcolor{blue1} Carga-horária (Horas)} & {{total}}\\\hline
+\multicolumn{2}{|p{13cm}|}{\cellcolor{blue1} Temas de Estudo}\\\hline
+{{#themes}}
+\multicolumn{2}{|p{13cm}|}{\xitem {{theme}} } \\
+{{/themes}}
+\hline
+
+\multicolumn{2}{|p{13cm}|}{\cellcolor{blue1} Resultados de Aprendizagem} \\\hline
+{{#ras}}
+\multicolumn{2}{|p{13cm}|}{\xitem {{ra}}.} \\
+{{/ras}}
+\hline
+
+	\end{tabular}
+\end{quadro}

@@ -1,49 +1,50 @@
-Tipo,Núcleo,Período,Nome,CHS,P,NP,TOTAL,Temas de estudo
+Tipo,Núcleo,Período,Nome,CHS,P,NP,TOTAL,Temas de estudo,Pré-requisitos
 ,Optativa,-,Computação em Nuvem,4,0,60,60,"TE1: Front-end: serviço de armazenamento de arquivos estáticos e implantação de uma aplicação web.
 TE2: Back-end: API Gateway, Lambda, Sistemas de Mensagem, Filas de Processamento Assíncrono Eventos.
-TE3: Serviços: APIs de armazenamento de dados, busca e aprendizado de máquina."
+TE3: Serviços: APIs de armazenamento de dados, busca e aprendizado de máquina.",Período: 6
 ,Optativa,-,Aprendizado de Máquina,4,0,60,60,"TE1: Fundamentos de aprendizado de máquina: tipos de aprendizado, tarefas e etapas, probabilidade condicional, espaço amostral, teoria de decisão Bayesiana, vetores e espaços de características. (10h)
 TE2: Aprendizado não supervisionado: métricas de distância e similaridade, algoritmos de clustering baseada em distancia, agrupamento hierarquico. (16h)
 TE3: Aprendizado de máquina: modelos preditivos, agrupamento de dados, metodologia de validação e avaliação, aplicações e tendências. (24h)
-TE4: Metodologia de experimentação: métricas de avaliação, métodos de validação (k-fold, holdout, bootstrap, leave-one-out), análise de resultados. (10h)"
+TE4: Metodologia de experimentação: métricas de avaliação, métodos de validação (k-fold, holdout, bootstrap, leave-one-out), análise de resultados. (10h)",Período: 6
 ,Optativa,-,Processamento de Imagens,4,0,60,60,"TE1: Fundamentos de processamento de imagens: representação de imagens digitais, sistema visual humano, composição da cor, digitalização, modelo de imagens, métodos de espaço de estados, resolução espacial, profundidade, amostragem e quantização. (12h)
 TE2: Transformações de intensidade e filtragem espacial : processamento de histograma, transformação da escala de cinza, convolução, filtros espaciais de suavização e aguçamento. (24h)
 TE3: Realce de imagens baseado em cores e transformações morfológicas: sistemas de cor, transformação pseudocor, realce com transformação HSV, dilação, erosão, abertura e fechamento. (12h)
-TE4: Segmentação e descrição: limiarização local e global, crescimento de regiões, detecção de bordas, descritores de cor, forma e textura. (12h)"
+TE4: Segmentação e descrição: limiarização local e global, crescimento de regiões, detecção de bordas, descritores de cor, forma e textura. (12h)",Período: 6
 ,Optativa,-,Mineração de Dados,4,0,60,60,"TE1: Ferramentas de manipulação de dados: processo de KDD, padrão de representação dos dados, repositório de dados abertos, manipulação de listas, matrizes e séries temporais, ferramentas e bibliotecas disponíveis. (12h)
 TE2: Pré-Processamento dos dados: análise visual dos dados, inputação de valores,  transformação do espaço de características, seleção de características e técnicas de desbalanceamento. (18h)
 TE3: Aprendizado supervisionado: metodologia de validação e avaliação, algoritmos de classificação, aplicações e tendências. (18h)
-TE4: Análise de resultados: importância dos atributos, seleção de modelos, curva de desempenho, análise de variabilidade. (12h)"
+TE4: Análise de resultados: importância dos atributos, seleção de modelos, curva de desempenho, análise de variabilidade. (12h)",Período: 6
 H,Optativa,-,Libras,2,0,30,30,"TE1: Surdez: aspectos educacionais e socioantropológicos. (10h)
 TE2: Libras: o alfabeto, expressões manuais e não manuais. (10h)
-TE3: Comunicação: processo de comunicação básica em situações informais. (10h)"
+TE3: Comunicação: processo de comunicação básica em situações informais. (10h)",
 H,Optativa,-,A Presença Africana no Brasil,2,0,30,30,"TE1: Cultura afro-brasileira: história da África e o negro na história do Brasil, religiões africanas e sincretismo religioso, quilombos e festas afro-brasileiras, influências culturais. (10h)
 TE2: Políticas públicas: estratégias de conscientização e interação. Sistema de cotas. A escravidão, alforria e cidadania no Brasil. Ações afirmativas. Diversidade étnica. (10h)
-TE3: Tecnologia e trabalho:  as relações humanas, leis e punições para o racismo e a injúria racial no ambiente laboral. Adequação da linguagem na comunicação interpessoal e virtual (cyberbullying), com ênfase   aos termos pejorativos. O ``apagamento'' histórico e social dos afrodescendentes no Brasil, nas Artes, Ciências e Tecnologia. (10h)"
+TE3: Tecnologia e trabalho:  as relações humanas, leis e punições para o racismo e a injúria racial no ambiente laboral. Adequação da linguagem na comunicação interpessoal e virtual (cyberbullying), com ênfase   aos termos pejorativos. O ``apagamento'' histórico e social dos afrodescendentes no Brasil, nas Artes, Ciências e Tecnologia. (10h)",
 ,Optativa,-,Programação de Banco de Dados,4,0,60,60,"TE1: Restrições de integridade de dados: domínios (tipos de dados); restrições impostas pelos conceitos de chaves. (20h)
 TE2: Linguagem de Manipulação de Dados: Funções de agregação, operações sobre conjuntos, Operações sobre Visões; funções agregadas. (20h)
-TE3: Stored Procedures; functions, triggers e transações. (20h)"
+TE3: Stored Procedures; functions, triggers e transações. (20h)",Período: 6
 ,Optativa,-,Administração de Banco de Dados,4,0,60,60,"TE1: Gerenciamento: projeto físico, meios de armazenamento, particionamento, cópias de segurança e restauração. (20h)
 TE2: Segurança: política de acesso; dados cifrados. (20h)
-TE3: Otimização de Desempenho: monitoramento, manutenção e gerenciamento de Índices. (20h)"
+TE3: Otimização de Desempenho: monitoramento, manutenção e gerenciamento de Índices. (20h)",Período: 6
 ,Optativa,-,Desenvolvimento de Jogos,4,0,60,60,"TE1: Introdução: fundamentos de design, linguagem de programação e ambiente de desenvolvimento. (20h)
 TE2: Jogos bidimensionais: objetos, texturas, colisão, regras e cenário. (20h)
-TE3: Jogos tridimensionais: importação de objetos do Blender, RayCast, espelhos e cenário. (20h)"
+TE3: Jogos tridimensionais: importação de objetos do Blender, RayCast, espelhos e cenário. (20h)",Período: 6
 ,Optativa,-,Inteligência Artificial,4,0,60,60,"TE1: Fundamentos de IA: histórico da IA, representação do conhecimento, resolução de problemas, base de conhecimento, raciocínio encadeado e tipos de aprendizado. (15h)
 TE2: Logica Fuzzy: conjunto, Fuzzificação e pertinência. (15h)
 TE3: Redes Neurais: topologias, redes MLP, redes Bayesianas, algoritmo de treinamento e deep learning (15h)
-TE4: Computação Evolutiva: definições, tipos de algoritmos e algoritmos genéticos. (15h)"
-,Optativa,-,Realidade Estendida,4,0,60,60,"TE1: Experimento como método de pesquisa: princípios para a organização e tipos de experimentos. (30h)
-TE2: Processo de experimentação: Medição e Validação. (30h)"
+TE4: Computação Evolutiva: definições, tipos de algoritmos e algoritmos genéticos. (15h)",Período: 6
+,Optativa,-,Realidade Estendida,4,0,60,60,"TE1: Conceitos Fundamentais: Realidades Virtual, Aumentada, Misturada, Cruzada, Diminuída e Virtualidade Aumentada. (20h)
+TE2: Ferramentas: frameworks, bibliotecas e motores de jogos para Realidade Estendida. (20h)
+TE3: Dispositivos de Realidade Estendida: dispositivos convencionais e não convencionais. (20h)",Período: 6
 ,Optativa,-,Aprendizagem Profunda,4,0,60,60,"TE1: Fundamentos de Redes Neurais Artificiais: Aprendizagem supervisionada e não supervisionada; neurônio artificial e funções de ativação. (30h)
-TE2: Aprendizagem profunda (Deep Learning): Redes Neurais Recorrentes; Redes Neurais Convolucionais; aplicações de Aprendizagem Profunda. (30h)"
+TE2: Aprendizagem profunda (Deep Learning): Redes Neurais Recorrentes; Redes Neurais Convolucionais; aplicações de Aprendizagem Profunda. (30h)",Período: 6
 ,Optativa,-,Experimentação em Computação Aplicada,4,0,60,60,"TE1: Experimento como método de pesquisa: princípios para a organização e tipos de experimentos. (30h)
-TE2: Processo de experimentação: Medição e Validação. (30h)"
+TE2: Processo de experimentação: Medição e Validação. (30h)",Período: 6
 ,Optativa,-,Engenharia Web e DevOps,4,0,60,60,"TE1: Tecnologias de programação frontend: otimização de desempenho no lado cliente; padrões de acessibilidade; bibliotecas e frameworks orientados a componentes. (15h)
 TE2: Tecnologias de programação backend: escalabilidade e alta disponibilidade em aplicações web; estilos arquiteturais e padrões de projeto utilizados em aplicações web. (15h)
 TE3: Computação em nuvem: SaaS/PaaS/IaaS/FaaS; Deployment models; arquitetura e serviços. (15h)
-TE4: Entrega Contínua e DevOps: conceitos e ferramentas de Integração/Entrega Contínua; práticas de DevOps. (15h)"
+TE4: Entrega Contínua e DevOps: conceitos e ferramentas de Integração/Entrega Contínua; práticas de DevOps. (15h)",Período: 6
 ,Optativa,-,Internet of Things,4,0,60,60,"TE1: Fundamentos: conceitos, definições e história da Internet das Coisas e comunicação máquina-máquina (M2M), protocolos e tipos de sensores. (15h)
 TE2: Desenvolvimento de aplicações: frameworks para IoT, computação em nuvem, névoa e borda. (15h)
 TE3: Segurança em IoT: desafios, privacidade, autenticidade de dispositivos e ataques em IoT. (15h)
-TE4: Projeto: desenvolvimento de uma solução de IoT. (15h)"
+TE4: Projeto: desenvolvimento de uma solução de IoT. (15h)",Período: 6

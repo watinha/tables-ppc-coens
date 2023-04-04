@@ -202,7 +202,7 @@ def generate_curricular_units (df_required, df_opt):
       'ead': '\XBox' if unit['P'] == 0 else '\Square',
       'extensionista': '\XBox' if unit['Tipo'] == 'E' else '\Square',
       'nao_extensionista': '\XBox' if unit['Tipo'] != 'E' else '\Square',
-      'requisitos': '', # unit['Pré-requisitos'],
+      'requisitos': str(unit['Pré-requisitos']) if str(unit['Pré-requisitos']) != 'nan' else '-',
       'pratica_presencial': pratica_presencial,
       'teorica_presencial': teorica_presencial,
       'total_presencial': total_presencial,
@@ -227,32 +227,17 @@ def generate_themes_and_results (df_required):
   for i, unit in enumerate(units):
     if unit['Nome'].startswith('Trabalho de Conclusão de Curso'): continue
 
-    tex = '''
-\\begin{quadro}[ht!]
-  \centering
-'''
-    temas = [ '\\xitem %s' % (theme) for theme in unit['Temas de estudo'].split('\n') ]
-    ras = [ '\\xitem %s' % (ra) for ra in unit['Resultados de aprendizagem'].split('\n') ]
+    params = {
+      'nome': unit['Nome'],
+      'id': 'unit_themes_ra_%s' % (i),
+      'nucleo': unit['Núcleo'],
+      'total': unit['TOTAL'],
+      'themes': [ { 'theme': theme } for theme in (unit['Temas de estudo'].split('\n')) ],
+      'ras': [ { 'ra': ra } for ra in (unit['Resultados de aprendizagem'].split('\n')) ]
+    }
 
-    tex += '\caption{Unidade Curricular %s}\n' % (unit['Nome'])
-    tex += '\label{unit_themes_ras_%d}\n' % (i)
-    tex += '\\begin{tabular}{|p{5cm}|p{8cm}|}\hline\n'
-    tex += '{\cellcolor{blue1} Unidade curricular} & %s\\\\\hline\n' % (unit['Nome'])
-    tex += '{\cellcolor{blue1} Núcleo} & %s\\\\\hline\n' % (unit['Núcleo'])
-    tex += '{\cellcolor{blue1} Carga-horária (Horas)} & %d\\\\\hline\n' % (unit['TOTAL'])
-    tex += '\multicolumn{2}{|p{13cm}|}{{\cellcolor{blue1} Temas de Estudo}}\\\\\hline\n'
-
-    for tema in temas:
-      tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\n' % (tema)
-
-    tex += '\multicolumn{2}{|p{13cm}|}{{\cellcolor{blue1} Resultados de Aprendizagem}} \\\\\hline\n'
-
-    for ra in ras:
-      tex += '\multicolumn{2}{|p{13cm}|}{%s} \\\\\n' % (ra)
-
-    tex += '''
-	\end{tabular}
-\end{quadro}'''
+    with open('templates/themes_and_results.tex') as f:
+      tex = chevron.render(f, params)
 
     all_tex += tex
 
