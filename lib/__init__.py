@@ -214,6 +214,8 @@ def generate_curricular_units (df_required, df_opt):
     with open('templates/curricular_unit.tex') as f:
       all_units += chevron.render(f, params)
 
+    if i % 2 == 1: all_units += '\\clearpage\n\\newpage'
+
 
 
   with open('./tex/unidades_curriculares.tex', 'w') as f:
