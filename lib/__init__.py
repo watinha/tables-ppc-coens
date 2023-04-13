@@ -191,7 +191,7 @@ def generate_curricular_units (df_required, df_opt):
 
     tes = unit['Temas de estudo'].split('\n')
     tes = [ re.sub(' \(\d+h\)', '', te)[5:] for te in tes ]
-    ementa = ' '.join(tes)
+    ementa = '. '.join(tes)
 
     params = {
       'nome': unit['Nome'],

@@ -66,15 +66,14 @@ RA2: Analisar a aplicação de tecnologias da engenharia de computação conside
 EC,,Básico,2,Matemática Discreta,4,60,0,60,"TE1: Teoria dos conjuntos: conjuntos, lógica, funções e relações (15h)
 TE2: Teoria dos números: números inteiros, princípios de indução e outras provas matemáticas (15h)
 TE3: Combinatória: regras básicas de contagem, princípio de inclusão e exclusão (15h)
-TE4: Grafos: árvores, fluxos em redes, emparelhamentos, grafos eulerianos,
-hamiltonianos, planares e coloridos (15h)","RA1: Resolver problemas que envolvam lógica simples, considerando conjuntos, funções e relações (TE1)
+TE4: Grafos: árvores, fluxos em redes, emparelhamentos, grafos eulerianos, hamiltonianos, planares e coloridos (15h)","RA1: Resolver problemas que envolvam lógica simples, considerando conjuntos, funções e relações (TE1)
 RA2: Entender princípios de números inteiros e provas por direta, contraposição, absurdo e indução (TE2)
 RA3: Comparar dimensões de funções matemáticas, utilizando análise combinatória (TE3)
 RA4: Modelar problemas matemáticos utilizando diferentes conceitos de grafos (TE4)",Fundamentos da Matemática
 EC,,Básico,3,Estrutura de Dados 1,4,60,30,90,"TE1: Tipos abstratos de dados: definições, tipos e recursos para implementações (8h)
-TE2: Pilhas e Filas: definições e operações, implementações e aplicações (16h)
-TE3: Listas: definição, tipos, operações, implementação e aplicações (16h)
-TE4: Árvore Binária: operações, busca e aplicações (20h)","RA1: Identificar diferentes tipos abstratos de dados considerando suas características e recursos para implementações (TE1)
+TE2: Pilhas e Filas: definições e operações, implementações e aplicações (26h)
+TE3: Listas: definição, tipos, operações, implementação e aplicações (26h)
+TE4: Árvore Binária: operações, busca e aplicações (30h)","RA1: Identificar diferentes tipos abstratos de dados considerando suas características e recursos para implementações (TE1)
 RA2: Implementar estruturas de dados de pilhas, filas e listas identificando cenários de aplicações de maneira eficiente (TE2 e TE3)
 RA3: Aplicar os algoritmos de árvores para melhorar a eficiência de busca de maneira pró-ativa (TE3)",Algoritmos 2
 EC,,Específico,3,Programação Orientada a Objetos 1 ,4,60,30,90,"TE1: Fundamentos de orientação a objetos: definições, artefatos, atributos, métodos, objetos, tipos de classes, operador de casting e o paralelo entre orientação à objetos e o paradigma estruturado (25h)
@@ -143,7 +142,7 @@ RA3: Planejar avaliações de interfaces de usuário, empregando princípios e d
 H,Ciências sociais aplicadas,Básico,4,Empreendedorismo,2,30,0,30,"TE1: O Mercado e as Oportunidades de Negócios: estrutura de mercado, tendências de novos negócios (8h)
 TE2: O empreendedor e fatores de sucesso: características do empreendedor, inovação e criatividade (10h)
 TE3: Gestão organizacional : conceitos, ferramentas e desenvolvimento de plano operacional, financeiro e mercadológico de um produto/serviço (12h) ","RA1: Analisar os tipos de mercados existentes e oportunidades de negócios, aplicando ferramentas de gestão de forma economicamente sustentável (TE1)
-RA2: Aplicar ferramentas com base nas características empreendedoras de forma estratégica na obtenção dos fatores de sucesso (TE2)",
+RA2: Aplicar ferramentas com base nas características empreendedoras de forma estratégica na obtenção dos fatores de sucesso (TE2 e TE3)",
 EC,,Específico,5,Programação Web Back-end,4,60,0,60,"TE1: HTTP: arquitetura cliente-servidor, definições, requisição/resposta, cabeçalhos, parâmetros, CGI (8h)
 TE2: Programação no servidor: recebimento de requisições, envio de respostas, tratamento de parâmetros, cookies/sessões (16h)
 TE3: Tratamento de exceções: mecanismo de exceções, tipos, captura/lançamento, criar classes, sistema de registro (8h)
@@ -175,7 +174,7 @@ RA4: Examinar complexidade de algoritmos para validação de requisitos de desem
 TE2: Criptologia: sistemas criptográficos simétricos, assimétricos, funções de hash e suas aplicações (15h)
 TE3: Identidade Digital: certificados digitais, assinatura digital, algoritmos de assinatura e aplicações (10h)
 TE4: Segurança em redes: protocolos, ameaças, ataques e mecanismos de segurança nas camadas de enlace de dados e transporte do modelo OSI (15h)
-TE5: Segurança de software: ataques e vulnerabilidades em aplicações, boas práticas de programação e ferramentas de teste de segurança de software (10h)","RA1: Compreender as dimensões do processo de desenvolvimento de software que envolvem poíticas de segurança, modelos de ameaça e mecanismos, considerando a responsabilidade do Engenheiro de Software (TE1)
+TE5: Segurança de software: ataques e vulnerabilidades em aplicações, boas práticas de programação e ferramentas de teste de segurança de software (10h)","RA1: Compreender as dimensões do processo de desenvolvimento de software que envolvem poíticas de segurança, modelos de ameaça e mecanismos, considerando a responsabilidade do Engenheiro de Software (TE1)
 RA2: Projetar sistemas computacionais que façam uso de recursos de criptografia e certificados digitais em sistemas computacionais de forma eficaz (TE2 e TE3)
 RA3: Compreender aspectos de segurança em redes, de acordo com a ética e responsabilidade da profissão (TE4)
 RA4: Implementar boas práticas de programação, considerando a segurança dos sistemas com autonomia e responsabilidade (TE5)",Redes de Computadores
@@ -224,6 +223,5 @@ RA2: Desenvolver Web APIs utilizando frameworks de back-end, com persistência d
 RA3: Aplicar frameworks de desenvolvimento web para projetar soluções com autonomia, responsabilidade e ética, considerando a segurança da aplicação web (TE3)
 RA4: Desenvolver projetos de aplicações web fullstack com frameworks, integrando o front-end e back-end, de forma colaborativa utilizando metodologias de gerenciamento de projeto (TE4)",Programação Web Back-end
 E,,Específico,7,Oficina de Integração 2,0,0,210,210,TE1: Integração dos conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional para resolver um problema da comunidade externa a UTFPR (210h),RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1),Período: 7
-T,,Profissionalizante,7,Trabalho de Conclusão de Curso 1,0,0,30,30,"TE1: Proposta de trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil
-do egresso (30h)",,Metodologia de Pesquisa
-T,,Profissionalizante,8,Trabalho de Conclusão de Curso 2,0,0,90,90,TE2: Trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (90h),,"Metodologia de Pesquisa, Trabalho de Conclusão de Curso 1"
+T,,Profissionalizante,7,Trabalho de Conclusão de Curso 1,0,0,30,30,"TE1: Proposta de trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (30h)",,Metodologia de Pesquisa
+T,,Profissionalizante,8,Trabalho de Conclusão de Curso 2,0,0,90,90,"TE1: Trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (90h)",,"Metodologia de Pesquisa, Trabalho de Conclusão de Curso 1"
