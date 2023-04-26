@@ -67,8 +67,11 @@ def generate_ead_table (required_df, ch_opt, ch_total):
 
   ch_ead = required_df.loc[:, 'NP'].sum() + ch_opt
   ch_presential = ch_total - ch_ead
-  tex += 'Presencial & %d & %.2f \\\\\n' % (ch_presential, ((ch_presential/ch_total) * 100))
-  tex += 'EaD & %d & %.2f \\\\\n' % (ch_ead, ((ch_ead/ch_total) * 100))
+  ch_presential_proportion = ('%.2f' % ((ch_presential/ch_total) * 100)).replace('.', ',')
+  ch_ead_proportion = ('%.2f' % ((ch_ead/ch_total) * 100)).replace('.', ',')
+
+  tex += 'Presencial & %d & %s \\\\\n' % (ch_presential, ch_presential_proportion)
+  tex += 'EaD & %d & %s \\\\\n' % (ch_ead, ch_ead_proportion)
   tex += '\hline\nTotal  & %d & 100,00\\\\' % (ch_total)
 
   tex += '''\hline
@@ -95,7 +98,8 @@ def generate_ch_human_table (df_required, df_opt, ch_unit):
 \hline
 '''
   for unit in human_required:
-    tex += '%s & %d & %.2f \\\\\n' % (unit['Nome'], unit['TOTAL'], (unit['TOTAL'] / ch_unit) * 100)
+    ch_unit_percentage = ('%.2f' % ((unit['TOTAL'] / ch_unit) * 100)).replace('.', ',')
+    tex += '%s & %d & %.2f \\\\\n' % (unit['Nome'], unit['TOTAL'], ch_unit_percentage)
 
   tex += '\hline\n'
 
@@ -104,6 +108,7 @@ def generate_ch_human_table (df_required, df_opt, ch_unit):
 
   tex += '\hline\n'
 
+  ch_percentage = ('%.2f' % ((total_human / ch_unit) * 100)).replace('.', ',')
   tex += 'Total (Obrigatório) & %d & %.2f\\\\\n' % (total_human, (total_human / ch_unit) * 100)
 
   tex += '''\hline
