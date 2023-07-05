@@ -11,7 +11,7 @@ R4: Validar a solução proposta por meio da execução do programa implementado
 RA5: Recriar algoritmos quando a solução proposta não for validada, utilizando testes de mesa e depuração de software (TE6)",
 H,Ciências humanas,Básico,1,Introdução a Engenharia de Software,2,30,0,30,"TE1: Profissional de Engenharia de Software: riscos no ambiente de trabalho (incêndio e desastres), visão geral do profissional, áreas de atuação e relações com o perfil do egresso do curso da UTFPR (8h)
 TE2: Aspectos da profissão: desafios do profissional, conceitos de ética e código de ética profissional (8h)
-TE3: Visão de mercado: novas demandas e impactos no profissional, interdisciplinariedade e a aplicação em dimensões social, política, econômica, cultural e ambiental (14h)","RA1: Identificar contextos sociais de aplicação e áreas de atuação do profissional egresso do curso, considerando requisitos da profissão, responsabilidades e ética (TE1 e TE2)
+TE3: Visão de mercado: novas demandas e impactos no profissional, interdisciplinariedade e a aplicação em dimensões social, desenho universal, política, econômica, cultural e ambiental (14h)","RA1: Identificar contextos sociais de aplicação e áreas de atuação do profissional egresso do curso, considerando requisitos da profissão, responsabilidades e ética (TE1 e TE2)
 RA2: Analisar criticamente a aplicação de TI considerando problemáticas de dimensões social, política, econômica, cultural e ambiental, de forma crítica e criativa (TE3)",
 EC,,Básico,1,Organização de Computadores,2,30,0,30,"TE1: Organização de computadores: hierarquia de memória e troca de dados, memória virtual, componentes da unidade central de processamento, barramentos e dispositivos de entrada e saída (14h)
 TE2: Operações: interrupções, exceções, operações de entrada e saída, hierarquia de barramentos (8h)
@@ -214,7 +214,7 @@ TE3: Projeto de interfaces: recursos tecnológicos, componentes de interface, na
 TE4: Persistência de dados: definição, tipos de armazenamento e manipulação de dados (20h)
 TE5: Recursos da plataforma e controle de permissões: sensores (câmera, GPS, acelerômetro), mapas e notificações (10h)","RA1: Utilizar frameworks para desenvolvimento de dispositivos móveis, entendendo as características e as limitações existentes nas diferentes plataformas com objetividade e clareza (TE1 e TE2)
 RA2: Projetar interfaces com componentes, navegação e diferentes tipos de posicionamento e layout utilizando ferramentas para desenvolvimento de aplicações para dispositivos móveis com eficácia (TE3)
-RA3: Implementar aplicações para dispositivos móveis utilizando APIs de persistência de dados e recursos da plataforma, como sensores, mapas e notificações com qualidade e robustez (TE4 e TE5)",Programação Orientada a Objetos 2
+RA3: Implementar aplicações para dispositivos móveis utilizando APIs de persistência de dados e recursos da plataforma, como sensores, mapas e notificações com qualidade e robustez (TE4 e TE5)",Programação Orientada a Objetos 1
 ADS,,Profissionalizante,7,Programação Web Fullstack,0,0,60,60,"TE1: Frameworks de desenvolvimento no cliente: arquitetura cliente-servidor, DOM HTML, HTML5, AJAX, Webservices, Web APIs, JSON, Web components (25h)
 TE2: Frameworks de desenvolvimento no servidor: programação assíncrona, webservices/REST, estratégias de cache, características dos frameworks web e aplicações (15h)
 TE3: Segurança em aplicações web: criptografia, XSS, SQL Inject, HTTPS, chaves assimétricas e certificados digitais (10h)

@@ -154,12 +154,12 @@ def generate_units_table_per_period(df_required, df_opt, periodo_opt, ch_opt):
         total_remoto += unit['NP']
 
       if unit['Tipo'] != 'E' and unit['Tipo'] != 'T':
-        tex += '%s & %d & %d & %d & %d	&	0 \\\\	\hline\n' % (unit['Nome'], unit['TOTAL']/2, unit['TOTAL']/2, unit['TOTAL'], unit['NP'])
+        tex += '%s & %d & %d & %d & %d	&	0 \\\\	\hline\n' % (unit['Nome'], unit['P']/2, unit['P']/2, unit['TOTAL'], unit['NP'])
       elif unit['Tipo'] == 'E':
-        tex += '%s & %d & 0 & %d & %d	&	%d \\\\	\hline\n' % (unit['Nome'], unit['TOTAL'], unit['TOTAL'], unit['NP'], unit['TOTAL'])
+        tex += '%s & %d & 0 & %d & %d	&	0 \\\\	\hline\n' % (unit['Nome'], unit['P'], unit['TOTAL'], unit['NP'])
         extensao = unit['TOTAL']
       else:
-        tex += '%s & %d & 0 & %d & %d	&	0 \\\\	\hline\n' % (unit['Nome'], unit['TOTAL'], unit['TOTAL'], unit['NP'])
+        tex += '%s & %d & 0 & %d & %d	&	0 \\\\	\hline\n' % (unit['Nome'], unit['P'], unit['TOTAL'], unit['NP'])
 
     if periodo == periodo_opt:
       total += ch_opt
