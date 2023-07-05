@@ -48,3 +48,7 @@ TE4: Entrega Contínua e DevOps: conceitos e ferramentas de Integração/Entrega
 TE2: Desenvolvimento de aplicações: frameworks para IoT, computação em nuvem, névoa e borda (15h)
 TE3: Segurança em IoT: desafios, privacidade, autenticidade de dispositivos e ataques em IoT (15h)
 TE4: Projeto: desenvolvimento de uma solução de IoT (15h)",Período: 6
+,Optativa,-,Introdução à Gestão de Projetos,4,60,60,120,"TE1: Levantamento de Requisitos: mapeamento de usuários chaves, técnicas de levantamento, modelagem de projeto e validação da modelagem (30h)
+TE2: Processo de Produção: modelagem de processos, simulação de processo e validação da modelagem (30h)
+TE3: Gestão de Projetos: escopo do projeto, planejamento, execução e controle de projeto e lições aprendidas (30h)
+TE4: Lógica de Programação: variáveis, comandos de entrada e saída, estrutura de definição, estrutura de repetição e aplicação em robótica (30h)",Período: 6

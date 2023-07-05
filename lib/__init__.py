@@ -99,7 +99,7 @@ def generate_ch_human_table (df_required, df_opt, ch_unit):
 '''
   for unit in human_required:
     ch_unit_percentage = ('%.2f' % ((unit['TOTAL'] / ch_unit) * 100)).replace('.', ',')
-    tex += '%s & %d & %.2f \\\\\n' % (unit['Nome'], unit['TOTAL'], ch_unit_percentage)
+    tex += '%s & %d & %s \\\\\n' % (unit['Nome'], unit['TOTAL'], ch_unit_percentage)
 
   tex += '\hline\n'
 
@@ -109,7 +109,7 @@ def generate_ch_human_table (df_required, df_opt, ch_unit):
   tex += '\hline\n'
 
   ch_percentage = ('%.2f' % ((total_human / ch_unit) * 100)).replace('.', ',')
-  tex += 'Total (Obrigatório) & %d & %.2f\\\\\n' % (total_human, (total_human / ch_unit) * 100)
+  tex += 'Total (Obrigatório) & %d & %s\\\\\n' % (total_human, ch_percentage)
 
   tex += '''\hline
 \end{tabular}
