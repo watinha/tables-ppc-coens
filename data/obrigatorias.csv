@@ -1,4 +1,4 @@
-Tipo,Subtipo,Núcleo,Período,Nome,CHS,P,NP,TOTAL,Temas de estudo,Resultados de aprendizagem,Pré-requisitos
+Tipo,Subtipo,Núcleo,Período,Nome,CHS,P,NP,TOTAL,Temas de estudo,Resultados de aprendizagem,Pré-requisitos,Objetivos,Bibliografia básica,Bibliografia compĺementar
 EC,,Básico,1,Algoritmos 1,6,90,0,90,"TE1: Computadores: organização, características, funcionamento, descrição narrativa e fluxogramas (10h)
 TE2: Algoritmos: tipos primitivos de dados, constantes e variáveis, expressões lógicas e aritméticas e práticas com programação (10h)
 TE3: Estrutura de controle: desvio condicional e laços de repetição e práticas com programação (20h)
@@ -7,88 +7,295 @@ TE5: Vetores, matrizes e registros: definições, manipulação e práticas com 
 TE6: Fundamentos de teste de software: teste de mesa e depuração (10h)","RA1: Identificar constantes e variáveis de entrada e saída considerando as características e organização de computadores utilizando tipos primitivos de dados (TE1 e TE2)
 RA2: Criar algoritmos para os problemas delimitados utilizando descrição narrativa, fluxogramas, estruturas de controle e expressões lógicas e aritméticas (TE2 e TE3)
 RA3: Implementar programas para solucionar os problemas estruturados utilizando tipos primitivos de dados, vetores, matrizes e registros, por meio de linguagem de programação (TE3 e TE4)
-R4: Validar a solução proposta por meio da execução do programa implementado verificando se as variáveis de entrada e saída condizem com o esperado (TE1, TE2 e TE3)
-RA5: Recriar algoritmos quando a solução proposta não for validada, utilizando testes de mesa e depuração de software (TE6)",
+RA4: Validar a solução proposta por meio da execução do programa implementado verificando se as variáveis de entrada e saída condizem com o esperado (TE1, TE2 e TE3)
+RA5: Recriar algoritmos quando a solução proposta não for validada, utilizando testes de mesa e depuração de software (TE6)",,"Algoritmos 1, ofertada aos estudantes de primeiro período do curso, aborda os princípios básicos de Programação de computadores. Nesta disciplina os estudantes aprendem a elaborar algoritmos e implementar programas utilizando linguagem de programação estruturada. Ao final da disciplina, o estudante será capaz de desenvolver soluções para problemas delimitados de lógica empregando estruturas de controle, técnicas de modularização e variáveis compostas homogêneas e heterogêneas.","ASCENCIO, Ana F. G.; CAMPOS, Edilene A. V. Fundamentos da Programação de Computadores: algoritmos, pascal, C/C++ (padrão ANSI) e Java. 3. ed. São Paulo: Pearson Education do Brasil, 2012. ISBN 9788564574168.
+
+SOUZA, Marco A. F. de; GOMES, Marcelo M.; SOARES, Marcio V.; CONCILIO, Ricardo. Algoritmos e Lógica de Programação. 3. ed. São Paulo: Cengage Learning, 2019. ISBN 9788522128150. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522128150/
+
+TANENBAUM, Andrew S. Organização estruturada de computadores. 5. ed. São Paulo: Pearson Prentice Hall, 2007. ISBN 9788576050674.","DAMAS, Luis. Linguagem C. 10. ed. Rio de Janeiro: GEN LTC, 2007. ISBN 9788521615194. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788521632474/
+
+FARRER, Harry et al. Algoritmos estruturados. 3. ed. Belo Horizonte: LTC, 1999. ISBN 9788521611806.
+
+MANZANO, José Augusto N G.; OLIVEIRA, Jayr Figueiredo D. Algoritmos: Lógica para Desenvolvimento de Programação de Computadores. 29. ed. São Paulo: Érica, 2019. ISBN 9788536531472. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536531472/
+
+SCHILDT, Herbert. C, completo e total. 3. ed. São Paulo: Makron Books, 1997. ISBN 9788534605953.
+
+SOUZA, Marco A. Furlan D.; GOMES, Marcelo M.; SOARES, Marcio V.; CONCILIO, Ricardo. Algoritmos e lógica de programação: um texto introdutório para a engenharia. 3. ed. São Paulo: Cengage Learning Brasil, 2019. ISBN 9788522128150. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522128150/
+
+ZIVIANI, Nivio. Projeto de algoritmos: com implementações em Pascal e C. 3. ed. São Paulo: Cengage Learning Brasil, 2011. ISBN 9788522126590. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522126590/"
 H,Ciências humanas,Básico,1,Introdução a Engenharia de Software,2,30,0,30,"TE1: Profissional de Engenharia de Software: riscos no ambiente de trabalho (incêndio e desastres), visão geral do profissional, áreas de atuação e relações com o perfil do egresso do curso da UTFPR (8h)
-TE2: Aspectos da profissão: desafios do profissional, conceitos de ética e código de ética profissional (8h)
+TE2: Aspectos da profissão: desafios do profissional, conceitos de ética e código de ética profissional (8h) 
 TE3: Visão de mercado: novas demandas e impactos no profissional, interdisciplinariedade e a aplicação em dimensões social (desenho universal), política, econômica, cultural e ambiental (14h)","RA1: Identificar contextos sociais de aplicação e áreas de atuação do profissional egresso do curso, considerando requisitos da profissão, responsabilidades e ética (TE1 e TE2)
-RA2: Analisar criticamente a aplicação de TI considerando problemáticas de dimensões social, política, econômica, cultural e ambiental, de forma crítica e criativa (TE3)",
+RA2: Analisar criticamente a aplicação de TI considerando problemáticas de dimensões social, política, econômica, cultural e ambiental, de forma crítica e criativa (TE3)",,"Introdução a Engenharia de Software, ofertada para alunos do primeiro período do curso, aborda os principais aspectos da relação da atuação do profissional e dos sistemas computacionais com a sociedade. Nesta disciplina, os estudantes aprendem a identificar os contextos sociais de aplicação da tecnologia da informação, as áreas de atuação do profissional formado, e analisar criticamente a sua aplicação. Ao final da disciplina, o estudante será capaz de observar os impactos da tecnologia da informação na sociedade considerando os requisitos da profissão, suas responsabilidades e a ética profissional.
+
+
+","AUDY, Jorge Luis N.; ANDRADE, Gilberto Keller D.; CIDRAL, Alexandre. Fundamentos de Sistemas de Informação. Porto Alegre: Bookman, 2007. ISBN 9788577801305. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788577801305/
+
+GONZAGA, Alvaro de A. Ética Profissional - Sintetizado. 2. ed. São Paulo: Grupo GEN, 2019. ISBN 9788530987107. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788530987107/
+
+O'BRIEN, James A.; MARAKAS, George M. Administração de Sistemas de Informação. Porto Alegre: Grupo A, 2012. ISBN 9788580551112. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788580551112/.","ARRUDA, Maria Cecilia Coutinho de; WHITAKER, Maria do Carmo; RAMOS, José Maria Rodriguez. Fundamentos de ética empresarial e econômica. 4. ed. São Paulo, SP: Atlas, 2009. 220p. ISBN 9788522456581.
+
+BALTZAN, Paige; PHILLIPS, Amy. Sistemas de Informação. Porto Alegre: Grupo A, 2012. ISBN 9788580550764. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788580550764/
+
+BATISTA, Emerson de O. Sistemas de informação: o uso consciente da tecnologia para o gerenciamento. 2. ed. São Paulo: Saraiva, 2009. ISBN 9788502197565. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788502197565/
+
+CAMARGO, Marculino. Fundamentos de ética geral e profissional. Petrópolis, RJ: Vozes, 1999. 108 p. ISBN 85-326-2131-7.
+
+DA CUNHA, Murilo Bastos; AMARAL, Sueli Angelica D.; DANTAS, Edmundo B. Manual de Estudo de Usuários da Informação. Grupo GEN, 2015. ISBN 9788522498789. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522498789/.
+
+GHILLYER, Andrew W. Ética nos negócios. Porto Alegre: Grupo A, 2015. ISBN 9788580554342. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788580554342/."
 EC,,Básico,1,Organização de Computadores,2,30,0,30,"TE1: Organização de computadores: hierarquia de memória e troca de dados, memória virtual, componentes da unidade central de processamento, barramentos e dispositivos de entrada e saída (14h)
 TE2: Operações: interrupções, exceções, operações de entrada e saída, hierarquia de barramentos (8h)
 TE3: Pipeline: ciclo de instrução, funcionamento e problemas (8h)","RA1: Compreender a estrutura básica de funcionamento de computadores, aplicando fundamentos matemáticos, técnicos e tecnológicos (TE1 e TE2)
-RA2: Elaborar hipóteses sobre a ordem de execução de instruções no processador utilizando tratamento de interrupções, exceções e pipeline (TE2 e TE3)",
+RA2: Elaborar hipóteses sobre a ordem de execução de instruções no processador utilizando tratamento de interrupções, exceções e pipeline (TE2 e TE3)",,"Organização de Computadores, ofertada para alunos do primeiro período do curso, aborda sistemas numéricos e aritmética computacional, bem como a organização dos componentes de computadores e as propriedades de execução de instruções de um programa em um computador. Nesta disciplina, os estudantes identificam os componentes relacionados a execução de um programa no computador e analisam impactos e limitações no processo. Ao final da disciplina, o estudante será capaz de entender o processo de execução de um programa de computador relacionando os componentes do computador e entendendo suas limitações.","PATTERSON, David A.; HENNESSY, John L. Organização e projeto de computadores: a interface hardware/software. 3. ed. Rio de Janeiro, RJ: Elsevier, 2005. xvii, 484 p. ISBN 8535215212.
+
+MURDOCA, Miles J.; HEURING, Vincent P. Introdução à arquitetura de computadores. Rio de Janeiro: Campus, 2000. xxii, 512 p. ISBN 85-352-0684-1.
+
+TANENBAUM, Andrew S. Organização estruturada de computadores. 5. ed. São Paulo: Pearson Prentice Hall, c2007. xii, 449 p. ISBN 9788576050674.","WEBER, Raul Fernando. Fundamentos de arquitetura de computadores. 4. ed. Porto Alegre: Bookman, 2012. 400 p ISBN 9788540701427.
+
+HENNESSY, John L.; PATTERSON, David A. Arquitetura de computadores: uma abordagem quantitativa. Rio De Janeiro: Elsevier, 2008. xix, 494 p. ISBN 978-85-352-2355-2. 
+
+TANENBAUM, Andrew S. Sistemas operacionais modernos. 3. ed. São Paulo, SP: Pearson, c2008. xvi, 654 p. ISBN 9788576052371.
+
+TOCCI, Ronald J.; WIDMER, Neal S.; MOSS, Gregory L. Sistemas digitais: princípios e aplicações. 11. ed. São Paulo, SP: Pearson Prentice Hall, c2011. xxii, 817 p. ISBN 9788576050957.
+
+STALLINGS, William. Arquitetura e organização de computadores: projeto para o desempenho. 5. ed. São Paulo: Prentice-Hall, 2002. 786 p. ISBN 85-87918-53-2."
 EC,,Básico,1,Fundamentos de Matemática,4,60,0,60,"TE1: Conjuntos numéricos e intervalos: operações e representações (12h)
 TE2: Álgebra básica: operações com polinômios, produtos, notáveis, propriedades da potenciação e radiciação, equações e inequações (métodos de resolução e validação) (12h)
 TE3: Funções: conceitos, tipos de função representação algébrica, e gráfica com o auxílio de software classificações e aplicações na engenharia (16h)
 TE4: Trigonometria no triângulo retângulo e no ciclo trigonométrico: razões trigonométricas no triângulo retângulo, medidas de ângulos em graus e radianos, o ciclo trigonométrico, funções trigonométricas e suas inversas e aplicações à engenharia (12h)
 TE5: Números complexos: Conceito, representação na forma algébrica e operações, representação gráfica, representação polar e operações (8h)","RA1: Interpretar problemas estruturados representando-os adequadamente por meio de conjuntos, expressões algébricas, polinômios e números complexos (TE1, TE2 e TE5)
 RA2: Representar limites dos problemas corretamente por meio de equações, inequações e funções identificando variáveis de decisão e domínio do problema (TE3 e TE4)
-RA3: Resolver problemas delimitados, empregando corretamente equações, inequações e funções (TE3 e TE4)",
-H,"Linguística, letras e artes",Básico,1,Comunicação Oral e Escrita,4,60,0,60,"TE1: Estratégias de leitura acadêmica: antecipação, seleção e síntese de informações em artigos científicos (10h)
+RA3: Resolver problemas delimitados, empregando corretamente equações, inequações e funções (TE3 e TE4)",,"Fundamentos de Matemática, ofertada para alunos do primeiro período do curso, aborda conceitos iniciais da matemática e da teoria de números. Nesta disciplina, os estudantes aprendem a interpretar e representar problemas da matemática com conjuntos, expressões algébricas, polinônios, números complexos, equações/inequações, funções e domínios. Ao final da disciplina, o estudante entenderá conceitos básicos da teoria dos números e será capaz de construir provas formais que utilizem tais conceitos para problemas delimitados.."," POLCINO MILIES, César; COELHO, Sônia Pitta. Números: uma introdução à matemática. 3. ed. São Paulo, SP: EDUSP, c2001. 240 p. (Acadêmica ; 20). ISBN 8531404584.
+
+HEFEZ, Abramo. Elementos de aritmética. 2. ed. Rio de Janeiro, RJ: Sociedade Brasileira de Matemática, 2006. 169p. ISBN 9788585818258.
+
+SANTOS, J. Plínio de O. Introdução à teoria dos números. 3. ed. Rio de Janeiro, RJ: IMPA, c2003. 198 p. (Matemática universitária). ISBN 9788524401428. "," MAIO, Waldemar de. Álgebra: estruturas algébricas básicas e fundamentos da teoria dos números. Rio de Janeiro, RJ: LTC, 2007. xii , 192 p. (Fundamentos de matemática) ISBN 8521615272.
+
+LIPSCHUTZ, Seymour. Teoria dos conjuntos. São Paulo, SP: McGraw-Hill, 1974. x, 337 p. (Coleção Schaum).
+
+IEZZI, Gelson et al. Fundamentos de matemática elementar. 8. ed. São Paulo, SP: Atual, 2004-2005. 11 v. ISBN 9788535704556(v.1). - vol. 1
+
+DIENES, Zoltan P; GOLDING, Edward William; E. Jose Dotto. Conjuntos, numeros e potencias. Sao Paulo: Herder, 1969. 162 p.
+
+GERSTING, Judith L. Fundamentos matemáticos para a ciência da computação: um tratamento moderno de matemática discreta. 5. ed. Rio de Janeiro, RJ: LTC, 2004. xiv, 597 p. ISBN 9788521614227. "
+H,"Linguística, letras e artes",Básico,1,Comunicação Oral e Escrita,4,60,0,60,"TE1: Estratégias de leitura acadêmica: antecipação, seleção e síntese de informações em artigos científicos (10h)             
 TE2: Processo de produção de resumo e resenha acadêmicos: diferença, estrutura composicional, planejamento, escrita e revisão (10h)
 TE3: Processo de produção de gêneros orais acadêmicos: planejamento, produção de materiais de apoio e técnicas de interação com o público (10h)
 TE4: Processo de produção de gêneros orais empresariais: diretrizes da comunicação na organização, estratégias para comunicação externa e interna e o evento reunião empresarial (15h)
 TE5: Processo de comunicação para apresentação em público: elementos da comunicação verbal e não verbal e procedimentos para apresentação, elaboração e avaliação de exposição oral (15h)","RA1: Analisar criticamente informações e hipóteses validadas, com responsabilidade, de forma autônoma e colaborativa, empregando estratégias de leitura acadêmica (TE1)
 RA2: Aplicar soluções tecnológicas a partir da produção de gêneros orais e escritos acadêmicos e comunicação qualificada, adequada e assertiva (TE2 e TE3)
 RA3: Planejar a apresentação pessoal em reunião empresarial, com ética, criticidade e assertividade, conforme as diretrizes de comunicação da organização e empregando estratégias de comunicação interna (TE4)
-RA4: Expor oralmente temáticas da área de comunicação empresarial, avaliando o próprio desempenho e o de colegas, conforme o plano proposto, de forma coerente, autônoma e criativa (TE5)",
+RA4: Expor oralmente temáticas da área de comunicação empresarial, avaliando o próprio desempenho e o de colegas, conforme o plano proposto, de forma coerente, autônoma e criativa (TE5)",,"Comunicação Oral e Escrita, ofertada para alunos do primeiro período do curso, trata dos fundamentos de comunicação de organizações. Nesta disciplina os estudantes aprendem a produzir gêneros orais e escritos, tanto quanto expor oralmente temáticas da área de comunicação empresarial. Ao final da disciplina o estudante será capaz de se comunicar efetivamente,  avaliando o próprio desempenho e de colegas de forma coerente, autônoma e criativa.
+
+","CINTRA, José Carlos Ângelo. Didática e oratória com data-show. São Carlos: Compacta, 2008. 64 p. ISBN 978-85-88533-40-0.
+
+MINICUCCI, Agostinho. Técnicas do Trabalho de Grupo. 3. ed. São Peulo: Grupo GEN, 2011. ISBN 9788522471799. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522471799/.
+
+POLITO, Reinaldo. Como falar corretamente e sem inibições. 112. ed. São Paulo: Benvirá, 2016. ISBN 9788557170667. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788557170667/","AZEREDO, José Carlos de. Gramática Houaiss da língua Portuguesa. São Paulo, SP: PubliFolha, 2009. 583 p. ISBN 978-85-7402-939-9.
+
+GARCIA, Othon Moacyr. Comunicação em prosa moderna: aprenda a escrever, aprendendo a pensar. 22. ed. Rio de Janeiro, RJ: Fundação Getúlio Vargas, 2002. 539 p. ISBN 852250296X.
+
+LIMA, Antonio Oliveira. Manual de redação oficial: teoria, modelos e exercícios . 2.ed. Rio de Janeiro, RJ: Elsevier, 2005. 370 p. ISBN 978-85-352-1855-8.
+
+MAYER, Canísio. Dinâmicas de grupo e textos criativos. Petrópolis: Vozes, 2007. 190 p. ISBN 978-85-326-3472-6
+
+MINICUCCI, Agostinho. DINÂMICA DE GRUPO: TEORIAS E SISTEMAS. 5. ed. São Paulo: Grupo GEN, 2012. ISBN 9788522470167. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522470167/"
 H,"Linguística, letras e artes",Básico,1,Inglês Instrumental,2,30,0,30,"TE1: Estratégias de leitura: definições e prática de estratégias pre-reading (skimming e scanning) e reading (10h)
 TE2: Principais gêneros das esferas instrucional e virtual: definições, tipologia textual e gêneros de aplicação em TADS (tutoriais, normas, blogs, fóruns etc.) (10h)
 TE3: Estratégias de leitura frasal da língua inglesa: cognatos e principais estruturas gramaticais (10h)","RA1: Analisar textos em inglês de diferentes gêneros, aplicando estratégias de leitura para o desenvolvimento da autonomia e responsabilidade nas análises efetuadas (TE1)
 RA2: Identificar os principais gêneros das esferas instrucionais e virtual, aplicando o conhecimento sobre as características presentes em diferentes gêneros textuais (TE2).
-RA3: Deduzir significados a partir da semelhança entre as palavras na língua portuguesa e inglesa, aplicando os conhecimentos de cognatos com autonomia (TE3)",
+RA3: Deduzir significados a partir da semelhança entre as palavras na língua portuguesa e inglesa, aplicando os conhecimentos de cognatos com autonomia (TE3)",,"Inglês Instrumental, ofertada para alunos do primeiro período do curso, aborda os principais aspectos da análise de textos em língua inglesa. Nesta disciplina os estudantes aprendem a aplicar estratégias de leitura bem como utilizar o conhecimento sobre as características dos gêneros textuais e cognatos. Ao final da disciplina, o estudante será capaz de identificar gêneros e deduzir significados  de textos com autonomia.
+
+
+","HOLLAENDER, Arnon; SANDERS, Sidney. The landmark dictionary: english/portuguese, portuguese/english. São Paulo, SP: Moderna, 1998. 704 p. ISBN 85-16-01559-9.
+
+SILVA, Dayse C. F. da; DAIJO, Julice; PARAGUASSU, Liana. Fundamentos de Inglês. Porto Alegre: Sagah, 2018. ISBN 9788595024137. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595024137/
+
+THOMPSON, Marco Aurélio S. Inglês instrumental: estratégias de leitura para informática e internet. São Paulo: Érica, 2016. ISBN 9788536517834. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536517834/","ANDERSON, Neil J. Active: skills for reading . Boston, MA: Thomson, 2002-2003. 4 v. ISBN 0-8384-2602-6 (v.1).
+
+DA SILVA, Dayse Cristina Ferreira; DAIJO, Julice; PARAGUASSU, Liana. Fundamentos de Inglês. Porto Alegre: Grupo A, 2018. ISBN 9788595024137. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595024137/
+
+DREY, Rafaela F.; SELISTRE, Isabel Cristina T.; AIUB, Tânia. Inglês. Porto Alegre: Grupo A, 2015. ISBN 9788584290314. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788584290314
+
+GALLO, Lígia Razera. Inglês instrumental para informática. São Paulo, SP: Ícone, 2008. ISBN 9788527409742.
+
+MUNHOZ, Rosângela. Inglês instrumental: estratégias de leitura. Ed. reform. e rev. São Paulo, SP: Textonovo: Centro Paula Souza, c2000-c2001. 2 v. ISBN 8585734367 (v. 1)."
 EC,,Básico,2,Algoritmos 2,4,60,0,60,"TE1: Ponteiros: declaração, uso e atribuição, operações, representação de ponteiros na memória, passagem por referência (15h)
 TE2: Alocação Dinâmica: alocação de espaço de memória, operações com memória alocada, ponteiros de ponteiros, exemplos vetores, matrizes e registros (20h)
 TE3: Recursividade: noções de iteração com recursividade, mapeamento de laços para recursividade, recursividade com retorno, recursividade múltipla, exemplo de otimização de recursividade múltipla via programação dinâmica (25h)","RA1: Identificar problemas de algoritmos que se beneficiam do uso de ponteiros para gerar códigos eficientes (TE1)
 RA2: Analisar a aplicação de tecnologias da engenharia de computação considerando códigos de ética e a postura profissional dos(as) engenheiros(as) (TE3)
-RA3: Replanejar a implementação de algoritmos utilizando o conceito de recursividade para problemas que envolvam a execução de laços e iteratividade (TE3)",Algoritmos 1
+RA3: Replanejar a implementação de algoritmos utilizando o conceito de recursividade para problemas que envolvam a execução de laços e iteratividade (TE3)",Algoritmos 1,"Algoritmos 2, ofertada para alunos do segundo período, aborda técnicas e conceitos de programação, como ponteiros, alocação dinâmica e recursividade. Nesta disciplina, os estudantes aprendem a identificar problemas relacionados ao uso de alocação de memória e recursividade. Ao final da disciplina, o aluno será capaz de implementar algoritmos utilizando alocação dinâmica de memória e recursividade."," SCHILDT, Herbert. C, completo e total. 3. ed., rev. e atual. São Paulo, SP: Makron, c1997. xv, 827 p. + DISQUETE 3 1/2 original ( CD-ROM) ISBN 8534605955.
+
+DEITEL, Harvey M.; DEITEL, Paul J. C++ como programar. 3. ed. Porto Alegre, RS: Bookman, 2001. xxviii, 1098 p. + CD-ROM ISBN 85-7307-740-9.
+
+KERNIGHAN, Brian W.; RITCHIE, Dennis M. C, a linguagem de programação. Rio de Janeiro, RJ: Campus; Porto Alegre: EDISA, 1986.. 208 p. ISBN 8570014104. "," MIZRAHI, Victorine Viviane. Treinamento em linguagem C: curso completo - módulo 2. São Paulo, SP: Makron, c1990. xix, 273 p. ISBN 8534614237.
+
+PAPPAS, Chris H.; MURRAY, William H.. Turbo C++ completo e total. São Paulo: Makron Books, 1991. 771 p.
+
+FORBELLONE, André Luiz Villar; EBERSPÄCHER, Henri Frederico. Lógica de programação: a construção de algorítmos e estruturas de dados. 2. ed. São Paulo, SP: Makron, 2000. xiv, 197 p. ISBN 8534611246.
+
+MIZRAHI, Victorine Viviane. Treinamento em linguagem C: curso completo - módulo 1. São Paulo, SP: McGraw-Hill; Pearson Education, c1990. xix, 241 p.
+
+MANZANO, José Augusto N. G.; OLIVEIRA, Jayr Figueiredo de. Algoritmos: lógica para desenvolvimento de programação de computadores. 22.ed. São Paulo, SP: Érica, 2009. 320 p. ISBN 9788536502212. "
 ,,Específico,2,Processo de Produção de Software,2,30,0,30,"TE1: Modelos de processo de desenvolvimento de software: etapas do processo, áreas de conhecimento da Engenharia de Software, modelos cascata, sequencial, espiral (10h)
 TE2: Metodologias ágeis: manifesto ágil, Scrum e XP (20h)","RA1: Compreender os modelos de processo de desenvolvimento de software (TE1)
-RA2: Aplicar práticas de metodologias ágeis no desenvolvimento de projetos (TE2)",
+RA2: Aplicar práticas de metodologias ágeis no desenvolvimento de projetos (TE2)",,"Processo de Produção de Software, ofertada no segundo período do curso, aborda conceitos fundamentais/referenciais sobre o processo de Engenharia de Software. Nesta disciplina, os estudantes aprendem sobre os modelos de processo fundamentais e metodologias ágeis. Ao final da disciplina, o aluno será capaz de identificar as etapas do processo e trabalhar em equipes utilizando abordagens ágeis de desenvolvimento."," SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287.
+
+PAULA FILHO, Wilson de Pádua. Engenharia de software: fundamentos, métodos e padrões. 2. ed. Rio de Janeiro: LTC, 2003. 602 p. ISBN 85-216-1339-3.
+
+PRESSMAN, Roger S. Engenharia de software. São Paulo, SP: Makron, c1995. xxxii, 1056 p. ISBN 8534602379. "," REZENDE, Denis Alcides. Engenharia de software e sistemas de informação. 3. ed. Rio de Janeiro: Brasport, 2005. xxii, 316p. ISBN 85-7452-215-5.
+
+PFLEEGER, Shari Lawrence. Engenharia de software: teoria e prática. 2. ed. São Paulo, SP: Prentice-Hall, c2004. 537 p. ISBN 8587918311.
+
+PETERS, James F.; PEDRYCZ, Witold (Autor). Engenharia de software: teoria e prática. Rio de Janeiro, RJ: Campus, 2001. xvii, 602 p. ISBN 8535207465.
+
+MAGELA, Rogério. Engenharia de software aplicada: fundamentos . Rio de Janeiro: Alta Books, 2006. 418 p. ISBN 85-7608-123-7
+
+GAMMA, Erich et al. Padrões de projeto: soluções reutilizáveis de software orientado a objetos. Porto Alegre, RS: Bookman, 2000 xii,364 p. ISBN 8573076100. "
 EC,,Básico,2,Sistemas Operacionais,4,60,0,60,"TE1: Sistemas operacionais: classificação, estrutura, componentes, concorrência, configuração e utilização de sistemas Linux (15h)
 TE2: Processos: definição e exemplos dos uso de threads, escalonamento, sincronização e deadlocks (15h)
 TE3: Memória: formas de endereçamento, gerenciamento de memória virtual e real, alocação, swapping, segmentação e paginação de memória (15h)
 TE4: Gerenciamento de dispositivos de entrada e saída: discos, interfaces com o usuário e o conceito de spooling (15h)","RA1: Gerenciar serviços de sistemas operacionais, inicializando, ajustando permissões, analisando recursos de entrada/saída, memória e processamento, automatizando tarefas e finalizando processos com eficácia (TE1, TE3 e TE4)
 RA2: Implementar aplicações com diferentes processos e threads explorando sua sincronização e evitando a ocorrência de deadlocks (TE2)
 RA3: Implementar sistemas de software com uso de chamadas de sistema do Linux de entrada e saída, controle de processos e gerenciamento de arquivos (TE1, TE2 e TE4)
-RA4: Reconfigurar serviços de sistemas operacionais a partir do balanceamento de consumo de recursos do sistema (TE1, TE3 e TE4)",Organização de Computadores
+RA4: Reconfigurar serviços de sistemas operacionais a partir do balanceamento de consumo de recursos do sistema (TE1, TE3 e TE4)",Organização de Computadores,"Sistemas Operacionais, ofertada para alunos do segundo período do curso, aborda conceitos fundamentais de arquiteutura de computadores e sistemas operacionais. Nesta disciplina, os estudantes aprendem a analisar métricas de desempenho e gerenciar serviços do Sistema Operacional. Ao final da disciplina, o aluno será capaz de gerenciar serviços/processos do Sistema Operacional considerando o consumo de processamento, memória e entrada/saída e automatizar tarefas.
+
+
+","SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. Fundamentos de Sistemas Operacionais. São Paulo: Grupo GEN, 2015. ISBN 978-85-216-3001-2. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-3001-2
+
+TANENBAUM, Andrew S.; WOODHULL, Albert S. Sistemas Operacionais: Projeto e Implementação. Porto Alegre: Grupo A, 2008. ISBN 9788577802852. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788577802852/.
+
+TANENBAUM, Andrew S. Sistemas operacionais modernos. 3. ed. São Paulo, SP: Pearson, c2008. xvi, 654 p. ISBN 9788576052371.","COULOURIS, George; DOLLIMORE, Jean; KINDBERG, Tim; BLAIR, Gordon. Sistemas Distribuídos: Conceitos e Projeto. Porto Alegre: Grupo A, 2013. ISBN 9788582600542. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582600542/
+
+FLYNN, Ida M.; MENDES, Marcelo Alves (Trad.). Introdução aos sistemas operacionais. São Paulo: Pioneira Thomson Learning, 2002. 434p. ISBN 85-2210274-0.
+
+MACHADO, Francis B.; MAIA, Luiz P. Fundamentos de Sistemas Operacionais. São Paulo: Grupo Gen, 2011. 978-85-216-2081-5. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-2081-5/
+
+MACHADO, Francis Berenger; MAIA, Luiz Paulo. Arquitetura de sistemas operacionais. 3. ed. Rio de Janeiro, RJ: LTC, 2002. 311 p. ISBN 85-216-1329-6.
+
+SEBASTIÃO JUNIOR, Ramiro C.; LEDUR, Cleverson L.; MORAIS, Izabelly Soares D. Sistemas Operacionais. Porto Alegre: Grupo A, 2018. ISBN 9788595027336. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595027336"
 ADS,,Básico,2,Banco de Dados,4,60,30,90,"TE1: Princípios de banco de dados: conceitos, aplicações e modelo relacional (relação, tupla, atributo, restrições de integridade e normalização) e construção de representações (15h)
 TE2: Linguagem de Definição de Dados (DDL): criação, atualização e regras de integridade (20h)
 TE3: Linguagem de Manipulação de Dados (DML): consultas simples, consultas aninhadas, operações de conjuntos, funções de agregação, inserção, remoção e atualização (25h)
 TE4: Projeto de Banco de Dados: projeto conceitual, projeto lógico e projeto físico (30h)","RA1: Modelar esquemas de banco de dados, de forma autorregulada, interpretando problemas de armazenamento de dados estruturados (TE1)
 RA2: Implementar esquemas de banco de dados de acordo com padrões de codificação da linguagem de consulta estruturada SQL (TE2 e TE3)
-RA3: Projetar esquemas de banco de dados utilizando ferramentas de modelagem e SQL, com objetividade e clareza (TE4)",
+RA3: Projetar esquemas de banco de dados utilizando ferramentas de modelagem e SQL, com objetividade e clareza (TE4)",,"Banco de Dados, ofertada para os alunos do segundo período do curso, trata dos principais conceitos de banco de dados. Na disciplina, os estudantes aprendem a solucionar problemas  relacionados à modelagem e implementação de esquemas para armazenamento de dados estruturados. Ao final da disciplina, o estudante será capaz de criar projetos de esquemas de banco de dados utilizando linguagem SQL.
+
+
+
+","DATE, C. J. Introdução a Sistemas de Banco de Dados. Rio de Janeiro: Elsevier, 2004 ISBN 8535212736. Disponível em: https://integrada.minhabiblioteca.com.br/books/9788595154322
+
+ELMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de banco de dados. 4. ed. São Paulo: Pearson Addison-Wesley, c2005. 724 p. ISBN 85-88639-17-3.
+
+SILBERSCHATZ, Abraham. Sistema de Banco de Dados. São Paulo: Grupo GEN, 2020. ISBN 9788595157552. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595157552/","GARCIA-MOLINA, Hector; ULLMAN, Jeffrey D.; WIDOM, Jennifer. Implementação de sistemas de bancos de dados. Rio de Janeiro: Campus, 2001. 685 p. ISBN 85-352-0749-X.
+
+HEUSER, Carlos Alberto. Projeto de banco de dados. 4. ed. Porto Alegre, RS: Sagra Luzzatto, 2001. xvi, 204 p. (Livros didáticos; 4) ISBN 85-241-0590-9.
+
+KROENKE, David M.; SOARES, Luiz Carlos Gabriel (Trad.) Banco de dados: fundamentos, projeto e implementação. 6. ed. Rio de Janeiro: LTC, c1998. 382p. ISBN 85-216-1155-2
+
+MANNINO, Michael V. Projeto, Desenvolvimento de Aplicações e Administração de Banco de Dados. Porto Alegre: Grupo A, 2014. ISBN 9788580553635. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788580553635
+
+PATRICK, John. SQL: fundamentos. 2. ed. São Paulo: Berkeley, 2002. 710 p."
 H,Ciências humanas,Básico,2,Fundamentos de Ética,2,30,0,30,"TE1: Ética e Moral: aproximações (5h)
 TE2: Períodos e projetos ético-filosóficos: a Ética em Sócrates, Platão, Aristóteles, no Estoicismo, Epicurismo, Medievo e Humanismo, em Immanuel Kant (Dever), Arthur Schopenhauer (Compaixão), Friedrich Nietzsche (Moral Aristocrática X Moral de Rebanho) e Jean-Paul Sartre (Liberdade e Responsabilidade) (15h)
 TE3: Ética na Engenharia e em Computação: legislação (códigos de Ética), normas e postura profissional dos/as engenheiros/as (10h)","RA1: Compreender diferentes períodos e projetos ético-filosóficos para considerar seus conceitos na análise do problema estático
 estruturado (TE1 e TE2)
-RA2: Analisar a aplicação de tecnologias da engenharia de computação considerando códigos de ética e a postura profissional dos(as) engenheiros(as) (TE3)",
+RA2: Analisar a aplicação de tecnologias da engenharia de computação considerando códigos de ética e a postura profissional dos(as) engenheiros(as) (TE3)",,"Fundamentos de Ética, ofertada no segundo período do curso, aborda conceitos de ética e moral. Na disciplina, os estudantes tem contato com projetos ético-filosóficos, legislações e normas. Ao final da disciplina, o estudante será capaz de compreender conceitos de ética/moral e analisar os impactos da aplicação da tecnologia de acordo com esses conceitos."," CAMARGO, Marculino. Fundamentos de ética geral e profissional. Petrópolis: Vozes, 1999. 108 p. ISBN 85-326-2131-7.
+
+CHAUÍ, Marilena de Sousa. Convite à filosofia. 14. ed. São Paulo, SP: Ática, 2011. 520 p. ISBN 9788508134694.
+
+REALE, Miguel. Introdução à filosofia. 4. ed. São Paulo, SP: Saraiva, 2007. 306 p. ISBN 9788502036079. ","PUSCH, Jaime. Ética e responsabilidade profissional. Curitiba: CREA-PR, 2004. v. (Cadernos do CREA-PR)
+
+SÁ, A. Lopes de. Ética profissional. 9. ed. rev. e ampl. São Paulo, SP: Atlas, 2009. 312 p. ISBN 9788522455348.
+
+LA FONTAINE, Jean de et al. Histórias sobre ética. 4. ed. São Paulo: Ática, 2002. 121 p. (Para gostar de ler) ISBN 85-08-07239-2.
+
+NICOLA, Ubaldo. Antologia ilustrada de filosofia: das origens à idade moderna. São Paulo, SP: Globo, 2005. 479 p. ISBN 8525038997.
+
+SUNG, Jung Mo; SILVA, Josué Cândido da. Conversando sobre etica e sociedade. 2.ed. Petropolis, RJ: Vozes, 1997 117p ISBN 8532615465 (broch.) "
 EC,,Básico,2,Matemática Discreta,4,60,0,60,"TE1: Teoria dos conjuntos: conjuntos, lógica, funções e relações (15h)
 TE2: Teoria dos números: números inteiros, princípios de indução e outras provas matemáticas (15h)
 TE3: Combinatória: regras básicas de contagem, princípio de inclusão e exclusão (15h)
 TE4: Grafos: árvores, fluxos em redes, emparelhamentos, grafos eulerianos, hamiltonianos, planares e coloridos (15h)","RA1: Resolver problemas que envolvam lógica simples, considerando conjuntos, funções e relações (TE1)
 RA2: Entender princípios de números inteiros e provas por direta, contraposição, absurdo e indução (TE2)
 RA3: Comparar dimensões de funções matemáticas, utilizando análise combinatória (TE3)
-RA4: Modelar problemas matemáticos utilizando diferentes conceitos de grafos (TE4)",Fundamentos da Matemática
+RA4: Modelar problemas matemáticos utilizando diferentes conceitos de grafos (TE4)",Fundamentos da Matemática,"Matemática Discreta, ofertada para alunos do segundo período do curso, aborda conceitos sobre teoria de conjuntos, números, combinatória e grafos. Na disciplina, os estudantes exercitam conceitos de lógica, provas matemáticas e modelagem de problemas. Ao final da disciplina, o aluno será capaz de modelar problemas matemáticos simples e de grafos, além de comparar dimensões de funções matemáticas.","GERSTING, Judith L. Fundamentos matemáticos para a ciência da computação: um tratamento moderno de matemática discreta. 5. ed. Rio de Janeiro, RJ: LTC, 2004. xiv, 597 p. ISBN 9788521614227.
+
+DOMINGUES, Hygino H.; IEZZI, Gelson. Álgebra moderna. 4. ed. reformul. São Paulo, SP: Atual, 2003. 368 p. ISBN 9788535704013.
+
+GOLDBARG, Marco Cesar; GOLDBARG, Elizabeth Ferreira Gouvêa. Grafos: conceitos, algoritmos e aplicações. Rio de Janeiro, RJ: Elsevier, 2012. 622 p. ISBN 9788535257168. ","MORGADO, A. C. Matemática discreta. 1. ed. Rio de Janeiro, RJ: SBM, 2014. x, 192 p. ISBN 9788583370154.
+
+DAGHLIAN, Jacob. Lógica e álgebra de Boole. 4. ed. São Paulo, SP: Atlas, c1995. 167 p. ISBN 8522412561.
+
+EPP, Susanna S. Discrete mathematics with applications. 4th ed. Canadá: Brooks/Cole, c2011. xxii, 820 p.
+
+BOAVENTURA NETTO, Paulo Oswaldo. Grafos: teoria, modelos, algoritmos. 5. ed., rev. e ampl. São Paulo, SP: Blucher, 2011. xiii, 310 p. ISBN 9788521206804.
+
+YOUSSEF, Antônio Nicolau; FERNANDEZ, Vicente Paz. Matemática: conceitos e fundamentos. São Paulo: Scipione, 1993. 3 v. ISBN 85-262-2011-X (v. 1). "
 EC,,Básico,3,Estrutura de Dados 1,4,60,30,90,"TE1: Tipos abstratos de dados: definições, tipos e recursos para implementações (8h)
 TE2: Pilhas e Filas: definições e operações, implementações e aplicações (26h)
 TE3: Listas: definição, tipos, operações, implementação e aplicações (26h)
 TE4: Árvore Binária: operações, busca e aplicações (30h)","RA1: Identificar diferentes tipos abstratos de dados considerando suas características e recursos para implementações (TE1)
 RA2: Implementar estruturas de dados de pilhas, filas e listas identificando cenários de aplicações de maneira eficiente (TE2 e TE3)
-RA3: Aplicar os algoritmos de árvores para melhorar a eficiência de busca de maneira pró-ativa (TE3)",Algoritmos 2
+RA3: Aplicar os algoritmos de árvores para melhorar a eficiência de busca de maneira pró-ativa (TE3)",Algoritmos 2,"Estrutura de Dados, ofertada para os alunos do terceiro período do curso, aborda os conceitos básicos de estrutura de dados. Na disciplina, os estudantes aprendem a implementar algoritmos que utilizam estruturas lineares, recursividade e árvores binárias. Ao final da disciplina, o aluno será capaz de reconhecer os contextos de uso, implementar estruturas de dados lineares e algoritmos recursivos, bem como aplicar algoritmos de árvores para resolver problemas de busca, de maneira autônoma e eficiente.","DROZDEK, Adam. Estrutura de Dados e Algoritmos em C++ – Tradução da 4ª edição norte-americana. São Paulo: Cengage Learning Brasil, 2018. ISBN 9788522126651. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522126651/
+
+FORBELLONE, André Luiz Villar; EBERSPÄCHER, Henri Frederico. Lógica de programação: a construção de algoritmos e estruturas de dados. 3. ed. São Paulo, SP: Makron Books, 2005. xii, 218 p. ISBN 9788576050247.
+
+TENENBAUM, Aaron M.; LANGSAM, Yedidyah; AUGENSTEIN, Moshe. Estruturas de dados usando C. São Paulo, SP: Makron Books, c1995. xx, 884 p. ISBN 85-346-0348-0.","WINDER, Russel; GRAHAM, Roberts. Desenvolvendo Software em Java. 3. ed. São Paulo: Grupo GEN, 2009. ISBN 978-85-216-1994-9. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-1994-9/
+
+GUIMARÃES, Angelo de Moura; LAGES, Newton Alberto de Castilho. Algoritmos e estruturas de dados. Rio de Janeiro, RJ: LTC, c1994. 216 p. (Ciência da computação). ISBN 85-216-0378-9.
+
+KOFFMAN, Elliot B.; WOLFGANG, Paul A T. Objetos, Abstração, Estrutura de Dados e Projeto Usando C++. São Paulo: Grupo GEN, 2008. ISBN 978-85-216-2780-7. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-2780-7/
+
+SZWARCFITER, Jayme L.; MARKENZON, Lilian. Estruturas de Dados e Seus Algoritmos. São Paulo: Grupo GEN, 2010. 978-85-216-2995-5. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-2995-5/
+
+VILLAS, Marcos V. et al. Estruturas de dados: conceitos e técnicas de implementação. 6.ed. Rio de Janeiro: Campus, 1993. 298 p. ISBN 85-7001-799-5."
 EC,,Específico,3,Programação Orientada a Objetos 1 ,4,60,30,90,"TE1: Fundamentos de orientação a objetos: definições, artefatos, atributos, métodos, objetos, tipos de classes, operador de casting e o paralelo entre orientação à objetos e o paradigma estruturado (25h)
 TE2: Relacionamento entre classes e objetos: encapsulamento, herança, tipos de polimorfismo e interfaces (25h)
 TE3: Tratamento de exceções: definição, mecanismos de disparo e tratamento e classes de exceção (15h)
 TE4: Desenvolvimento de aplicações: utilização de IDEs para implementação de aplicações utilizando paradigma de orientação à objetos (25h)","RA1: Implementar algoritmos utilizando classes, atributos, objetos e métodos com autorregulação (TE1)
 RA2: Selecionar o uso de encapsulamento, polimorfismo e herança para representar relacionamentos entre classes (TE2)
 RA3: Identificar exceções mais relevantes para o tratamento no contexto do paradigma de orientação a objetos (TE3)
-RA4: Implementar aplicações utilizando uma linguagem de programação orientada a objeto com clareza (TE4)",Algoritmos 2
+RA4: Implementar aplicações utilizando uma linguagem de programação orientada a objeto com clareza (TE4)",Algoritmos 2,"Programação Orientada a Objetos 1, ofertada para alunos do terceiro período do curso, trata dos fundamentos do paradigma orientado a objetos e sua aplicação em uma linguagem de programação. Nesta disciplina os estudantes aprendem a modelar sistemas com classes, objetos, atributos, métodos, encapsulamento, herança, polimorfismo e utilizar bibliotecas, no contexto de uma linguagem de programação orientada a objetos. Ao final da disciplina o estudante será capaz de construir soluções computacionais seguindo os princípios do paradigma de orientação a objetos.
+
+
+
+","HORSTMANN, Cay S.; CORNELL, Gary. Core Java 2. São Paulo, SP: Pearson Education, 2001. 2 v. (Série Java). ISBN 8534612250 (v.1).
+
+HORSTMANN, Cay. Conceitos de Computação com Java. Porto Alegre: Grupo A, 2009. ISBN 9788577804078. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788577804078/
+
+WINDER, Russel; GRAHAM, Roberts. Desenvolvendo Software em Java. 3. ed. São Paulo: Grupo GEN, 2009. ISBN 978-85-216-1994-9. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-1994-9/","DEITEL, Harvey M.,; DEITEL, Paul J. C++ como programar. 3. ed. Porto Alegre, RS: Bookman, 2001. xxviii, 1098 p. ISBN 8573077409.
+
+DEITEL, Harvey M.; DEITEL, Paul J. Java, como programar. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2010. 1144 p. ISBN 9788576055631.
+
+GOODRICH, Michael T.; TAMASSIA, Roberto. Estruturas de Dados e Algoritmos em Java. Porto Alegre: Grupo A, 2013. ISBN 9788582600191. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582600191/.
+
+NIEMEYER, Patrick; KUNDSEN, Jonathan. Aprendendo Java 2 SDK - versão 1.3. Rio de Janeiro, RJ: Campus, 2000. 700 p.CD-ROM ISBN 85-352-0657-4
+
+SINTES, Tony. Aprenda programação orientada a objetos em 21 dias. São Paulo: Pearson Education do Brasil, c2002. 693 p. ISBN 85-346-1461-X."
 ADS,,Específico,3,Requisitos de Software,4,60,0,60,"TE1: Requisitos de Software: tipos de requisitos (funcionais/não funcionais), níveis de requisitos (do usuário, do sistema e de domínio) e processo de Engenharia de Requisitos (estudo de viabilidade, elicitação/ análise (técnicas de levantamento), especificação/ documentação e validação de requisitos (20h)
 TE2: Modelagem conceitual: modelos estruturais e comportamentais da UML (Diagrama de Casos de Uso, Diagrama de atividades, Diagrama de classes) e Ferramentas de Modelagem (20h)
 TE3: Gerência de Requisitos: Controle de mudança, Controle de versão e rastreabilidade de requisitos (10h)
 TE4: Engenharia de Requisitos em projetos ágeis: elicitação de requisitos (reuniões, brainstorming, JAD), especificação de requisitos (histórias de usuário, use case, protótipos e cartão de história) e gerenciamento de requisitos em projetos ágeis (controle de mudança e pessoas) (10h)","RA1: Aplicar o processo de engenharia de requisitos considerando diferentes níveis e tipos de requisitos com eficácia, objetividade e clareza (TE1)
 RA2: Projetar sistemas computacionais utilizando modelagem conceitual e ferramentas com eficácia, objetividade e clareza (TE2)
-RA3: Utilizar práticas de controle de mudança para gerenciar requisitos em projetos tradicionais e ágeis utilizando ferramentas e novas tecnologias (TE3 e TE4)",Processo de Produção de Software
+RA3: Utilizar práticas de controle de mudança para gerenciar requisitos em projetos tradicionais e ágeis utilizando ferramentas e novas tecnologias (TE3 e TE4)",Processo de Produção de Software,"Requisitos de Software, ofertada para alunos do terceiro período do curso, aborda fundamentos da Engenharia de Requisitos do processo de Engenharia de Software. Nesta disciplina os estudantes aprendem a elicitar, especificar e analisar requisitos, de acordo com seus diferentes níveis/tipos, utilizando modelagem de requisitos e práticas de gerenciamento de requisitos em processos ágeis. Ao final da disciplina, o  estudante será capaz de modelar requisitos considerando seus diferentes níveis e tipos com eficácia, objetividade e clareza, no contexto de um processo de desenvolvimento ágil.
+
+
+
+","PRESSMAN, Roger S.; MAXIM, Bruce R. Engenharia de software. Porto Alegre: Grupo A, 2021. ISBN 9786558040118. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786558040118/
+
+REINEHR, Sheila. Engenharia de Requisitos. Porto Alegre: Grupo A, 2020. ISBN 9786556900674. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556900674/
+
+SOMMERVILLE, Ian. Engenharia de software. 9. ed. São Paulo, SP: Pearson Prentice Hall, 2011. xiii, 529 p. ISBN 9788579361081. ","GUEDES, Gilleanes T. A. UML 2: uma abordagem prática. São Paulo, SP: Novatec, 2009. 485 p. ISBN 9788575221938.
+
+HULL, Elizabeth; JACKSON, Ken; DICK, Jeremy. Requirements engineering. 3rd ed. New York, NJ: Spring, 2011. xviii, 207 p. ISBN 9781849964043 (enc.). 
+
+LIMA, Adilson da Silva. UML 2.3: do requisito à solução. São Paulo, SP: Érica, 2011. 368 p. ISBN 9788536503776. 
+
+KOTONYA, Gerald; SOMMERVILLE, Ian. Requirements engineering: processes and techniques. Chichester, ENG: John Wiley, 2002. xi, 282 p. ISBN 0-471-97208-8.
+
+POHL, Klaus. Requirements engineering: fundamentals, principles, and techniques . Heidelberg; New York, NY: Springer, c2010. xvii, 813 p. ISBN 9783642125775. "
 EC,,Básico,3,Probabilidade e Estatística,4,60,0,60,"TE1: Probabilidade: espaço amostral, eventos, axiomas e teoremas (10h)
 TE2: Variável aleatórias: variável aleatória discreta, variável aleatória contínua e função de probabilidade (10h)
 TE3: Inferência estatística: estimação de parâmetros, intervalos de confiança e testes de hipóteses (10h)
@@ -96,25 +303,80 @@ TE4: Testes de hipóteses: tipos de testes e aplicações (20h)
 TE5: Controle Estatístico do Processo: diagrama de controle e aplicações (10h)","RA1: Compreender os conceitos da teoria das probabilidades identificando as funcionalidades dos mesmos na estrutura e na modelagem probabilística de dados e experimentos (TE1 e TE2)
 RA2: Elaborar hipóteses e inferir características acerca de uma população de dados por meio de amostras utilizando-se de conceitos e métodos estatísticos (TE3)
 RA3: Solucionar problemas estáticos aplicando testes de hipóteses e empregando ferramentas tecnológicas (TE4)
-RA4: Identificar possíveis falhas de um processo por meio de métodos estatísticos, de forma sistemática (TE5)",Fundamentos da Matemática
+RA4: Identificar possíveis falhas de um processo por meio de métodos estatísticos, de forma sistemática (TE5)",Fundamentos da Matemática,"Probabilidade e Estatística, ofertada no terceiro período do curso, aborda conceitos de probabilidade e inferência estatistica. Nesta disciplina, os estudantes aprendem a elaborar hipóteses e inferir características de uma população utiliznaod métodos estatísticos. Ao final da disciplina, o estudante será capaz de modelar e solucionar problemas utilizando métodos estatísticos."," MONTGOMERY, Douglas C.; RUNGER, George C. Estatística aplicada e probabilidade para engenheiros. 2. ed. Rio de Janeiro, RJ: LTC, 2003. 463 p. ISBN 8521613601.
+
+BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. Estatística básica. 4. ed. São Paulo, SP: Atual, 1987. 321 p. (Métodos quantitativos). ISBN 8570567162.
+
+MEYER, Paul L. Probabilidade: aplicações à estatística. 2. ed. Rio de Janeiro, RJ: LTC, 1983. xviii. 426 p. ISBN 8521602944. "," OLIVEIRA, Francisco Estevam Martins de. Estatística e probabilidade: teoria, exercícios propostos. 2.ed. São Paulo, SP: Atlas, 1999. 221 p. ISBN 8522421039 (broch.).
+
+TOLEDO, Geraldo Luciano; OVALLE, Ivo Izidoro. Estatística básica. 2. ed. São Paulo, SP: Atlas, 1985. 459 p. ISBN 8522417911.
+
+SPIEGEL, Murray R. Estatística. São Paulo: McGraw-Hill, 1993. 643 p. (Coleção Schaum)
+
+COSTA NETO, Pedro Luiz de Oliveira. Estatística. São Paulo, SP: E. Blücher, 2002. 266 p. ISBN 8521203004.
+
+MORETTIN, Luiz Gonzaga. Estatística básica. 7. ed. São Paulo, SP: Makron, c1999. 2 v. ISBN 85-346-1062-2 (v.1). "
 ADS,,Básico,3,Redes de Computadores,4,60,0,60,"TE1: Princípios de Redes de Computadores e a Internet: conceitos, definições e aplicações, arquitetura de redes, topologia, arquitetura em camadas da Internet (8h)
 TE2: Camada de Aplicação: conceitos e utilização dos protocolos HTTP, SSH, FTP, DHCP, SMTP, IMAP, POP3, DNS, P2P, VPN (30h)
 TE3: Camada de Transporte e de Rede: TCP, UDP, IP, ICMP, Máscara de Sub-rede, Roteamento e IPSec (14h)
 TE4: Camada de Enlace e Física: LLC, MAC, Equipamentos de conectividade e meios de transmissão (8h)","RA1: Selecionar protocolos da camada de aplicação adequados à resolução do problema de modo autorregulado (TE1 e TE2)
-RA2: Aplicar protocolos e configurações adequadas à resolução do problema por meio de raciocínio lógico e computacional de maneira autônoma e eficiente (TE3 e TE4)",Sistemas Operacionais
+RA2: Aplicar protocolos e configurações adequadas à resolução do problema por meio de raciocínio lógico e computacional de maneira autônoma e eficiente (TE3 e TE4)",Sistemas Operacionais,"Redes de Computadores, ofertada para os alunos do terceiro período do curso, aborda os fundamentos de redes de computadores. Na disciplina, os estudantes aprendem a utilizar protocolos de comunicação de redes, com foco na camada de aplicação, transporte e redes. Ao final da disciplina, o aluno será capaz de selecionar e aplicar protocolos no desenvolvimento de sistemas computacionais em rede.
+
+
+
+","FOROUZAN, Behrouz A.; MOSHARRAF, Firouz. Redes de Computadores. Porto Alegre: Grupo A, 2013. ISBN 9788580551693. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788580551693/
+
+KUROSE, James F.; ROSS, Keith W. Redes de computadores e a internet: uma abordagem top-down. 6. ed. São Paulo, SP: Pearson Addison-Wesley, 2013. xxii, 634 p. ISBN 9788588639973.
+
+TANENBAUM, Andrew S.; WETHERALL, D. Redes de computadores. 5. ed. São Paulo, SP: Pearson, 2011. xvi, 582 p. ISBN 9788576059240.","COMER,Douglas E. Interligação de redes com TCP/IP. Rio de Janeiro, RJ: Campus, c2006. 2 v. ISBN 8535220178.
+
+COMER, Douglas E. Redes de Computadores e Internet. Porto Alegre: Grupo A, 2016. ISBN 9788582603734. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582603734/
+
+FOROUZAN, Behrouz A. Comunicação de Dados e Redes de Computadores. Porto Alegre: Grupo A, 2010. ISBN 9788563308474. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788563308474/.
+
+MORAES, Alexandre Fernandes D. REDES DE COMPUTADORES: FUNDAMENTOS. São Paulo: Saraiva, 2020. ISBN 9788536532981. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536532981/
+
+STALLINGS, William. Arquitetura e organização de computadores. 8. ed. São Paulo, SP: Prentice-Hall, 2010. 624 p. ISBN 9788576055648."
 EC,,Básico,4,Estrutura de Dados 2,4,60,30,90,"TE1: Algoritmos de ordenação: fundamentos, aplicações e complexidade computacional (22h)
 TE2: Árvore balanceada: operações, busca e aplicações de árvores avl e rubro-negra (24h)
 TE3: Árvore B: operações e aplicações (19h)
 TE4: Grafos: representação, operações, busca e aplicações (25h)","RA1: Aplicar algoritmos de ordenação exercitando o raciocínio lógico de maneira eficiente (TE1)
 RA2: Realizar buscas em árvores balanceadas e grafos para encontrar soluções aos problemas modelados com essas estruturas de dados (TE2 e TE4)
-RA3: Replanejar a solução de problemas selecionando diferentes tipos de dados, como árvores avl, rubro-negra, árvore B ou grafos (TE2, TE3 e TE4)",Estrutura de Dados 1
+RA3: Replanejar a solução de problemas selecionando diferentes tipos de dados, como árvores avl, rubro-negra, árvore B ou grafos (TE2, TE3 e TE4)",Estrutura de Dados 1,"Estrutura de Dados 2, ofertada aos estudantes do terceiro período do curso, aborda os princípios básicos de projeto e análise de algoritmos. Nesta disciplina, os estudantes aprendem a projetar e analisar algoritmos que resolvem problemas clássicos da computação (ordenação e pesquisa). Ao final da disciplina, o estudante será capaz de aplicar técnicas tradicionais de projeto de algoritmos, bem como utilizar algoritmos de ordenação e de pesquisa na solução de problemas de computação, de maneira autônoma.
+
+
+","CORMEN, Thomas. Algoritmos - Teoria e Prática. São Paulo: Grupo GEN, 2012. ISBN 9788595158092. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595158092/
+
+SCHILDT, Herbert. C, completo e total. 3. ed., rev. e atual. São Paulo, SP: Makron Books, c1997. xv, 827 p. + DISQUETE 3 1/2 original ( CD-ROM) ISBN 8534605955.
+
+ZIVIANI, Nivio. Projeto de algoritmos: com implementações em Java e C++. São Paulo: Cengage Learning, c2007. ISBN 9788522105250.","CORMEN, Thomas. Desmistificando Algoritmos. São Paulo: Grupo GEN, 2013. ISBN 9788595153929. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595153929/
+
+DILERMANDO JR. Algoritmos e Programação de Computadores. São Paulo: Grupo GEN, 2019. ISBN 9788595150508. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595150508/
+
+FORBELLONE, André Luiz Villar; EBERSPÄCHER, Henri Frederico. Lógica de programação: a construção de algoritmos e estruturas de dados. 3. ed. São Paulo, SP: Makron Books, 2005. xii, 218 p. ISBN 9788576050247.
+
+MANZANO, José Augusto N. G.; OLIVEIRA, Jayr Figueiredo de. Algoritmos: lógica para desenvolvimento de programação de computadores. 22.ed. São Paulo, SP: Érica, 2009. 320 p. ISBN 9788536502212.
+
+MIZRAHI, Victorine Viviane. Treinamento em linguagem C++. 2. ed. São Paulo, SP: Pearson Prentice Hall, 2006. 2 v. ISBN 9788576050452 (v.1)."
 EC,,Específico,4,Programação Orientada a Objetos 2,4,60,30,90,"TE1: Boas práticas de programação: definições, manutenção, segurança e versionamento de software (15h)
 TE2: Linguagem de modelagem unificada (UML): definições, objetivos, exemplos e projeto de implementação com base em documentação (15h)
 TE3: Armazenamento persistente de dados: iteração com banco de dados a partir do paradigma de orientação a objetos (30h)
 TE4: Threads e concorrência: definições, prioridades, sincronização e aplicações de threads no contexto do mundo do trabalho (30h)","RA1: Aplicar boas práticas de programação com ferramentas de versionamento de software para facilitar sua segurança e manutenção (TE1)
 RA2: Documentar o desenvolvimento de software com a linguagem de modelagem unificada (UML) com o intuito de facilitar futuras manutenções e torná-lo mais eficiente (TE2)
 RA3: Integrar aplicações desenvolvidas com o paradigma de orientação a objetos com bancos de dados para tornar o armazenamento persistente (TE3)
-RA4: Definir uso de threads e concorrência identificando possíveis problemas de sincronização e prioridades para diferentes aplicações no contexto do mundo do trabalho (TE4)",Programação Orientada a Objetos 1
+RA4: Definir uso de threads e concorrência identificando possíveis problemas de sincronização e prioridades para diferentes aplicações no contexto do mundo do trabalho (TE4)",Programação Orientada a Objetos 1,"Programação Orientada a Objetos 2, ofertada aos estudantes do quarto período do curso, aborda práticas de programação e modelagem de projetos orientado a objetos. Nesta disciplina, os estudantes aprendem técnicas de programação orientada a objetos e diferentes modelos da UML. Ao final da disciplina, o estudante será capaz de modelar e implementar algoritmos utilizando boas práticas de versionamento/manutenção de software, o paradigma de orientação a objetos, persistência de dados e threads."," GUEDES, Gilleanes T. A. UML: uma abordagem prática. São Paulo, SP: Novatec, c2004. 319 p. ISBN 8575220527.
+
+SCOTT, Kendall. O processo unificado explicado. Porto Alegre: Bookman, 2003. 160 p. ISBN 85-363-0231-3.
+
+WAZLAWICK, Raul Sidnei. Análise e projeto de sistemas de informação orientados a objetos. 2. ed. Rio de Janeiro, RJ: Elsevier, 2011. 330 p. ISBN 9788535239164. "," BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. UML: guia do usuário. Rio de Janeiro: Campus, c2000. xx, 472p. ISBN 85-352-0562-4.
+
+FURLAN, José Davi. Modelagem de objetos através da UML: the unified modeling language. São Paulo: Makron, 1998. 329 p. ISBN 85-346-0924-1
+
+LIMA, Adilson da Silva. UML 2.3: do requisito à solução. 1. ed. São Paulo, SP: Érica, 2011. 368 p. ISBN 9788536503776.
+
+KRUCHTEN, Philippe. Introdução ao RUP: rational unified process. Rio de Janeiro, RJ: Ciência Moderna, 2003. xv, 255 p. (Addison-Wesley object technology series) ISBN 85-7393-275-9.
+
+LARMAN, Craig. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. Porto Alegre, RS: Bookman, 2007. 695 p. ISBN 85-363-0358-1. "
 ,,Específico,4,Segurança da Informação,4,60,0,60,"TE1: Fundamentos de segurança: políticas, modelos de ameaça e mecanismos de segurança (10h)
 TE2: Criptologia: sistemas criptográficos simétricos, assimétricos, funções de hash e suas aplicações (15h)
 TE3: Identidade Digital: certificados digitais, assinatura digital, algoritmos de assinatura e aplicações (10h)
@@ -122,7 +384,21 @@ TE4: Segurança em redes: protocolos, ameaças, ataques e mecanismos de seguran�
 TE5: Segurança de software: ataques e vulnerabilidades em aplicações, boas práticas de programação e ferramentas de teste de segurança de software (10h)","RA1: Compreender as dimensões do processo de desenvolvimento de software que envolvem poíticas de segurança, modelos de ameaça e mecanismos, considerando a responsabilidade do Engenheiro de Software (TE1)
 RA2: Projetar sistemas computacionais que façam uso de recursos de criptografia e certificados digitais em sistemas computacionais de forma eficaz (TE2 e TE3)
 RA3: Compreender aspectos de segurança em redes, de acordo com a ética e responsabilidade da profissão (TE4)
-RA4: Implementar boas práticas de programação, considerando a segurança dos sistemas com autonomia e responsabilidade (TE5)",Redes de Computadores
+RA4: Implementar boas práticas de programação, considerando a segurança dos sistemas com autonomia e responsabilidade (TE5)",Redes de Computadores,"Segurança da Informação, ofertada no quarto período do curso, aborda conceitos e técnicas associados a segurança de sistemas computacionais. Nesta disciplina, os estudantes aprendem sobre criptografia, certificados digitais, aspectos relacionados a segurança em redes e no software. Ao final da disciplina, o estudante será capaz de projetar e implementar sistemas computacionais utilizando criptografia, certificados digitais e amenizando riscos associados a ataques e vulnerabilidades em aplicações."," STALLINGS, William. Criptografia e segurança de redes: princípios e práticas . 4. ed. São Paulo, SP: Pearson Prentice Hall, 2008. xvii, 492 p. ISBN 9788576051190.
+
+KUROSE, James F.; ROSS, Keith W. Redes de computadores e a internet: uma abordagem top-down. 5. ed. São Paulo, SP: Pearson Addison-Wesley, 2010. xxiii, 614 p. ISBN 9788588639973.
+
+NAKAMURA, Emilio Tissato; GEUS, Paulo Lício de. Segurança de redes: em ambientes cooperativos. São Paulo, SP: Novatec, 2007. 482 p. ISBN 9788575221365.
+
+WADLOW, Thomas A.. Segurança de redes: projeto e gerenciamento de redes seguras . Rio de Janeiro: Campus, 2000. 269 p. ISBN 853520694-9 ","PFLEEGER, C; PFLEEGER, S. Security in Computing, 4th Edition. Ed Prentice-Hall, 2006.
+
+TERADA, R. Segurança de dados: Criptografia em Rede de Computado. 2ª Ed, Blucher, 2008.
+
+GIAVAROTO, Sílvio César Roxo; SANTOS, Gerson Raimundo dos. Backtrack linux: auditoria e teste de invasão em redes de computadores. Rio de Janeiro , RJ: Ciência Moderna, c2013. xi, 232 p. ISBN 9788539903470.
+
+SILBERSCHATZ, Abraham; GALVIN, Peter Baer; GAGNE, Greg. Fundamentos de sistemas operacionais. 8. ed. Rio de Janeiro, RJ: LTC, c2010. 515 p. ISBN 9788521617471.
+
+TANENBAUM, Andrew S. Redes de computadores. 5. ed. São Paulo, SP: Pearson, 2011. xvi, 582 p. ISBN 9788576059240. "
 EC,,Específico,4,Programação Web Front-end,4,60,0,60,"TE1: Desenvolvimento de aplicações para cliente na Web: tecnologias fundacionais e arquitetura cliente-servidor (10h)
 TE2: Linguagem de marcação e estilização: HTML e CSS (10h)
 TE3: Design Responsivo: CSS 3.0, Media-queries (10h)
@@ -132,16 +408,59 @@ TE6: Manipulação da página web e controle de eventos: JavaScript e DOM (10h)"
 RA2: Modelar estruturas de aplicações web com HTML e CSS, de forma autorregulada (TE2)
 RA3: Projetar layout de aplicações web com Design Responsivo e autorregulação (TE3)
 RA4: Implementar aplicações web de acordo com padrões de codificação, regras de design responsivo, acessibilidade na web e otimização de motores de busca, para diferentes plataformas (TE3 e TE4)
-RA5: Projetar aplicações web utilizando JavaScript, DOM e eventos com APIs de persistência de dados no navegador web e controle de eventos, com objetividade e clareza (TE5 e TE6)",
-ADS,,Específico,4,Interação Homem Computador,2,30,0,30,"TE1: Usabilidade: interface de usuário, experiência de usuário, habilidades humanas e limitações, processo cognitivo, abordagens teóricas (10h)
-TE2: Princípios e diretrizes de usabilidade: metáforas, estilos e paradigmas de interação, padrões e guias para o projeto de interação (10h)
-TE3: Avaliação de usabilidade: métodos de inspeção e de teste com usuários, planejamento da avaliação, análise e interpretação de resultados (10h)","RA1: Identificar características de usabilidade no contexto da interface e experiência do usuário, considerando os aspectos humanos e tecnológicos (TE1)
-RA2: Examinar interfaces de usuário, com base nos princípios e diretrizes de usabilidade de forma crítica, científica, criativa e adaptativa às novas tecnologias (TE2)
-RA3: Planejar avaliações de interfaces de usuário, empregando princípios e diretrizes de usabilidade, métodos de inspeção e de teste com usuários e analisando os resultados com autonomia, responsabilidade e ética (TE2, TE3)",
+RA5: Projetar aplicações web utilizando JavaScript, DOM e eventos com APIs de persistência de dados no navegador web e controle de eventos, com objetividade e clareza (TE5 e TE6)",,"Programação Web Front-end, ofertada para alunos do quarto período do curso, aborda os padrões web e  tecnologias de desenvolvimento de front-end. Nesta disciplina os estudantes aprendem a elaborar páginas web utilizando HTML/CSS e implementar mecanismos de interação simples com JavaScript. Ao final da disciplina o estudante será capaz de elaborar páginas web considerando Design Responsivo, SEO e Acessibilidade, além de implementar componentes de interface simples utilizando JS e APIs do navegador web.
+
+
+","ALVES, William P. HTML & CSS: aprenda como construir páginas web. São Paulo: Saraiva, 2021. ISBN 9786558110187. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786558110187/.
+
+FLANAGAN; DAVID. JavaScript. Porto Alegre: Grupo A, 2014. ISBN 9788565837484. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788565837484/.
+
+OLIVEIRA, Cláudio Luís V.; ZANETTI, Humberto Augusto P. Javascript Descomplicado: Programação para a Web, IoT e Dispositivos Móveis. São Paulo: Érica, 2020. ISBN 9788536533100. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536533100/","BASHAM, Bryan; SIERRA, Kathy; BATES, Bert. Use a cabeça! Servlets & JSP TM. 2. ed. Rio de Janeiro, RJ: Alta Books, 2008. xxxii, 879 p. ISBN 9788576082941.
+
+CRANE, Dave. Ajax em ação. São Paulo, SP: Pearson Prentice Hall, 2007. 452 p. ISBN 85-7605-109-5
+
+GEARY, David M. Dominando JavaServer Pages avançado. São Paulo: Ciência Moderna, 2002. xviii, 430p.  (Plataforma Java 2, Série Enterprise Edition). ISBN 8573931736.
+
+GONÇALVES, Edson. Desenvolvendo aplicações web com JSP, Servlets, Javaserver faces, Hibernate, EJB 3 persistence e AJAX. Rio de Janeiro, RJ: Ciência Moderna, 2007. xxxvi, 736 p. ISBN 9788573935721.
+
+HAYWOOD, Dan; LAW, Debbie; LONGSHAW, Andy; ROXBURGH, Peter; BOND, Martin (Autor). Aprenda J2EE em 21 dias. São Paulo: Pearson Education do Brasil, 2003. 962 p. : CD-ROM ISBN 85-346-1488-1"
+H,Ciências sociais aplicadas,Básico,4,Estratégias de Inovação,2,30,0,30,"TE1: Fundamentos de Inovação: Conceitos de Estratégias empresariais, Tipos e graus de inovação (10h)
+TE2: Estratégias de Inovação: culturas e ambientes de inovação, Cases de estratégia de Inovação e aplicações (20h)","RA1: Identificar do ambiente competitivo das organizações e a importância do desenvolvimento da inovação, demonstrando a compreensão dos tipos e graus de inovação (TE1)
+RA2: Analisar criticamente estratégias de inovação descrevendo a cultura e o ambiente, propondo a aplicação de conceitos de inovação em uma organização com autonomia e responsabilidade (TE2)",,"Estratégias de Inovação, ofertada para alunos do sexto período do curso, aborda os principais conceitos relacionados à inovação em organizações. Nesta disciplina os estudantes aprendem a identificar estratégias de inovação de acordo com os tipos e graus. Ao final da disciplina o estudante será capaz de analisar criticamente determinada estratégia e propor a aplicação de conceitos de inovação em uma organização, com autonomia e responsabilidade.
+
+
+","BÜTTENBENDER, Pedro L. Estratratégia, Inovação e Aprendizagem Organizacional.. Editora Unijuí, 2008. ISBN 9786586074024. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786586074024/.
+
+TAJRA, Sanmya; RIBEIRO, Joana. Inovação na Prática. Rio de Janeiro: Alta Books, 2020. ISBN 9786555201574. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555201574/
+
+TIDD, Joe; BESSANT, Joe. Gestão da Inovação. Porto Alegre: Grupo A, 2015. ISBN 9788582603079. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582603079/","MANKIW, N G. Introdução à economia – Tradução da 8ª edição norte-americana. São Paulo: Cengage Learning Brasil, 2019. ISBN 9788522127924. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522127924/
+
+BESSANT, John; TIDD, Joe. Inovação e Empreendedorismo. Porto Alegre: Grupo A, 2019. ISBN 9788582605189. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582605189/
+
+DOS REIS, Dálcio Roberto. Gestão da Inovação Tecnológica. Editora Manole, 2008. ISBN 9788520452141. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788520452141/
+
+FASCIONI, Ligia. Atitude Pró-Inovação. Rio de Janeiro: Alta Books, 2021. ISBN 9786555200485. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555200485
+
+SCHERER, Felipe O.; CARLOMAGNO, Maximiliano S. Gestão da Inovação na Prática. São Paulo: Grupo GEN, 2016. ISBN 9788597007121. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788597007121/"
 H,Ciências sociais aplicadas,Básico,4,Empreendedorismo,2,30,0,30,"TE1: O Mercado e as Oportunidades de Negócios: estrutura de mercado, tendências de novos negócios (8h)
 TE2: O empreendedor e fatores de sucesso: características do empreendedor, inovação e criatividade (10h)
 TE3: Gestão organizacional : conceitos, ferramentas e desenvolvimento de plano operacional, financeiro e mercadológico de um produto/serviço (12h) ","RA1: Analisar os tipos de mercados existentes e oportunidades de negócios, aplicando ferramentas de gestão de forma economicamente sustentável (TE1)
-RA2: Aplicar ferramentas com base nas características empreendedoras de forma estratégica na obtenção dos fatores de sucesso (TE2 e TE3)",
+RA2: Aplicar ferramentas com base nas características empreendedoras de forma estratégica na obtenção dos fatores de sucesso (TE2 e TE3)",,"Empreendedorismo, ofertada para alunos do quarto período do curso, aborda os principais conceitos ligados ao empreendedorismo. Nesta disciplina os estudantes aprendem a utilizar ferramentas de gestão de forma estratégica. Ao final da disciplina o estudante será capaz de analisar tipos de mercado e oportunidades de negócios de forma economicamente sustentável.
+
+
+","DORNELAS, José. Empreendedorismo, transformando ideias em negócios. 7. ed. São Paulo: Empreende, 2018. ISBN 9788566103076. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788566103076/
+
+DORNELAS, José. Empreendedorismo corporativo. Editora Empreende, 2020. 9786587052045. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786587052045/.
+
+TAJRA, Sanmya F. Empreendedorismo Conceitos e Aplicações. 2. ed. São Paulo: Érica, 2019. ISBN 9788536531625. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536531625/.","CHIAVENATO, Idalberto. Empreendedorismo: dando asas ao espírito empreendedor. 4. ed. São Paulo, SP: Manole, 2012. 315 p. ISBN 9788520432778.
+
+DOLABELA, Fernando; TORQUATO, Cid. Empreendedorismo sem fronteiras: um excelente caminho para pessoas com deficiência. Rio de Janeiro, RJ: Alta Books, 2015. xx, 124 p. ISBN 9788576088967.
+
+DOLABELA, Fernando. O segredo de Luísa: uma idéia, uma paixão e um plano de negócios : como nasce o empreendedor e se cria uma empresa. 14. ed. São Paulo: Cultura Editores Associados, 2002. 312 p. ISBN 85-293-0045-9.
+
+FILION, Louis Jacques; DOLABELA, Fernando. Boa idéia! E agora?: plano de negócio, o caminho seguro para criar e gerenciar sua empresa. São Paulo: Cultura Editores Associados, 2000. 344 p. ISBN 85-293-0058-0
+
+GRANDO, Nei (Org). Empreendedorismo Inovador: como criar startups de tecnologia no Brasil. São Paulo, SP: Évora, 2012. xxiv, 557 p. ISBN 9788563993434."
 EC,,Específico,5,Programação Web Back-end,4,60,0,60,"TE1: HTTP: arquitetura cliente-servidor, definições, requisição/resposta, cabeçalhos, parâmetros, CGI (8h)
 TE2: Programação no servidor: recebimento de requisições, envio de respostas, tratamento de parâmetros, cookies/sessões (16h)
 TE3: Tratamento de exceções: mecanismo de exceções, tipos, captura/lançamento, criar classes, sistema de registro (8h)
@@ -150,25 +469,81 @@ TE5: Banco de dados: conexão, APIs, operações, mapeamento objeto-relacional e
 RA2: Implementar aplicações web que recebam e interpretem parâmetros, utilizem cookies/sessões/tokens para armazenar informações do usuário, com qualidade e robustez (TE2)
 RA3: Aplicar mecanismos para tratar exceções em aplicações web de maneira autônoma e eficiente (TE3)
 RA4: Projetar sistemas de registro e armazenamento de arquivos de log em aplicações web de maneira autônoma e eficiente (TE4)
-RA5: Atuar em projetos implementando mecanismos de persistência com o banco de dados, integrando as funcionalidades de uma aplicação web, utilizando métodos e ferramentas de engenharia de software (TE5)","Programação Web Front-end, Banco de Dados"
+RA5: Atuar em projetos implementando mecanismos de persistência com o banco de dados, integrando as funcionalidades de uma aplicação web, utilizando métodos e ferramentas de engenharia de software (TE5)","Programação Web Front-end, Banco de Dados","Programação Web Back-end, ofertada para alunos do quinto período do curso, aborda fundamentos de desenvolvimento web no lado servidor, utilizando linguagens de programação orientadas a objetos. Nesta disciplina os estudantes aprendem a desenvolver aplicações web com foco em servidores HTTP, com parâmetros e dados persistentes de navegação, além de implementar rotinas de tratamento de exceções e registros de log. Ao final da disciplina o estudante será capaz de implementar aplicações web utilizando tecnologias de programação orientada a objetos que são executadas em servidores HTTP.
+
+
+","MACIEL, Francisco Marcelo de B. Python e Django. Rio de Janeiro: Alta Books, 2020. ISBN 9786555200973. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555200973/
+
+BANIN, Sérgio L. Python 3: Conceitos e Aplicações: uma abordagem didática. São Paulo: Érica, 2018. ISBN 9788536530253. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536530253/
+
+BARRY, Paul. Use a Cabeça! Python. Rio de Janeiro: Alta Books, 2018. ISBN 9786555207842. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555207842/","DEITEL, Harvey M.; DEITEL, Paul J. Java, como programar. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2010. 1144 p. ISBN 9788576055631.
+
+GOODRICH, Michael T.; TAMASSIA, Roberto. Estruturas de dados e algoritmos em Java. 4. ed. Porto Alegre: Bookman, 2007. 600 p. ISBN 9788560031504.
+
+HORSTMANN, Cay S. Big Java. Porto Alegre, RS: Bookman, 2004. 1125 p. ISBN 85-363-0345-X.
+
+HORSTMANN, Cay S.; CORNELL, Gary. Core Java 2. Rio de Janeiro, RJ: Alta Books, 2005. ISBN 8576080621.
+
+MORGAN, Michael. Java 2 para programadores profissionais. Rio de Janeiro: Ciência Moderna, 2000. xx, 713 p. ISBN 8573930993. "
 ,,Específico,5,Qualidade de Software,4,60,0,60,"TE1: Conceitos de qualidade: qualidade de produto/processo, controle, garantia e custo (10h)
 TE2: Qualidade de Processo: maturidade de processo, melhoria contínua do processo, normas e padrões, ISO, CMMI, MPS.BR (30h)
 TE3: Qualidade de Produto: produto de software, normas e padrões (20h)","RA1: Compreender os conceitos de qualidade de produto/processo, técnicas de controle, garantia e o custo associado à atividade de garantia de qualidade (TE1)
 RA2: Analisar modelos de maturidade de processo, sua aplicabilidade e custo de implementação (TE2)
-RA3: Avaliar a qualidade de produtos de software de acordo com normas e padrões, considerando diferentes atributos de qualidade e utilizando métricas (TE3)",Processo de Produção de Software
+RA3: Avaliar a qualidade de produtos de software de acordo com normas e padrões, considerando diferentes atributos de qualidade e utilizando métricas (TE3)",Processo de Produção de Software,"Qualidade de Software, ofertada na quinto período do curso, aborda conceitos de qualidade do processo e do produto de software. Nesta disciplina, os estudantes aprendem conceitos e normas de qualidade de software. Ao final da disciplina, o estudante será capaz de analisar conformidade com modelos de maturidade de processo e avaliar a qualidade de produto de software."," KOSCIANSKI, André; SOARES, Michel dos Santos. Qualidade de software: aprenda as metodologias e técnicas mais modernas para o desenvolvimento de software. 2. ed. São Paulo, SP: Novatec, 2007. 395 p. ISBN 9788575221129.
+
+ROCHA, Ana Regina Cavalcanti da; MALDONADO, José Carlos; WEBER, Kival Chaves. Qualidade de software: teoria e prática. São Paulo, SP: Prentice-Hall, 2001. 303 p. ISBN 85-87918-54-0
+
+SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287. ","ISO/IEC 12207 - Systems and Software Engineering – Software Life Cycle Processes; ISO/IEC 15504 - SPICE (Software Process Improvement and Capability Determination)
+
+CARNEGIE MELLON UNIVERSITY. The capability maturity model: guidelines for improving software process. Boston, MA: Addison-Wesley, 1995. 441 p. (The SEI series in software engineering). ISBN 0201546647.
+
+PRESSMAN, Roger S. Engenharia de software. São Paulo, SP: Makron, c1995. xxxii, 1056 p. ISBN 8534602379.
+
+PAULA FILHO, Wilson de Pádua. Engenharia de software: fundamentos, métodos e padrões. 2. ed. Rio de Janeiro, RJ: LTC, 2003. 602 p. ISBN 85-216-1339-3.
+
+MAGELA, Rogério. Engenharia de software aplicada: fundamentos . Rio de Janeiro: Alta Books, 2006. 418 p. ISBN 85-7608-123-7
+
+BRASIL. Ministério da Ciência e Tecnologia. Tecnologia da informação: Programa Brasileiro da qualidade e produtividade em software. 4. ed. Brasília, DF: Ministério da Ciência e Tecnologia, 2006. 408 p. "
 EC,,Específico,5,Gerenciamento de Projeto de Software,4,60,0,60,"TE1: Projetos de Software: introdução, fases e PMBOK (5h)
 TE2: Áreas de conhecimento do PMBOK: escopo, custo risco e integração (10h)
 TE3: Métricas: estimativas de produto e projeto (10h)
 TE4: Gerenciamento de Projeto: processo primário e de apoio, ciclo de vida, melhoria de processo (15h)
 TE5: Desenvolvimento de Projeto: técnicas, ferramentas e execução (20h)","RA1: Utilizar ferramentas e técnicas de gerenciamento de projetos nas fases de desenvolvimento de um projeto, abrangendo as áreas de conhecimento do PMBOK (TE1, TE2 e TE4)
-RA2: Especificar métricas de estimativas de produto e do projeto e técnicas para acompanhamento do desenvolvimento de software (TE3 e TE5)",Processo de Produção de Software
+RA2: Especificar métricas de estimativas de produto e do projeto e técnicas para acompanhamento do desenvolvimento de software (TE3 e TE5)",Processo de Produção de Software,"Gerenciamento de projeto de software, ofertada para alunos do quinto período do curso, aborda fundamentos da Gestão de Projetos, de acordo com o PMBOK e metodologias ágeis. Nesta disciplina os estudantes aprendem utilizar práticas e ferramentas de gestão de projetos do PMBOK e de metodologias ágeis. Ao final da disciplina, o  estudante será capaz de organizar a realização de tarefas do processo de desenvolvimento de software, utilizando ferramentas de gerenciamento de projetos de forma colaborativa dentro de uma equipe.
+
+
+","MARTINS, José Carlos Cordeiro. Gestão de projetos de desenvolvimento de software (PMI-UML). Rio de Janeiro: Brasport, 1999.
+
+PHILLIPS, Joseph. Gerência de projetos de tecnologia da informação. Rio de Janeiro: Campus, 2003.
+
+VARGAS, Ricardo Viana. Manual prático do plano de projeto: utilizando o PMBOK® guide. 4. ed. Rio de Janeiro: Brasport, 2011. 230 p. + 1 CD-ROM. ISBN 9788574524306.","GIDO, Jack; CLEMENTS, Jim; BAKER, Rose. Gestão de Projetos – Tradução da 7ª edição norte-americana. São Paulo: Cengage Learning Brasil, 2020. ISBN 9788522128020. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522128020/
+
+KRUCHTEN, Philippe. Introdução ao RUP: rational unified process. Rio de Janeiro: Ciência Moderna, 2003. xv, 255 p. (Addison-Wesley object technology series) ISBN 85-7393-275-9.
+
+PMI. Implementando o gerenciamento organizacional de projetos: um guia de práticas. São José dos Campos: Saraiva, 2017. 9788547208264. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788547208264/
+
+REZENDE, Denis Alcides. Engenharia de software e sistemas de informação. 2. ed. Rio de Janeiro: Brasport, 2002. 358p. ISBN 85-7452-094-2.
+
+SOMMERVILLE, Ian. Engenharia de software. 9. ed. São Paulo, SP: Pearson Prentice Hall, 2011. xiii, 529 p. ISBN 9788579361081."
 ,,Básico,5,Teoria da Computação,4,60,0,60,"TE1: Linguagens formais e autômatos: autômatos de estado finito, linguagens regulares (10h)
 TE2: Linguagens formais e gramáticas: geração de linguagens, forma normal de Chomsky (10h)
 TE3: Máquinas de Turing: princípios, computabilidade e modelos equivalentes (20h)
 TE4: Complexidade computacional: complexidade de código-fonte e problemas P e NP (20h)","RA1: Compreender a noção de computação, a tese de Turing e suas consequências ao estudo da computabilidade efetiva (TE1, TE3)
 RA2: Identificar características de linguagens de programação como gramática, alfabeto e cadeias, ambiguidade e formas normais (TE2)
-RA3: Modelar uma máquina de Turing para resolver problemas computacionais (TE3)
-RA4: Examinar complexidade de algoritmos para validação de requisitos de desempenho de programas computacionais (TE4)","Matemática Discreta, Estrutura de Dados 2"
+RA3: Modelar uma máquina de Turing para resolver problemas computacionais (TE3) 
+RA4: Examinar complexidade de algoritmos para validação de requisitos de desempenho de programas computacionais (TE4)","Matemática Discreta, Estrutura de Dados 2","Teoria da Computação, ofertada para alunos do quinto período do curso, aborda conceitos fundamentais da Teoria da Computação. Nesta disciplina, os estudantes aprendem sobre Linguagens Formais, Autômatos, Gramáticas, Máquina de Turin e Complexidade Computacional. Ao final da disciplina, o estudante será capaz de analisar a complexidade de algoritmos e identificar problemas de classe P e NP."," HOPCROFT, John E.; ULLMAN, Jeffrey D.; MOTWANI, Rajeev. Introdução à teoria de autômatos, linguagens e computação. Rio de Janeiro, RJ: Campus, c2003. 560 p. ISBN 8535210725.
+
+GERSTING, Judith L. Fundamentos matemáticos para a ciência da computação: um tratamento moderno de matemática discreta. 5. ed. Rio de Janeiro, RJ: LTC, 2004. xiv, 597 p. ISBN 9788521614227.
+
+MENEZES, Paulo Fernando Blauth. Linguagens formais e autômatos. 4. ed. Porto Alegre: Sagra Luzzatto, 2001. 165 p. (Livros didáticos (Universidade Federal do Rio Grande do Sul. Instituto de Informática) ; 3) ISBN 8524105542. "," AHO, Alfred V. et al. Compiladores: princípios, técnicas e ferramentas. 2. ed. São Paulo, SP: Pearson Addison-Wesley, 2008. x, 634 p. ISBN 9788588639249.
+
+DIVERIO, Tiarajú A.; MENEZES, Paulo Blauth. Teoria da computação: máquinas universais e computabilidade. 2. ed. Porto Alegre: Sagra Luzzatto, 2000. 205 p. : (Livros didáticos) ISBN 85-241-0593-3
+
+SIPSER, Michael. Introdução à teoria da computação. São Paulo, SP: Thomson Learning, c2006. xxi, 459 p. ISBN 9788522104994.
+
+SCHEINERMAN, Edward R. Matemática discreta: uma introdução. 2. ed. São Paulo, SP: Cengage Learning, 2011. xxiv, 573 p. ISBN 9788522107964.
+
+MORGADO, A. C. Matemática discreta. 1. ed. Rio de Janeiro, RJ: SBM, 2014. x, 192 p. ISBN 9788583370154. "
 EC,,Específico,5,Sistemas Distribuídos,4,60,0,60,"TE1: Sistemas Distribuídos: introdução e aplicações (5h)
 TE2: Arquiteturas: tipos, middleware e autogerenciamento (10h)
 TE3: Comunicação: sockets, métodos remotos e mensageria (15h)
@@ -177,51 +552,222 @@ TE5: Replicação e Consistência: motivação, escalabilidade, modelos e protoc
 TE6: Atuação no Projeto: estudo de caso, simulação e desenvolvimento de cenários (10h)","RA1: Identificar arquiteturas e propostas baseadas nos requisitos das aplicações com eficiência (TE1 e TE2)
 RA2: Desenvolver aplicações distribuídas de acordo com o requisito de transparência da aplicação (TE3)
 RA3: Escolher propostas de sincronização e escalabilidade com eficiência (TE4 e TE5)
-RA4: Utilizar técnicas de desenvolvimento distribuído para aplicações escaláveis com eficiência (TE6)",Redes de Computadores
-ADS,,Específico,6,Arquitetura de Software,4,60,0,60,"TE1: Orientação a objeto: bibliotecas de orientação a objeto, classes, métodos, acoplamento, coesão, manutenabilidade, métricas e aplicações (15h)
+RA4: Utilizar técnicas de desenvolvimento distribuído para aplicações escaláveis com eficiência (TE6)",Redes de Computadores,"Sistemas Distribuídos, ofertada para alunos do quinto período do curso, aborda conceitos e características de sistemas distribuídos. Nesta disciplina, os estudantes aprendem sobre aplicações, arquiteturas, comunicação, sincronização, replicação e consistência de sistemas distribuídos. Ao final da disciplina, o estudante será capaz de desenvolver sistemas distribuídos escaláveis e eficientes."," TANENBAUM, Andrew S. Sistemas operacionais modernos. 3. ed. São Paulo, SP: Pearson, c2008. xvi, 654 p. ISBN 9788576052371.
+
+ALBUQUERQUE, Fernando. TCP/IP internet programação de sistemas distribuídos HTML, JAVASCRIPT e JAVA : Fernando Albuquerque. Rio de Janeiro: Axcel, 2001. 492 p. ISBN 85-7323-149-1.
+
+TANENBAUM, Andrew S.; STEEN, Maarten van (Autor). Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo, SP: Pearson Prentice Hall, 2007. 402 p. ISBN 9788576051428. "," MARQUES, José Alves; GUEDES, Paulo. Tecnologia de sistemas distribuídos. 2. ed. Lisboa: FCA, 1998. xviii, 501 p. ISBN 9789727221288.
+
+MACHADO, Francis Berenger; MAIA, Luiz Paulo. Arquitetura de sistemas operacionais. 3. ed. Rio de Janeiro, RJ: LTC, 2002. 311 p. ISBN 85-216-1329-6.
+
+SILBERSCHATZ, Abraham; GALVIN, Peter Baer; GAGNE, Greg. Operating system concepts with Java. 8th ed. Hoboken, N.J.: John Wiley & Sons, c2010. xx, 1020 p. ISBN 9780470509494.
+
+SANTOS JUNIOR, Alfredo Luiz dos. Integração de sistemas com Java. Rio de Janeiro, RJ: Brasport, 2007. x, 128 p. ISBN 9788574523255.
+
+TANENBAUM, Andrew S.. Distributed operating systems. Upper Saddle River, NJ.: Prentice-Hall, c1995 614 p. ISBN 0-13-143934-0
+
+DEITEL, Paul J.; DEITEL, Harvey M. Java, como programar. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2010. xxix, 1144 p. + 1 CD-ROM (4 ¾ pol.) ISBN 9788576055631. "
+ADS,,Específico,6,Arquitetura de Software,0,0,60,60,"TE1: Orientação a objeto: bibliotecas de orientação a objeto, classes, métodos, acoplamento, coesão, manutenabilidade, métricas e aplicações (15h)
 TE2: Bibliotecas e padrões: bibliotecas para organização de código, padrões de projeto e visualização da arquitetura (15h)
 TE3: Arquitetura web: camadas, padrões web e REST (15h)
 TE4: Estilos arquiteturais: nuvem (escalabilidade), eventos, filas de mensagens e microserviços (15h) ","RA1: Identificar o nível de acoplamento, coesão e manutenabilidade de projetos de software orientado a objetos, considerando diferentes ferramentas, linguagens e tecnologias (TE1)
 RA2: Entender os cenários nos quais técnicas de reuso de bibliotecas e padrões favorecem a arquitetura de projetos de software orientado a objetos, de forma adaptativa às novas tecnologias (TE2)
 RA3: Refatorar a arquitetura de aplicações para uso de camadas, padrões web e REST, com qualidade e robustez para diferentes plataformas (TE3)
-RA4: Entender os benefícios e as mudanças necessárias no uso de nuvem, eventos, filas de mensagens e microserviços, com objetividade e clareza (TE4)",Programação Orientada a Objetos 2
-,,Específico,6,Gerência de Configuração e Manutenção de Software,4,60,0,60,"TE1: Gerenciamento de configuração: conceitos, terminologias, ítens de configuração, armazenamento, controle de mudanças, relatório de status, controle de versões, referenciais (linha de base) e ferramentas (20h)
+RA4: Entender os benefícios e as mudanças necessárias no uso de nuvem, eventos, filas de mensagens e microserviços, com objetividade e clareza (TE4)",Programação Orientada a Objetos 2,"Arquitetura de Software, ofertada para alunos do sexto período do curso, aborda fundamentos da Arquitetura do Software, tratando os níveis de abstração de projetos orientados a objetos e design de sistemas. Nesta disciplina os estudantes aprendem a analisar sistemas computacionais considerando atributos de qualidade que guiam o projeto arquitetural de software, técnicas de reuso, refatoração e design de sistema, utilizando microserviços e nuvem. Ao final da disciplina o estudante será capaz de refatorar projetos com padrões de projeto orientado a objetos e entender as vantagens/desvantagens da utilização de arquiteturas baseadas em microserviços e nuvem.
+
+
+","DEBONI, José Eduardo Zindel. Modelagem orientada a objetos com a Uml. São Paulo: Futura, 2003. 219 p. ISBN 85-7413-166-0
+
+GAMMA, Erich et al. Padrões de projeto: soluções reutilizáveis de software orientado a objetos. Porto Alegre, RS: Bookman, 2000 xii,364 p. ISBN 8573076100.
+
+LARMAN, Craig. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. Porto Alegre, RS: Bookman, 2007. 695 p. ISBN 85-363-0358-1.","ALONSO, Gustavo et al. Web services: concepts, architectures and applications . Berlin, DE: Springer, 2010. xx, 354 p. (Data-centric systems and applications) ISBN 9783642078880.
+
+HANSEN, Mark D. SOA using Java Web services. Upper Saddle River, NJ: Prentice-Hall, 2007. xxix, 574 p. ISBN 9780130449689.
+
+MENDES, Antonio. Arquitetura de software: desenvolvimento orientado para arquitetura . Rio de Janeiro, RJ: Campus, 2002. 212 p ISBN 853521013-X.
+
+RICHARDSON, Leonard; RUBY, Sam. RESTful serviços Web. Rio de Janeiro, RJ: Alta Books, 2007. xx, 336 p. ISBN 978-85-7608-171-5 
+
+WAZLAWICK, Raul Sidnei. Análise e projeto de sistemas de informação orientados a objetos. 2. ed. Rio de Janeiro, RJ: Elsevier, 2011. 330 p. ISBN 9788535239164."
+,,Específico,6,Gerência de Configuração e Manutenção de Software,0,0,60,60,"TE1: Gerenciamento de configuração: conceitos, terminologias, ítens de configuração, armazenamento, controle de mudanças, relatório de status, controle de versões, referenciais (linha de base) e ferramentas (20h)
 TE2: Práticas de gerência de configuração: scripts de construção de software, gerênciamento de dependências do software. gerenciamento de ambiente de desenvolvimento, integração/entrega contínua (32h)
 TE3: Manutenção de Software: evolução, reengenharia e engenharia reversa (8h)","RA1: Utilizar ferramentas de gerencionamento de versões e controle de mudança alinhados com um processo de gerência de configuração com ítens de configuração, armazenamento de histórico de alterações e referenciais (TE1)
 RA2: Configurar um pipeline de entrega contínua com tarefas de construção de software, resolução de dependências e configuração de ambientes de desenvolvimento e produção (TE2)
-RA3: Refatorar um sistema legado, utilizando técnicas de reengenharia e engenharia reversa (TE3)",Programação Orientada a Objetos 2
-ADS,,Específico,6,Teste de Software ,4,60,0,60,"TE1: Fundamentos de teste de software: Verificação/Validação/Teste, terminologia de defeitos/erros/falhas, casos de teste, etapas do teste e limitações (10h)
+RA3: Refatorar um sistema legado, utilizando técnicas de reengenharia e engenharia reversa (TE3)",Programação Orientada a Objetos 2,"Gerência de Configuração e Manutenção de Software, ofertada para alunos do sexto período do curso, aborda conceitos teóricos e práticos de Gerência de Configuração e Manutenção de Software. Nesta disciplina, os estudantes aprendem sobre processo de gerência de configuração, ferramentas de construção, controle de dependências, pipelines de integração/entrega contínua, evolução, reengenharia e engenharia reversa. Ao final da disciplina, o estudante será capaz de utilizar práticas de gerência de configuração, configurar pipelines de entrega contínua e refatorar sistemas legados.","AIELLO, Bob; SACHS, Leslie A. Configuration management best practices: practical methods that work in the real world . Upper Saddle River, NJ: Addison-Wesley, c2011. xxxvii, 229 p. ISBN 9780321685865.
+
+STEPHEN, P. Berczuk; BRAD Appleton; KYLE Brown. Software Configuration Management Patterns: Effective Teamwork, Practical Integration. ADDISON-WESLEY, 2003. 2018 P. ISBN 0201741172.
+
+QUIGLEY, Jon M.; ROBERTSON, Kim L. Configuration management: theory, practice, and application . New York, NY: CRC Press, 2015. xxvi, 409 p. ISBN 9781482229356. "," MAXWELL, K. Applied statistics for software managers. Upper Saddle River, NJ: Prentice Hall PTR, c2002. xvi, 333 p. (Software Quality Institute Series). ISBN 0130417890.
+
+MAGELA, Rogério. Engenharia de software aplicada: fundamentos . Rio de Janeiro: Alta Books, 2006. 418 p. ISBN 85-7608-123-7
+
+KOSCIANSKI, André; SOARES, Michel dos Santos. Qualidade de software: aprenda as metodologias e técnicas mais modernas para o desenvolvimento de software. 2. ed. São Paulo, SP: Novatec, 2007. 395 p. ISBN 9788575221129.
+
+KLEINWÄCHTER, Wolfgang. The power of ideas: internet governance in a global multi-stakeholder environment. Berlin, DE: Germany Land of Ideas, 2007. 294 p.
+
+PRESSMAN, Roger S. Engenharia de software. São Paulo, SP: Makron, c1995. xxxii, 1056 p. ISBN 8534602379. "
+ADS,,Específico,6,Teste de Software ,0,0,60,60,"TE1: Fundamentos de teste de software: Verificação/Validação/Teste, terminologia de defeitos/erros/falhas, casos de teste, etapas do teste e limitações (10h)
 TE2: Testes automatizados: Estratégias de teste e Testes de unidade (mocks, stubs, assertivas), integração e sistema (15h)
 TE3: Técnicas de geração de casos de teste: critérios de teste caixa-preta (particionamento em classes de equivalência, valor limite, tabela de decisão) e caixa-branca (fluxo de controle, fluxo de dados, cobertura de comandos, decisões, caminho básico, caminhos independentes) (20h)
 TE4: Teste end-to-end: seletores de interface, ferramentas de automatização, Integração contínua e teste baseado em modelo (15h)","RA1: Implementar scripts de testes de unidade, integração e sistema, considerando as boas práticas de elaboração de casos de teste, a qualidade e robustez das diferentes plataformas (TE1 e TE2)
 RA2: Aplicar técnicas de seleção e adequação de teste caixa-branca e caixa-preta, com eficácia, objetividade e clareza (TE3)
-RA3: Implementar scripts de teste end-to-end e aplicação de técnicas de teste baseado em modelo, considerando as linguagens de programação e diferentes plataformas utilizadas (TE4)",Programação Orientada a Objetos 2
-H,,Básico,6,Metodologia de Pesquisa,4,60,0,60,"TE1: Fundamentos da metodologia científica: ciência e tecnologia, pesquisa e desenvolvimento tecnológico, inovação tecnológica, tipos de trabalhos acadêmicos e níveis de trabalhos de conclusão (TCC de graduação e especialização, dissertação e tese), processo de produção e comunicação científica (projeto de pesquisa, estrutura do projeto de pesquisa), estrutura de um artigo científico, comparativo entre artigo científico e trabalho de conclusão (8h)
+RA3: Implementar scripts de teste end-to-end e aplicação de técnicas de teste baseado em modelo, considerando as linguagens de programação e diferentes plataformas utilizadas (TE4)",Programação Orientada a Objetos 2,"Teste de Software, ofertada para alunos do sexto período do curso, aborda fundamentos da atividade de Teste de Software, com foco em testes automatizados. Nesta disciplina os estudantes aprendem a testar o software considerando diferentes estratégias (unidade, integração e sistema), técnicas de elaboração de casos de teste (funcional/caixa preta e estrutural/caixa branca) e automatização do processo. Ao final da disciplina o estudante será capaz de implementar scripts de teste automatizado utilizando diferentes estratégias (unidade, integração e sistema) e abordagens (caixa preta e caixa branca), para garantir a qualidade do sistema.
+
+
+","DELAMARO, Marcio. Introdução ao Teste de Software. São Paulo: Grupo GEN, 2016. ISBN 9788595155732. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595155732/.
+
+SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287.
+
+PEZZÈ, Mauro; YOUNG, Michal. Teste e análise de software: processo, princípios e técnicas. Porto Alegre, RS: Bookman, 2008. 512 p. ISBN 9780471455936.","AMMANN, Paul; OFFUTT, Jeff. Introduction to software testing. New York, NY: Cambridge University, c2008. xxii, 322 p. ISBN 9780521880381.
+
+KANER, Cem; BACH, James; PETTICHORD, Bret. Lessons learned in software testing: a context-driven approach . New York, N.Y.: Wiley, c2002. xxvii, 286 p. ISBN 0471081124
+
+MYERS, Glenford J.; BADGETT, Tom; SANDLER, Corey. The art of software testing. 3rd ed. Hoboken, NJ.: John Wiley & Sons, c2012. xi, 240 p. ISBN 978118031964.
+
+PFLEEGER, Shari Lawrence. Engenharia de software: teoria e prática. 2. ed. São Paulo, SP: Prentice-Hall, c2004. 537 p. ISBN 8587918311.
+
+PRESSMAN, Roger S.; MAXIM, Bruce R. Engenharia de software. Porto Alegre: Grupo A, 2021. ISBN 9786558040118. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786558040118/."
+H,,Básico,6,Metodologia de Pesquisa,0,0,60,60,"TE1: Fundamentos da metodologia científica: ciência e tecnologia, pesquisa e desenvolvimento tecnológico, inovação tecnológica, tipos de trabalhos acadêmicos e níveis de trabalhos de conclusão (TCC de graduação e especialização, dissertação e tese), processo de produção e comunicação científica (projeto de pesquisa, estrutura do projeto de pesquisa), estrutura de um artigo científico, comparativo entre artigo científico e trabalho de conclusão (8h)
 TE2: Planejamento e desenvolvimento da pesquisa: problema de pesquisa, objetivos e hipóteses de pesquisa (8h)
 TE3: Elaboração do referencial teórico: busca em bases de dados bibliográficas, técnicas de revisão da literatura (revisão bibliométrica, revisão e mapeamento sistemático), ferramentas de apoio, normas ABNT de citações e referências e escrita científica (10h)
 TE4: Tipos de pesquisa: classificação das pesquisas e métodos de pesquisa, survey, estudo de caso, pesquisa-ação, pesquisa experimental (experimento e quasi-experimento) (20h)
 TE5: Elaboração do trabalho de conclusão de curso: revisão bibliográfica, definição de tema e objetivos (geral e específicos) e comunicação científica (refinamento do trabalho acadêmico) (14h)","RA1: Reavaliar os requisitos para implementação de forma eficiente considerando a metodologia adequada, os procedimentos e as etapas da pesquisa prévia necessária (TE1)
 RA2: Documentar com rigor técnico e científico o processo de desenvolvimento de sistemas de software e hardware (TE2 e TE3)
 RA3: Definir métodos de pesquisa para avaliação de metodologias e funcionalidades das soluções de software e hardware (TE4)
-RA4: Elaborar projeto e testes para validação de soluções de software e hardware com rigor técnico (TE5)",Período: 6
-H,Ciências sociais aplicadas,Básico,6,Estratégias de Inovação,2,30,0,30,"TE1: Fundamentos de Inovação: Conceitos de Estratégias empresariais, Tipos e graus de inovação (10h)
-TE2: Estratégias de Inovação: culturas e ambientes de inovação, Cases de estratégia de Inovação e aplicações (20h)","RA1: Identificar do ambiente competitivo das organizações e a importância do desenvolvimento da inovação, demonstrando a compreensão dos tipos e graus de inovação (TE1)
-RA2: Analisar criticamente estratégias de inovação descrevendo a cultura e o ambiente, propondo a aplicação de conceitos de inovação em uma organização com autonomia e responsabilidade (TE2)",
-E,,Básico,6,Oficina de Integração 1,2,30,90,120,"TE1: Integração dos conhecimentos das disciplinas do primeiro, segundo e terceiro, quarto e quinto períodos. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional que resolva um problema real da comunidade externa a UTFPR (120h)",RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1),Período: 6
+RA4: Elaborar projeto e testes para validação de soluções de software e hardware com rigor técnico (TE5)",Período: 6,"Metodologia de pesquisa, ofertada para alunos do sexto período do curso, aborda conceitos teóricos e práticos associados à condução de pesquisa, apresentação e escrita acadêmica. Nesta disciplina, os estudantes aprendem sobre fundamentos de metodologia de pesquisa, práticas de planejamento/desenvolvimento de pesquisa, fundamentação teórica, tipos de pesquisa e elaboração de trabalho de conclusão de curso. Ao final da disciplina, o estudante será capaz de produzir/apresentar de modo adequado trabalhos acadêmicos no que tange à conceituação, à estrutura, à linguagem e às normas técnicas, bem como refletir sobre a conceituação de tecnologia e de ciência."," WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. Rio de Janeiro, RJ: Elsevier, 2009. 159 p. ISBN 9788535235227.
+
+RUIZ, João Álvaro. Metodologia científica: guia para eficiência nos estudos : contém capítulo sobre normas da ABNT. 6. ed. São Paulo, SP: Atlas, 2011. 180 p. ISBN 9788522444823.
+
+KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 33. ed. Petrópolis: Vozes, 2013. 182 p. ISBN 9788532618047.
+
+NBR 6023/2002; NBR 10520/2002; NBR 6028/2003; NBR 6034/2004; NBR 12225/2004; NBR 14724/2011; NBR 15287/2011; NBR 6024/2012; NBR 6027/2012: Normas para elaboração de trabalhos acadêmicos. Disponíveis online em: http://www.gedweb.com.br/utfpr"," LAKATOS, Eva Maria; MARCONI, Marina de Andrade. Fundamentos de metodologia científica. 7. ed. São Paulo, SP: Atlas, 2010. 297 p. ISBN 9788522457588.
+
+GOLDENBERG, Mirian. A Arte de pesquisar. 12. ed. Rio de Janeiro, RJ: Record, 2011. 107 p. ISBN 9788501049650.
+
+YIN, Robert K. Estudo de caso: planejamento e métodos. 4. ed. Porto Alegre, RS: Bookman, 2010. xviii, 248 p. ISBN 9798536304624.
+
+BARROS NETO, Benicio de; SCARMINIO, Ieda Spacino; BRUNS, Roy Edward. Como fazer experimentos: pesquisa e desenvolvimento na ciência e na indústria. 4. ed. Porto Alegre: Bookman, 2010. 413 p. ISBN 9788577806522.
+
+FACHIN, Odilia. Fundamentos de metodologia. 5. ed. São Paulo: Saraiva, 2012. xiv, 210 p. ISBN 9788502055322.
+
+SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287. "
+ADS,,Específico,6,Interação Homem Computador,0,0,30,30,"TE1: Usabilidade: interface de usuário, experiência de usuário, habilidades humanas e limitações, processo cognitivo, abordagens teóricas (10h)                                                                   
+TE2: Princípios e diretrizes de usabilidade: metáforas, estilos e paradigmas de interação, padrões e guias para o projeto de interação (10h)
+TE3: Avaliação de usabilidade: métodos de inspeção e de teste com usuários, planejamento da avaliação, análise e interpretação de resultados (10h)","RA1: Identificar características de usabilidade no contexto da interface e experiência do usuário, considerando os aspectos humanos e tecnológicos (TE1)
+RA2: Examinar interfaces de usuário, com base nos princípios e diretrizes de usabilidade de forma crítica, científica, criativa e adaptativa às novas tecnologias (TE2)
+RA3: Planejar avaliações de interfaces de usuário, empregando princípios e diretrizes de usabilidade, métodos de inspeção e de teste com usuários e analisando os resultados com autonomia, responsabilidade e ética (TE2, TE3)",,"Interação Homem Computador, ofertada aos estudantes do quarto período do curso, aborda os conceitos fundamentais das interfaces de usuário das aplicações e métodos de avaliação. Nesta disciplina, os estudantes aprendem a avaliar interfaces com base em princípios e diretrizes de usabilidade, no contexto da interface e experiência do usuário. Ao final da disciplina, o estudante será capaz de identificar características e examinar interfaces de usuário, bem como  planejar e analisar resultados de avaliações dessas interfaces, considerando aspectos humanos e tecnológicos.
+
+
+","BARRETO, Jeanine dos S.; JUNIOR, Paulo A P.; BARBOZA, Fabrício F M.; et al. Interface Humano-Computador. Porto Alegre: Grupo A, 2019. ISBN 9788595027374. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595027374/. 
+
+SANTA ROSA, José Guilherme; MORAES, Anamaria de. Avaliação e projeto no design de interfaces. Rio de Janeiro: 2AB, 2010. 223 p. ISBN 9788586695469
+
+SOBRAL, W. S. Design de interfaces: Introdução. São Paulo. Érica, 2019. ISBN 9788536532059. Disponível em https://integrada.minhabiblioteca.com.br/books/9788536532073/",
+E,,Básico,6,Oficina de Integração 1,0,0,120,120,"TE1: Integração dos conhecimentos das disciplinas do primeiro, segundo e terceiro, quarto e quinto períodos. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional que resolva um problema real da comunidade externa a UTFPR (120h)",RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1),Período: 6,"Oficina de Integração 1, ofertada para alunos no sexto período do curso, tem como objetivo certificar a competência comum do curso. Nesta disciplina, os alunos devem implementar projetos extensionistas utilizando conceitos de disciplinas anteriores, associadas à competência comum do curso. Ao final da disciplina, os alunos serão capazes de integrar, por meio do desenvolvimento e implementação de projetos os conhecimentos desenvolvidos nas disciplinas ministradas no período corrente com o embasamento de assuntos tratados em períodos anteriores, além de desenvolver habilidades relativas ao trabalho em equipe, comunicação oral e escrita, resolução de problemas reais e metodologia de desenvolvimento de projetos."," KRUCHTEN, Philippe. Introdução ao RUP: rational unified process. Rio de Janeiro, RJ: Ciência Moderna, 2003. xv, 255 p. (Addison-Wesley object technology series) ISBN 85-7393-275-9.
+
+HORSTMANN, Cay S. Big Java. Porto Alegre: Bookman, 2004. 1125 p.CD-ROM ISBN 85-363-0345-X
+
+WAZLAWICK, Raul Sidnei. Análise e projeto de sistemas de informação orientados a objetos. 2. ed. Rio de Janeiro, RJ: Elsevier, 2011. 330 p. ISBN 9788535239164. ","HORSTMANN, Cay S.; CORNELL, Gary. Core Java 2: Recursos Avançados. São Paulo: Makron Books, 2001.
+
+DEITEL, H.M.; DEITEL, P.J. Java – como programar. 3.ed. Porto Alegre: Bookman, 2000
+
+MORGAN, Michael. Java 2 para Programadores Profissionais. Rio de Janeiro, editora Ciência Moderna, 2000.
+
+FURLAN, José Davi. Modelagem de objetos através da UML: the unified modeling language. São Paulo: Makron, 1998. 329 p. ISBN 85-346-0924-1
+
+BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. UML: guia do usuário. Rio de Janeiro: Campus, c2000. xx, 472p. ISBN 85-352-0562-4. "
 EC,,Profissionalizante,7,Programação para Dispositivos Móveis,0,0,60,60,"TE1: Dispositivos móveis e tecnologias de desenvolvimento de aplicativos móveis: histórico, mercado, plataformas existentes e segurança (5h)
 TE2: Framework para desenvolvimento: características, ferramentas de desenvolvimento e aplicações (5h)
 TE3: Projeto de interfaces: recursos tecnológicos, componentes de interface, navegação, posicionamento e layout (20h)
 TE4: Persistência de dados: definição, tipos de armazenamento e manipulação de dados (20h)
 TE5: Recursos da plataforma e controle de permissões: sensores (câmera, GPS, acelerômetro), mapas e notificações (10h)","RA1: Utilizar frameworks para desenvolvimento de dispositivos móveis, entendendo as características e as limitações existentes nas diferentes plataformas com objetividade e clareza (TE1 e TE2)
 RA2: Projetar interfaces com componentes, navegação e diferentes tipos de posicionamento e layout utilizando ferramentas para desenvolvimento de aplicações para dispositivos móveis com eficácia (TE3)
-RA3: Implementar aplicações para dispositivos móveis utilizando APIs de persistência de dados e recursos da plataforma, como sensores, mapas e notificações com qualidade e robustez (TE4 e TE5)",Programação Orientada a Objetos 1
+RA3: Implementar aplicações para dispositivos móveis utilizando APIs de persistência de dados e recursos da plataforma, como sensores, mapas e notificações com qualidade e robustez (TE4 e TE5)",Programação Orientada a Objetos 1,"Programação para Dispositivos Móveis, ofertada para os alunos do sétimo período do curso, aborda as principais técnicas e ferramentas utilizadas na programação de dispositivos móveis.  Na disciplina, os estudantes aprendem a utilizar frameworks de desenvolvimento para dispositivos móveis, explorando os recursos das plataformas e projetando interfaces de aplicação. Ao final da disciplina, o aluno será capaz de desenvolver aplicações para dispositivos móveis, de maneira eficaz, utilizando frameworks, APIs de persistência de dados e recursos (como sensores, mapas e notificações) oferecidos pela plataforma.
+
+
+","ALLAN, Alasdair. Aprendendo programação iOS: Do Xcode à App Store. São Paulo, SP: Novatec, 2013. ISBN 9788575223635.
+
+DEITEL, Harvey; DEITEL, Paul; DEITEL, Abbey. Android. Porto Alegre: Grupo A, 2015. ISBN 9788582603482. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582603482/
+
+DEITEL, Paul; DEITEL, Harvey; WALD, Alexander. Android 6 para Programadores. Porto Alegre: Grupo A, 2016. ISBN 9788582604120. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582604120/","DEITEL, Paul; DEITE, Harver; DEITEL, Abbey. ANDROID for programmers: an App-driven approach . Upper Saddle River, NJ: Prentice-Hall, c2012. xxx, 481 p. ISBN 9780132121361
+
+NUDELMAN, Greg. Padrões de projeto para o Android: soluções de projetos de interação para desenvolvedores. São Paulo, SP: Novatec, 2013. 456 p. ISBN 9788575223581.
+
+NAHAVANDIPOOR, Vandad. iOS 5 programming cookbook. Sebastopol, CA: O'Reilly, 2012. xvii, 852 p. ISBN 9781449311438.
+
+NAPIER, Rob; KUMAR, Mugunth. Pushing the limits with iOS 5 programming: advanced application development for Apple iPhone, iPad, and iPod Touch . Chicester, UK: Wiley, 2012. xxii, 407 p. ISBN 9781119961321. 
+
+OEHLMAN, Damon; BLANC, Sébastien. Aplicativos Web Pro Android: desenvolvimento Pro Andoid usando HTML5, CSS3 & Javascript. Rio de Janeiro, RJ: Ciência Moderna, 2012. 455 p. ISBN 9788539902507.
+
+OLIVEIRA, Cláudio Luís V.; ZANETTI, Humberto Augusto P. Javascript Descomplicado: Programação para a Web, IoT e Dispositivos Móveis. São Paulo: Érica, 2020. ISBN 9788536533100. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536533100/"
 ADS,,Profissionalizante,7,Programação Web Fullstack,0,0,60,60,"TE1: Frameworks de desenvolvimento no cliente: arquitetura cliente-servidor, DOM HTML, HTML5, AJAX, Webservices, Web APIs, JSON, Web components (25h)
 TE2: Frameworks de desenvolvimento no servidor: programação assíncrona, webservices/REST, estratégias de cache, características dos frameworks web e aplicações (15h)
 TE3: Segurança em aplicações web: criptografia, XSS, SQL Inject, HTTPS, chaves assimétricas e certificados digitais (10h)
 TE4: Projeto de aplicação web fullstack: comunicação cliente-servidor utilizando frameworks de alto nível, disponibilização do cliente e servidor na Web e integração com banco de dados (10h)","RA1: Desenvolver interfaces web utilizando frameworks de front-end, considerando a qualidade da aplicação web (TE1)
 RA2: Desenvolver Web APIs utilizando frameworks de back-end, com persistência de dados, escalabilidade e portabilidade das soluções (TE2)
 RA3: Aplicar frameworks de desenvolvimento web para projetar soluções com autonomia, responsabilidade e ética, considerando a segurança da aplicação web (TE3)
-RA4: Desenvolver projetos de aplicações web fullstack com frameworks, integrando o front-end e back-end, de forma colaborativa utilizando metodologias de gerenciamento de projeto (TE4)",Programação Web Back-end
-E,,Específico,7,Oficina de Integração 2,0,0,210,210,TE1: Integração dos conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional para resolver um problema da comunidade externa a UTFPR (210h),RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1),Período: 7
-T,,Profissionalizante,7,Trabalho de Conclusão de Curso 1,0,0,30,30,TE1: Proposta de trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (30h),,Metodologia de Pesquisa
-T,,Profissionalizante,8,Trabalho de Conclusão de Curso 2,0,0,90,90,TE1: Trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (90h),,"Metodologia de Pesquisa, Trabalho de Conclusão de Curso 1"
+RA4: Desenvolver projetos de aplicações web fullstack com frameworks, integrando o front-end e back-end, de forma colaborativa utilizando metodologias de gerenciamento de projeto (TE4)",Programação Web Back-end,"Programação Web Fullstack, ofertada para alunos do sétimo período do curso, aborda frameworks de desenvolvimento das camadas do cliente e servidor, além de aspectos de segurança em aplicações web. Nesta disciplina os estudantes aprendem a desenvolver aplicações web de acordo com a arquitetura cliente-servidor, utilizando bibliotecas/frameworks de frontend/backend, Web APIs, REST e aspectos de segurança. Ao final da disciplina o estudante será capaz de implementar aplicações web considerando o uso de bibliotecas/frameworks frontend, frameworks backend, atuando como um Engenheiro de Software Fullstack.
+
+
+","FREITAS, Pedro Henrique C.; BIRNFELD, Karine; SARAIVA, Maurício de O.; et al. Programação Back End III. Porto Alegre: Grupo A, 2021. ISBN 9786581492274. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786581492274/
+
+BARRY, Paul. Use a Cabeça! Python. Rio de Janeiro: Alta Books, 2018. ISBN 9786555207842. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555207842/
+
+BARRY, Paul. Use a Cabeça! Python. Rio de Janeiro: Alta Books, 2018. ISBN 9786555207842. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555207842/","ALBUQUERQUE, Fernando. TCP/IP internet programação de sistemas distribuídos HTML, JAVASCRIPT e JAVA : Fernando Albuquerque. Rio de Janeiro: Axcel, 2001. 492 p. ISBN 85-7323-149-1.
+
+ALVES, William P. Projetos de Sistemas Web Conceitos, Estruturas, Criação de Banco de dados e Ferramentas de Desenvolvimento. São Paulo: Érica, 2015. ISBN 9788536532462. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536532462/
+
+CRANE, Dave. Ajax em ação. São Paulo, SP: Pearson Prentice Hall, 2007. 452 p. ISBN 85-7605-109-5.
+
+GONÇALVES, Edson. Desenvolvendo aplicações web com JSP, Servlets, Javaserver faces, Hibernate, EJB 3 persistence e AJAX. Rio de Janeiro, RJ: Ciência Moderna, 2007. xxxvi, 736 p. ISBN 9788573935721.
+
+NIELSEN, Jakob; TAHIR, Marie. Homepage: usabilidade 50 websites desconstruídos. Rio de Janeiro: Campus, 2002. 315 p. ISBN 85-352-0945-X
+
+RAMALHO, José Antônio A. HTML dinâmico. São Paulo: Berkeley, 1999. 719 p. ISBN 85-7251-522-4. "
+E,,Específico,7,Oficina de Integração 2,0,0,210,210,TE1: Integração dos conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional para resolver um problema da comunidade externa a UTFPR (210h),RA1: Integrar os conhecimentos das disciplinas em todo o curso. Aplicação desses conhecimentos em todas as etapas do desenvolvimento de um sistema computacional (TE1),Período: 7,"Oficina de Integração 2, ofertada para alunos no sétimo período do curso, tem como objetivo certificar a competência específica do curso. Nesta disciplina, os alunos devem implementar projetos extensionistas utilizando conceitos de disciplinas anteriores, associadas à competência específica do curso. Ao final da disciplina, os alunos serão capazes de integrar, por meio do desenvolvimento e implementação de projetos os conhecimentos desenvolvidos nas disciplinas ministradas no período corrente com o embasamento de assuntos tratados em períodos anteriores, além de desenvolver habilidades relativas ao trabalho em equipe, comunicação oral e escrita, resolução de problemas reais e metodologia de desenvolvimento de projetos."," WAZLAWICK, Raul Sidnei. Análise e projeto de sistemas de informação orientados a objetos. 2. ed. Rio de Janeiro, RJ: Elsevier, 2011. 330 p. ISBN 9788535239164.
+
+HORSTMANN, Cay S. Big Java. Porto Alegre, RS: Bookman, 2004. 1125 p. + CD-ROM ISBN 85-363-0345-X.
+
+KRUCHTEN, Philippe. Introdução ao RUP: rational unified process. Rio de Janeiro, RJ: Ciência Moderna, 2003. xv, 255 p. (Addison-Wesley object technology series) ISBN 85-7393-275-9. "," FURLAN, José Davi. Modelagem de objetos através da UML: the unified modeling language. São Paulo: Makron, 1998. 329 p. ISBN 85-346-0924-1
+
+HORSTMANN, Cay S.; CORNELL, Gary. Core Java 2. São Paulo, SP: Pearson Education, 2001. 2 v. + CD-ROM (4 ¾ pol.) (Série Java). ISBN 8534612250 (v.1).
+
+DEITEL, Harvey M.; DEITEL, Paul J. Java, como programar. 3. ed. Porto Alegre, RS: Bookman, 2001. 1201 p. + 1 CD-ROM ISBN 8573077271.
+
+MORGAN, Michael. Java 2 para programadores profissionais. Rio de Janeiro: Ciência Moderna, 2000. xx, 713 p. ISBN 8573930993.
+
+BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. UML: guia do usuário. Rio de Janeiro: Campus, c2000. xx, 472p. ISBN 85-352-0562-4. "
+T,,Profissionalizante,7,Trabalho de Conclusão de Curso 1,0,0,30,30,TE1: Proposta de trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (30h),,Metodologia de Pesquisa,"Integralizar as competências adquiridas durante o curso, aplicando-as no desenvolvimento da proposta do trabalho de conclusão, sob a orientação de um professor."," KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 33. ed. Petrópolis: Vozes, 2013. 182 p. ISBN 9788532618047.
+
+RUIZ, João Álvaro. Metodologia científica: guia para eficiência nos estudos : contém capítulo sobre normas da ABNT. 6. ed. São Paulo, SP: Atlas, 2011. 180 p. ISBN 9788522444823.
+
+WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. Rio de Janeiro, RJ: Elsevier, 2009. 159 p. ISBN 9788535235227.
+
+Normas para elaboração de trabalhos acadêmicos da UTFPR. NBR 6023/2002; NBR 10520/2002; NBR 6028/2003; NBR 6034/2004; NBR 12225/2004; NBR 14724/2011; NBR 15287/2011; NBR 6024/2012; NBR 6027/2012. Disponíveis em: <http://www.gedweb.com.br/utfpr>"," BARROS NETO, Benicio de; SCARMINIO, Ieda Spacino; BRUNS, Roy Edward. Como fazer experimentos: pesquisa e desenvolvimento na ciência e na indústria. 4. ed. Porto Alegre: Bookman, 2010. 413 p. ISBN 9788577806522.
+
+SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287.
+
+FACHIN, Odilia. Fundamentos de metodologia. 5. ed. São Paulo: Saraiva, 2012. xiv, 210 p. ISBN 9788502055322.
+
+GOLDENBERG, Mirian. A Arte de pesquisar. 12. ed. Rio de Janeiro, RJ: Record, 2011. 107 p. ISBN 9788501049650.
+
+LAKATOS, Eva Maria; MARCONI, Marina de Andrade. Fundamentos de metodologia científica. 7. ed. São Paulo, SP: Atlas, 2010. 297 p. ISBN 9788522457588.
+
+YIN, Robert K. Estudo de caso: planejamento e métodos. 4. ed. Porto Alegre, RS: Bookman, 2010. xviii, 248 p. ISBN 9798536304624. "
+T,,Profissionalizante,8,Trabalho de Conclusão de Curso 2,0,0,90,90,TE1: Trabalho de conclusão de curso vinculado ao ambiente de atuação profissional previsto no perfil do egresso (90h),,"Metodologia de Pesquisa, Trabalho de Conclusão de Curso 1",Acompanhamento e finalização do projeto de TCC. Redação de monografia e apresentação do trabalho.," KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 33. ed. Petrópolis: Vozes, 2013. 182 p. ISBN 9788532618047.
+
+RUIZ, João Álvaro. Metodologia científica: guia para eficiência nos estudos : contém capítulo sobre normas da ABNT. 6. ed. São Paulo, SP: Atlas, 2011. 180 p. ISBN 9788522444823.
+
+WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. Rio de Janeiro, RJ: Elsevier, 2009. 159 p. ISBN 9788535235227.
+
+Normas para elaboração de trabalhos acadêmicos da UTFPR. NBR 6023/2002; NBR 10520/2002; NBR 6028/2003; NBR 6034/2004; NBR 12225/2004; NBR 14724/2011; NBR 15287/2011; NBR 6024/2012; NBR 6027/2012. Disponíveis em: <http://www.gedweb.com.br/utfpr>"," BARROS NETO, Benicio de; SCARMINIO, Ieda Spacino; BRUNS, Roy Edward. Como fazer experimentos: pesquisa e desenvolvimento na ciência e na indústria. 4. ed. Porto Alegre: Bookman, 2010. 413 p. ISBN 9788577806522.
+
+SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287.
+
+FACHIN, Odilia. Fundamentos de metodologia. 5. ed. São Paulo: Saraiva, 2012. xiv, 210 p. ISBN 9788502055322.
+
+GOLDENBERG, Mirian. A Arte de pesquisar. 12. ed. Rio de Janeiro, RJ: Record, 2011. 107 p. ISBN 9788501049650.
+
+LAKATOS, Eva Maria; MARCONI, Marina de Andrade. Fundamentos de metodologia científica. 7. ed. São Paulo, SP: Atlas, 2010. 297 p. ISBN 9788522457588.
+
+YIN, Robert K. Estudo de caso: planejamento e métodos. 4. ed. Porto Alegre, RS: Bookman, 2010. xviii, 248 p. ISBN 9798536304624. "

@@ -1,54 +1,252 @@
-Tipo,Núcleo,Período,Nome,CHS,P,NP,TOTAL,Temas de estudo,Pré-requisitos
+Tipo,Núcleo,Período,Nome,CHS,P,NP,TOTAL,Temas de estudo,Pré-requisitos,Objetivos,Bibliografia básica,Bibliografia compĺementar
 ,Optativa,-,Computação em Nuvem,4,0,60,60,"TE1: Front-end: serviço de armazenamento de arquivos estáticos e implantação de uma aplicação web (20h)
 TE2: Back-end: API Gateway, Lambda, Sistemas de Mensagem, Filas de Processamento Assíncrono Eventos (20h)
-TE3: Serviços: APIs de armazenamento de dados, busca e aprendizado de máquina (20h)",Período: 6
+TE3: Serviços: APIs de armazenamento de dados, busca e aprendizado de máquina (20h)",Período: 6,"Computação em Nuvem, ofertada para alunos do oitavo período do curso, aborda as principais técnicas e ferramentas utilizadas na computação em nuvem. Nesta disciplina os estudantes aprendem a desenvolver aplicações web front-end e back-end utilizando plataformas de computação em nuvem. Ao final da disciplina o estudante será capaz de implementar e implantar aplicações web em ambientes de computação em nuvem, com qualidade e robustez.
+
+","HUMBLE, Jez; FARLEY, David. Entrega Contínua. Porto Alegre: Grupo A, 2013. ISBN 9788582601044. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582601044/
+
+SILVA, Fernanda R.; SOARES, Juliane A.; SERPA, Matheus da S.; et al. Cloud Computing. Porto Alegre: Grupo A, 2020. ISBN 9786556900193. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556900193/
+
+TANENBAUM, Andrew S.; STEEN, Maarten van. Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo, SP: Pearson Prentice Hall, 2007. 402 p. ISBN 9788576051428.","ALBUQUERQUE, Fernando. TCP/IP internet programação de sistemas distribuídos HTML, JAVASCRIPT e JAVA : Fernando Albuquerque. Rio de Janeiro: Axcel, 2001. 492 p. ISBN 85-7323-149-1.
+
+COULOURIS, George; DOLLIMORE, Jean; KINDBERG, Tim; BLAIR, Gordon. Sistemas Distribuídos. Porto Alegre: Grupo A, 2013. ISBN 9788582600542. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582600542/
+
+LECHETA, Ricardo R. AWS para desenvolvedores: aprenda a instalar aplicações na nuvem da Amazon. São Paulo, SP: Novatec, 2014. 501 p. ISBN 9788575223932.
+
+MARQUES, José Alves; GUEDES, Paulo. Tecnologia de sistemas distribuídos. 2. ed. Lisboa: FCA, 1998. xviii, 501 p. ISBN 9789727221288.
+
+SINHA, Pradeep K. concepts and design . New York: IEEE Press, c1997. 1 online resource (xix, 743 p.) ISBN 9780470544419. Disponível em : <http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=5487818>. Acesso em : 28 mar. 2022
+
+TANENBAUM, Andrew S. Distributed operating systems. Upper Saddle River, NJ: Prentice-Hall, c1995. 614 p. ISBN 0-13-143934-0"
 ,Optativa,-,Aprendizado de Máquina,4,0,60,60,"TE1: Fundamentos de aprendizado de máquina: tipos de aprendizado, tarefas e etapas, probabilidade condicional, espaço amostral, teoria de decisão Bayesiana, vetores e espaços de características (10h)
 TE2: Aprendizado não supervisionado: métricas de distância e similaridade, algoritmos de clustering baseada em distancia, agrupamento hierarquico (16h)
 TE3: Aprendizado de máquina: modelos preditivos, agrupamento de dados, metodologia de validação e avaliação, aplicações e tendências (24h)
-TE4: Metodologia de experimentação: métricas de avaliação, métodos de validação (k-fold, holdout, bootstrap, leave-one-out), análise de resultados (10h)",Período: 6
+TE4: Metodologia de experimentação: métricas de avaliação, métodos de validação (k-fold, holdout, bootstrap, leave-one-out), análise de resultados (10h)",Período: 6,"Aprendizado de Máquina, ofertada para alunos do oitavo período do curso, aborda os conceitos básicos de aprendizado de máquina. Nesta disciplina os estudantes aprendem a aplicar as principais técnicas e métodos de aprendizado supervisionado e não-supervisionado utilizando uma linguagem de programação. Ao final da disciplina o estudante será capaz de entender o contexto de aplicação dos fundamentos de aprendizado de máquina e utilizar algoritmos existentes com objetividade e clareza.
+
+
+","COPPIN, Ben. Inteligência Artificial. São Paulo: Grupo GEN, 2010. 978-85-216-2936-8. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-2936-8/
+
+NORVIG, Peter. Inteligência Artificial. São Paulo: Grupo GEN, 2013. 9788595156104. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595156104/
+
+RUSSELL, Stuart J.; NORVIG, Peter. Inteligência artificial. Rio de Janeiro, RJ: Elsevier, 2013. 988 p. ISBN 9788535237016.","BISHOP, Christopher M. Pattern recognition and machine learning. New York, NY: Springer, 2006. xx, 738 p. (Information science and statistics). ISBN 9780387310732.
+
+BITTENCOURT, Guilherme. Inteligência artificial: ferramentas e teorias. 3. ed. rev. Florianópolis, SC: UFSC, 2006. xv, 371 p. (Série didática). ISBN 8532801382.
+
+DUDA, Richard O.; HART, Peter E.; STORK, David G. Pattern classification. 2nd ed. New York, NY: J. Wiley & Sons, c2001. xx, 654 p. ISBN 9780471056690.
+
+LINDEN, Ricardo. Algoritmos genéticos. 3. ed. Rio de Janeiro, RJ: Ciência Moderna, 2012. xx, 475 p. ISBN 9788539901951.
+
+THEODORIDIS, Sergios; KOUTROUMBAS, Konstantinos. Pattern recognition. 4th ed. Burlington [Massachusetts, US]: Academic Press, 2009. 961 p. ISBN 9781597492720
+
+WEBB, A. R. Statistical Pattern Recognition. 3rd. ed., John Willey & Sons, 2011. ISBN 9780470682289."
 ,Optativa,-,Processamento de Imagens,4,0,60,60,"TE1: Fundamentos de processamento de imagens: representação de imagens digitais, sistema visual humano, composição da cor, digitalização, modelo de imagens, métodos de espaço de estados, resolução espacial, profundidade, amostragem e quantização (12h)
 TE2: Transformações de intensidade e filtragem espacial : processamento de histograma, transformação da escala de cinza, convolução, filtros espaciais de suavização e aguçamento (24h)
 TE3: Realce de imagens baseado em cores e transformações morfológicas: sistemas de cor, transformação pseudocor, realce com transformação HSV, dilação, erosão, abertura e fechamento (12h)
-TE4: Segmentação e descrição: limiarização local e global, crescimento de regiões, detecção de bordas, descritores de cor, forma e textura (12h)",Período: 6
+TE4: Segmentação e descrição: limiarização local e global, crescimento de regiões, detecção de bordas, descritores de cor, forma e textura (12h)",Período: 6,"Processamento de Imagens, ofertada para os alunos do oitavo período do curso, aborda os principais conceitos relacionados ao processamento de imagens digitais. Na disciplina, os estudantes aprendem o funcionamento de algoritmos de transformações (de intensidade e morfológicas), filtragem, realce, segmentação e descrição de imagens. Ao final da disciplina, o estudante será capaz de aplicar algoritmos tradicionais de processamento de imagens.
+
+
+","AMMERAAL, Zhang. Computação Gráfica para Programadores Java. 2. ed. São Paulo: Grupo GEN, 2008. ISBN 978-85-216-1918-5. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-216-1918-5/
+
+GONZALEZ, Rafael C.; WOODS, Richard E. Processamento digital de imagens. 3. ed. São Paulo, SP: Pearson, 2010. xv, 624 p. ISBN 9788576054016.
+
+PEDRINI, Hélio; SCHWARTZ, William R. Análise de imagens digitais : princípios, algoritmos e aplicações. São Paulo: Cengage Learning Brasil, 2007. ISBN 9788522128365. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522128365/","COSTA, Luciano da Fontoura; CESAR, Roberto Marcondes. Shape classification and analysis: theory and practice. 2. ed. Boca Raton, US: CRC Press, c2009. xxix, 662 p. (Image processing series;). ISBN 9780849379291
+
+GONZALEZ, Rafael C.; WOODS, Richard E. Digital image processing. 3. ed. Upper Saddle River, NJ: Pearson Prentice Hall. 2008. ISBN 9780131687288.
+
+MARANA, Aparecido Nilceu; BREGA, José Remo Ferreira. Técnicas e ferramentas de processamento de imagens digitais e aplicações em realidade virtual e misturada. Bauru, SP: Canal6, 2008. ISBN 9788599728468.
+
+NEVES, Luiz Antônio Pereira; VIEIRA NETO, Hugo; GONZAGA, Adilson. Avanços em visão computacional. Curitiba, PR: Omnipax, 2012. 406 p. ISBN 9788564619098.
+
+PETROU, Maria; PETROU, Costas. Image processing: the fundamentals. 2. ed. United Kingdom, UK: Wiley, 2010. 794 p. ISBN 9780470745861.
+
+SVOBODA, Tomas; KYBIC, Jan; HLAVAC, Vaclav. Image processing, analysis, and machine vision: a matlab companion. Toronto: Thomson, 2008. xi, 255 p. ISBN 9780495296003."
 ,Optativa,-,Mineração de Dados,4,0,60,60,"TE1: Ferramentas de manipulação de dados: processo de KDD, padrão de representação dos dados, repositório de dados abertos, manipulação de listas, matrizes e séries temporais, ferramentas e bibliotecas disponíveis (12h)
 TE2: Pré-Processamento dos dados: análise visual dos dados, inputação de valores,  transformação do espaço de características, seleção de características e técnicas de desbalanceamento (18h)
 TE3: Aprendizado supervisionado: metodologia de validação e avaliação, algoritmos de classificação, aplicações e tendências (18h)
-TE4: Análise de resultados: importância dos atributos, seleção de modelos, curva de desempenho, análise de variabilidade (12h)",Período: 6
+TE4: Análise de resultados: importância dos atributos, seleção de modelos, curva de desempenho, análise de variabilidade (12h)",Período: 6,"Mineração de Dados, ofertada para alunos do oitavo período do curso, aborda o uso de ferramentas e técnicas para a extração de conhecimentos a partir da manipulação de dados. Na disciplina, os estudantes aprendem sobre a preparação e tratamento dos dados, aplicação de algorítmos de aprendizado e validação dos resultados obtidos. Ao final da disciplina, o estudante será capaz de atuar nas etapas do processo de mineração com eficácia, objetividade e clareza.
+
+
+","CASTRO, Daniel Gomes Ferrari Leandro Nunes D. Introdução à Mineração de Dados: Conceitos Básicos, Algoritmos e Aplicações. São Paulo: Saraiva, 2016. ISBN 978-85-472-0100-5. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/978-85-472-0100-5/
+
+DA SILVA, Leandro Augusto; PERES, Sarajane M.; BOSCARIOLI, Clodis. Introdução à Mineração de Dados - Com Aplicações em R. São Paulo: Grupo GEN, 2016. ISBN 9788595155473. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595155473/
+
+GOLDSCHMIDT, Ronaldo. Data Mining. São Paulo: Grupo GEN, 2015. 9788595156395. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595156395/","AMARAL, Fernando. Aprenda Mineração de Dados. Rio de Janeiro: Alta Books, 2016. ISBN 9786555206852. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786555206852/
+
+HAN, Jiawei; KAMBER, Micheline; PEI, Jian, Ph. D. Data mining: concepts and techniques. 3rd. ed. Amsterdam, HO: Elsevier: Morgan Kaufmann, 2012. 703 p. ISBN 9780123814791.
+
+LAROSE, Daniel T. Data mining methods and models. Hoboken, NJ: Wiley-Interscience, c2006. xvi, 322 p. ISBN 0471756482. Disponível em : <http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=5201921>.
+
+MARIANO, Diego César B.; MARQUES, Leonardo T.; SILVA, Marcel S.; et al. Data Mining. Porto Alegre: Grupo A, 2021. ISBN 9786556900292. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556900292/
+
+TSIPTSIS, Konstantinos; CHORIANOPOULOS, Antonios. Data mining techniques in CRM: inside customer segmentation . Chichester, UK: Wiley, c2009. xi, 357 p. ISBN 9780470743973.
+
+WITTEN, I. H.; FRANK, Eibe; HALL, Mark A. Data mining: practical machine learning tools and techniques. 3rd ed. Burlington [Massachusetts, US]: Morgan Kaufmann, c2011. xxxiii, 629 p. (Morgan Kaufmann series in data management systems ). ISBN 9780123748560."
 H,Optativa,-,Libras,2,0,30,30,"TE1: Surdez: aspectos educacionais e socioantropológicos (10h)
 TE2: Libras: o alfabeto, expressões manuais e não manuais (10h)
-TE3: Comunicação: processo de comunicação básica em situações informais (10h)",
+TE3: Comunicação: processo de comunicação básica em situações informais (10h)",,," GESSER, Audrei. Libras? que língua é essa? : crenças e preconceitos em torno da língua de sinais e da realidade surda. 1. ed. São Paulo, SP: Parábola, 2009. 87 p. (Série estratégias de ensino ; 14). ISBN 9788579340017.
+
+QUADROS, Ronice Müller de; KARNOPP, Lodenir. Língua de sinais brasileira: estudos lingüísticos. Porto Alegre, RS: Artmed, 2004. 221 p. (Biblioteca Artmed). ISBN 8536303086.
+
+HONORA, Márcia,; FRIZANCO, Mary Lopes Esteves. Livro ilustrado de língua brasileira de sinais: desvendando a comunicação usada pelas pessoas com surdez. São Paulo, SP: Ciranda Cultural, 2008. 336 p. ISBN 9788538004929 (2008). "," PARANÁ. Falando com as mãos: LIBRAS língua brasileira de sinais. Curitiba: SEED/CDE/PR, 1998. 180 p.
+
+SALLES, Heloisa Maria Moreira Lima (Coord.) Ensino de língua portuguesa para surdos: caminhos para a prática pedagógica. 2. ed. Brasília: MEC/SEESP, 2007. 2. v. ISBN 978-85-60331-12-3 - vol. 2
+
+PEREIRA, Maria Cristina da Cunha et al. Libras: conhecimento além dos sinais. São Paulo, SP: Pearson, 2011. xv, 127 p. ISBN 9788576058786.
+
+ANDREIS-WITKOSKI, Silvia. Introdução à LIBRAS: língua, história e cultura. Curitiba, PR: Ed. UTFPR, 2015. 198 p. ISBN 9788570141378.
+
+VELOSO, Éden; MAIA, Valdeci. Aprenda libras com eficiência e rapidez. Curitiba, PR: Ed. MãosSinais, 2012. 228 p. + DVD ISBN 9788560683178 (broch.). "
 H,Optativa,-,A Presença Africana no Brasil,2,0,30,30,"TE1: Cultura afro-brasileira: história da África e o negro na história do Brasil, religiões africanas e sincretismo religioso, quilombos e festas afro-brasileiras, influências culturais (10h)
 TE2: Políticas públicas: estratégias de conscientização e interação. Sistema de cotas. A escravidão, alforria e cidadania no Brasil. Ações afirmativas. Diversidade étnica (10h)
-TE3: Tecnologia e trabalho:  as relações humanas, leis e punições para o racismo e a injúria racial no ambiente laboral. Adequação da linguagem na comunicação interpessoal e virtual (cyberbullying), com ênfase   aos termos pejorativos. O ``apagamento'' histórico e social dos afrodescendentes no Brasil, nas Artes, Ciências e Tecnologia (10h)",
+TE3: Tecnologia e trabalho:  as relações humanas, leis e punições para o racismo e a injúria racial no ambiente laboral. Adequação da linguagem na comunicação interpessoal e virtual (cyberbullying), com ênfase   aos termos pejorativos. O ``apagamento'' histórico e social dos afrodescendentes no Brasil, nas Artes, Ciências e Tecnologia (10h)",,,,
 ,Optativa,-,Programação de Banco de Dados,4,0,60,60,"TE1: Restrições de integridade de dados: domínios (tipos de dados); restrições impostas pelos conceitos de chaves (20h)
 TE2: Linguagem de Manipulação de Dados: Funções de agregação, operações sobre conjuntos, Operações sobre Visões; funções agregadas (20h)
-TE3: Stored Procedures; functions, triggers e transações (20h)",Período: 6
+TE3: Stored Procedures; functions, triggers e transações (20h)",Período: 6,"Apresentar visão em largura e aprofundada com relação aos conceitos de Banco de Dados, abordando processamento de consultas, transações e recuperação de falhas, organização e gerenciamento, bem como novas tendências."," DATE, C. J. Introdução a sistemas de bancos de dados. Rio de Janeiro: Campus, 2000. xxiii, 803 p. ; ISBN 85-352-0560-8
+
+ELMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de banco de dados. 4. ed. São Paulo: Pearson Addison-Wesley, c2005. 724 p. ISBN 85-88639-17-3.
+
+SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. Sistema de banco de dados. Rio de Janeiro, RJ: Elsevier, 2006. 781 p. ISBN 85-352-1107-8. "," ÖZSU, M. Tamer; VALDURIEZ, Patrick. Princípios de sistemas de bancos de dados distribuídos. Rio de Janeiro: Campus, 2001. 711p. ISBN 8535207139
+
+KROENKE, David M.; SOARES, Luiz Carlos Gabriel (Trad.) Banco de dados: fundamentos, projeto e implementação. 6. ed. Rio de Janeiro: LTC, c1998. 382p. ISBN 85-216-1155-2
+
+GARCIA-MOLINA, Hector; ULLMAN, Jeffrey D.; WIDOM, Jennifer. Implementação de sistemas de bancos de dados. Rio de Janeiro: Campus, 2001. 685 p. ISBN 85-352-0749-X.
+
+HEUSER, Carlos Alberto. Projeto de banco de dados. 6. ed. Porto Alegre: Bookman, c2009. xii, 282 p. (Livros didáticos informática UFRGS ; v. 4). ISBN 978-85-7780-382-8.
+
+PATRICK, John. SQL: fundamentos. 2. ed. São Paulo: Berkeley, 2002. 710 p. "
 ,Optativa,-,Administração de Banco de Dados,4,0,60,60,"TE1: Gerenciamento: projeto físico, meios de armazenamento, particionamento, cópias de segurança e restauração (20h)
 TE2: Segurança: política de acesso; dados cifrados (20h)
-TE3: Otimização de Desempenho: monitoramento, manutenção e gerenciamento de Índices (20h)",Período: 6
+TE3: Otimização de Desempenho: monitoramento, manutenção e gerenciamento de Índices (20h)",Período: 6,"Fornecer os conceitos, técnicas e características avançadas dos Sistemas de Gerenciamento de Banco de Dados, tornando o aluno capaz de desenvolver e implementar sistemas de banco de dados."," GARCIA-MOLINA, Hector; ULLMAN, Jeffrey D.; WIDOM, Jennifer. Implementação de sistemas de bancos de dados. Rio de Janeiro: Campus, 2001. 685 p. ISBN 85-352-0749-X.
+
+DATE, C. J. Introdução a sistemas de bancos de dados. Rio de Janeiro, RJ: Elsevier, 2004. 865 p. ISBN 8535212736.
+
+SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. Sistema de banco de dados. Rio de Janeiro, RJ: Elsevier, 2006. 781 p. ISBN 8535211078. "," MILANI, André. PostgreSQL: guia do programador. São Paulo: Novatec, 2008. 392 p. ISBN 9788575221570.
+
+COFFMAN, Gayle. SQL server 7 completo e total: Guia de referência . São Paulo: Makron, 2000. 691 p. ISBN 85346-1264-X.
+
+SOUZA, Marco Aurélio de. SQL, PL/SQL, SQL* plus: manual de referência completo e objetivo. Rio de Janeiro, RJ: Ciência Moderna, 2004. 425 p. ISBN 85-7393-311-9.
+
+ÖZSU, M. Tamer; VALDURIEZ, Patrick. Princípios de sistemas de bancos de dados distribuídos. Rio de Janeiro, RJ: Campus, 2001. 711p. ISBN 8535207139
+
+ELMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de banco de dados. 4. ed. São Paulo: Pearson Addison-Wesley, c2005. 724 p. ISBN 85-88639-17-3. "
 ,Optativa,-,Desenvolvimento de Jogos,4,0,60,60,"TE1: Introdução: fundamentos de design, linguagem de programação e ambiente de desenvolvimento (20h)
 TE2: Jogos bidimensionais: objetos, texturas, colisão, regras e cenário (20h)
-TE3: Jogos tridimensionais: importação de objetos do Blender, RayCast, espelhos e cenário (20h)",Período: 6
+TE3: Jogos tridimensionais: importação de objetos do Blender, RayCast, espelhos e cenário (20h)",Período: 6,Capacitar o aluno a desenvolver jogos digitais utilizando uma ferramenta atual de desenvolvimento e conhecimentos de programação orientada a objetos para introduzi-lo aos desafios da área.," NOVAK, Jeannie. Desenvolvimento de games. São Paulo, SP: Cengage Learning, 2011. xxviii, 443 p. ISBN 9788522106325.
+
+SCHUYTEMA, Paul. Design de games: uma abordagem prática. São Paulo, SP: Cengage Learning, 2008. xix, 447 p. ISBN 9788522106158.
+
+RABIN, Steve (Editor). Introdução ao desenvolvimento de games. São Paulo, SP: Cengage Learning, c2012. v. ISBN 9788522111466 (v. 4). "," KERNIGHAN, Brian W.; RITCHIE, Dennis M. C, a linguagem de programação. Rio de Janeiro, RJ: Campus; Porto Alegre: EDISA, 1986. 208 p. ISBN 8570014104.
+
+CESAR, Paulo. Introdução à geometria espacial. 4. ed. Rio de Janeiro, RJ: Sociedade Brasileira de Matemática, c1999. 93 p. (Coleção professor de matemática ; 10) ISBN 8524400854.
+
+SILVA, Luciano Augusto. Simulacron: professional game & level design. Curitiba, PR: Free, 2004. 144 p.
+
+ALLAN, Alasdair. Aprendendo programação iOS: Do Xcode à App Store. 1. ed. São Paulo, SP: Novatec, 2013. 446 p. ISBN 9788575223635.
+
+PAULA FILHO, Wilson de Pádua. Multimídia: conceitos e aplicações. 2. ed. Rio de Janeiro, RJ: LTC, 2011. 368 p. ISBN 9788521617709. "
 ,Optativa,-,Inteligência Artificial,4,0,60,60,"TE1: Fundamentos de IA: histórico da IA, representação do conhecimento, resolução de problemas, base de conhecimento, raciocínio encadeado e tipos de aprendizado (15h)
 TE2: Logica Fuzzy: conjunto, Fuzzificação e pertinência (15h)
 TE3: Redes Neurais: topologias, redes MLP, redes Bayesianas, algoritmo de treinamento e deep learning (15h)
-TE4: Computação Evolutiva: definições, tipos de algoritmos e algoritmos genéticos (15h)",Período: 6
+TE4: Computação Evolutiva: definições, tipos de algoritmos e algoritmos genéticos (15h)",Período: 6,," RUSSELL, Stuart J.; NORVIG, Peter. Inteligência artificial. Rio de Janeiro, RJ: Elsevier, 2013. 988 p. ISBN 9788535237016.
+
+COPPIN, Ben. Inteligência artificial. Rio de Janeiro, RJ: LTC, 2010. 636 p. ISBN 9788521617297.
+
+HAYKIN, Simon S. Redes neurais: princípios e prática. 2. ed. Porto Alegre, RS: Bookman, 2001. 900 p. ISBN 9788573077186. "," SILVA, Ivan Nunes da; SPATTI, Danilo Hernane; FLAUZINO, Rogério Andrade (Autor). Redes neurais artificiais: para engenharia e ciências aplicadas. São Paulo, SP: Artliber, c2010. 399 p. ISBN 9788588098534.
+
+CAMPOS, Mario Massa de; SAITO, Kaku. Sistemas inteligentes em controle e automação de processos. Rio de Janeiro, RJ: Ciência Moderna, 2004. xii, 235 p. ISBN 8573933089.
+
+BITTENCOURT, Guilherme. Inteligência artificial: ferramentas e teorias. 3. ed. rev. Florianópolis: Ed. da UFSC, 2006. xv, 371 p. (Série didática). ISBN 8532801382.
+
+HAN, Jiawei; KAMBER, Micheline; PEI, Jian Ph. D. Data mining: concepts and techniques. 3rd. ed. Amsterdam, HO: Elsevier: Morgan Kaufmann, 2012. 703 p. ISBN 9780123814791.
+
+SISTEMAS inteligentes: fundamentos e aplicações. Barueri: Manole, 2005. xxxii, 525 p. ISBN 8520416837. "
 ,Optativa,-,Realidade Estendida,4,0,60,60,"TE1: Conceitos Fundamentais: Realidades Virtual, Aumentada, Misturada, Cruzada, Diminuída e Virtualidade Aumentada (20h)
 TE2: Ferramentas: frameworks, bibliotecas e motores de jogos para Realidade Estendida (20h)
-TE3: Dispositivos de Realidade Estendida: dispositivos convencionais e não convencionais (20h)",Período: 6
+TE3: Dispositivos de Realidade Estendida: dispositivos convencionais e não convencionais (20h)",Período: 6,"Transmitir aos alunos um conjunto de conhecimentos básicos, que lhes permitam prosseguir estudos mais avançados nas áreas emergentes da Realidade Virtual e Realidade Aumentada, e capacitá-los a realizar trabalhos ilustrativos das metodologias estudadas."," PAULA FILHO, Wilson de Pádua. Multimídia: conceitos e aplicações. 2. ed. Rio de Janeiro, RJ: LTC, 2011. 368 p. ISBN 9788521617709.
+
+GONZALEZ, Rafael C.; WOODS, Richard E. Processamento digital de imagens. 3. ed. São Paulo, SP: Pearson, 2010. xv, 624 p. ISBN 9788576054016.
+
+PETROU, Maria; PETROU, Costas. Image processing: the fundamentals. 2 nd ed. United Kingdom, UK: Wiley, 2010. 794 p. ISBN 9780470745861. "," CYBIS, Walter; BETIOL, Adriana Holtz; FAUST, Richard. Ergonomia e usabilidade: conhecimentos, métodos e aplicações. 2. ed. São Paulo (SP): Novatec, 2010. 422 p. ISBN 9788575222324.
+
+SANTA ROSA, José Guilherme; MORAES, Anamaria de. Avaliação e projeto no design de interfaces. Rio de Janeiro: 2AB, 2010. 223 p. ISBN 9788586695469.
+
+GOODRICH, Michael T.; TAMASSIA, Roberto. Estruturas de dados e algoritmos em Java. 4. ed. Porto Alegre: Bookman, 2007. 600 p. ISBN 9788560031504.
+
+TANENBAUM, Andrew S.; STEEN, Maarten van (Autor). Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo, SP: Pearson Prentice Hall, 2007. 402 p. ISBN 9788576051428. "
 ,Optativa,-,Aprendizagem Profunda,4,0,60,60,"TE1: Fundamentos de Redes Neurais Artificiais: Aprendizagem supervisionada e não supervisionada; neurônio artificial e funções de ativação (30h)
-TE2: Aprendizagem profunda (Deep Learning): Redes Neurais Recorrentes; Redes Neurais Convolucionais; aplicações de Aprendizagem Profunda (30h)",Período: 6
+TE2: Aprendizagem profunda (Deep Learning): Redes Neurais Recorrentes; Redes Neurais Convolucionais; aplicações de Aprendizagem Profunda (30h)",Período: 6,,,
 ,Optativa,-,Experimentação em Computação Aplicada,4,0,60,60,"TE1: Experimento como método de pesquisa: princípios para a organização e tipos de experimentos (30h)
-TE2: Processo de experimentação: Medição e Validação (30h)",Período: 6
+TE2: Processo de experimentação: Medição e Validação (30h)",Período: 6,,,
 ,Optativa,-,Engenharia Web e DevOps,4,0,60,60,"TE1: Tecnologias de programação frontend: otimização de desempenho no lado cliente; padrões de acessibilidade; bibliotecas e frameworks orientados a componentes (15h)
 TE2: Tecnologias de programação backend: escalabilidade e alta disponibilidade em aplicações web; estilos arquiteturais e padrões de projeto utilizados em aplicações web (15h)
 TE3: Computação em nuvem: SaaS/PaaS/IaaS/FaaS; Deployment models; arquitetura e serviços (15h)
-TE4: Entrega Contínua e DevOps: conceitos e ferramentas de Integração/Entrega Contínua; práticas de DevOps (15h)",Período: 6
+TE4: Entrega Contínua e DevOps: conceitos e ferramentas de Integração/Entrega Contínua; práticas de DevOps (15h)",Período: 6,,,
 ,Optativa,-,Internet of Things,4,0,60,60,"TE1: Fundamentos: conceitos, definições e história da Internet das Coisas e comunicação máquina-máquina (M2M), protocolos e tipos de sensores (15h)
 TE2: Desenvolvimento de aplicações: frameworks para IoT, computação em nuvem, névoa e borda (15h)
 TE3: Segurança em IoT: desafios, privacidade, autenticidade de dispositivos e ataques em IoT (15h)
-TE4: Projeto: desenvolvimento de uma solução de IoT (15h)",Período: 6
-,Optativa,-,Introdução à Gestão de Projetos,4,60,60,120,"TE1: Levantamento de Requisitos: mapeamento de usuários chaves, técnicas de levantamento, modelagem de projeto e validação da modelagem (30h)
-TE2: Processo de Produção: modelagem de processos, simulação de processo e validação da modelagem (30h)
-TE3: Gestão de Projetos: escopo do projeto, planejamento, execução e controle de projeto e lições aprendidas (30h)
-TE4: Lógica de Programação: variáveis, comandos de entrada e saída, estrutura de definição, estrutura de repetição e aplicação em robótica (30h)",Período: 6
+TE4: Projeto: desenvolvimento de uma solução de IoT (15h)",Período: 6,"Internet of Things, ofertada para alunos do oitavo período do curso, aborda o desenvolvimento de aplicações de Internet das Coisas. Nesta disciplina, os estudantes aprendem sobre conceitos fundamentais de Internet das Coisas, tipos de sensores, procotolos de comunicação, frameworks/ferramentas, interação com serviços de computação em nuvem, névoa e borda. Ao final da disciplina, o estudante será capaz de implementar soluções baseadas em Internet das Coisas, integrando sensores, frameworks, ferramentas e plataformas de computação em nuvem de forma colaborativa, considerando atributos relacionados à segurança das aplicações.","Waher, Peter. Learning Internet of Things. Series: Community Experience Distilled. Birmingham, England : Packt Publishing.
+2015.
+
+Hillar, Gastón C. Internet of Things with Python. Series: Community Experience Distilled. Birmingham, UK : Packt Publishing.
+2016.
+
+Mukhopadhay, Subhas Chandra. Internet of Things: challenges and opportunities. New York, NY : Springer, 2014. 261 p.","Hofdijk, Jacob. Transforming Healthcare with the Internet of Things: Proceedings of the EFMI Special Topic Conference.
+Series: Studies in Health Technology and Informatics, volume 221. Amsterdam, Netherlands : IOS Press. 2016.
+
+BCS, The Chartered Institute for IT. The internet of things: Living in a Connected World Swinson, UK : BCS, The Chartered
+Institute for IT. 2017.
+
+Watts, Silvia. The Internet of Things (IoT): Applications, Technology and Privacy Issues. Series: Internet Theory, Technology
+and Applications. New York : Nova Science Publishers, Inc. 2016
+
+Russell, Brian; Van Duren, Drew. Practical Internet of Things Security. Series: Community Experience Distilled. Birmingham,
+UK : Packt Publishing. 2016"
+,Optativa,-,Introdução à Gestão de Projetos,4,60,60,120,"TE1: Levantamento de Requisitos: mapeamento de usuários chaves, técnicas de levantamento, modelagem de projeto e validação da modelagem (30h);
+TE2: Processo de Produção: modelagem de processos, simulação de processo e validação da modelagem (30h);
+TE3: Gestão de Projetos: escopo do projeto, planejamento, execução e controle de projeto e lições aprendidas (30h);
+TE4: Lógica de Programação: variáveis, comandos de entrada e saída, estrutura de definição, estrutura de repetição e aplicação em robótica (30h).",Período: 6,,,
+,Optativa,,Programação Desktop,4,0,60,60,"TE1: Interfaces Gráficas: Fundamentos/Definições, Componentes de Interface e Eventos (15h)
+TE2: Manipulação de arquivos: bibliotecas de leitura e escrita de arquivos (15h)
+TE3: Integração com o Banco de Dados: bibliotecas/APIs de acesso a sistemas de gerenciamento de banco de dados e persistência de dados utilizando Object-Relational-Mapping (15h)
+TE4: Relatórios: APIs para a construção e visualização de informações em relatórios (15h)",Período: 6,"Programação Desktop, ofertada para alunos do oitavo período do curso, aborda o uso de APIs para implementação de interfaces gráficas e recursos do sistema operacional. Nesta disciplina, os estudantes aprendem a desenvolver aplicações com componentes de interface gráfica do sistema operacional, acesso ao sistema de arquivos e a sistemas de gerenciamento de banco de dados. Ao final da disciplina, o estudante será capaz de desenvolver aplicações com GUI, utilizando múltiplos recursos do sistema operacional e acesso a bancos de dados.","DEITEL, Paul J.; DEITEL, Harvey M. Java, como programar. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2010. xxix, 1144 p. + 1 CD-ROM (4 ¾ pol.) ISBN 9788576055631.
+
+HORSTMANN, Cay S. Core Java 2. Rio de Janeiro, RJ: Alta Books, 2005. 2 v.
+
+HORSTMANN, Cay S. Big Java. Porto Alegre: Bookman, 2004. 1125 p.CD-ROM ISBN 85-363-0345-X","GOODRICH, Michael T.; TAMASSIA, Roberto. Estruturas de dados e algoritmos em Java. 4. ed. Porto Alegre: Bookman, 2007. 600 p. ISBN 9788560031504.
+
+SIERRA, Kathy; BATES, Bert. Use a cabeça! Java. 2. ed. Rio de Janeiro, RJ: Alta Books, 2007. 470 p. ISBN 9788576081739.
+
+MORGAN, Michael. Java 2 para programadores profissionais. Rio de Janeiro: Ciência Moderna, 2000. xx, 713 p. ISBN 8573930993.
+
+PREISS, Bruno R. Estruturas de dados e algoritmos: padrões de projetos orientados a objetos com Java. Rio de Janeiro, RJ: Campus, c2001. xvi, 566 p. ISBN 9788535206937.
+
+LAFORE, Robert (Robert W.). Estruturas de dados e algoritmos em Java. Rio de Janeiro, RJ: Ciência Moderna, 2004. xxvi, 702 p. ISBN 8573933755."
+,Optativa,,Processamento de Linguagem Natural: Aplicações,4,0,60,60,"TE1: Processamento de Linguagem Natural: conceitos, definições e aplicações (10h)
+TE2: Tarefas de PLN: Tokenização, Part-of-Speech (POS), Stop-Words, Lematização e Reconhecimento de Entidades Nomeadas (10h)
+TE3: Bag-Of-Words (BOW): representação, APIs de extração de características, padronização de entrada, redução de dimensionalidade (filtragem de stop-words, Stemmer e Lematização), n-gramas, importância de características/palavras e aplicações para Recuperação de Informação, Classificação de Documentos, Clusterização e Topicalização (20h)
+TE4: Deep Learning: Embeddings, Redes Neurais Recorrentes, Transformers, Large Language Models, Transfer Learning e aplicações para Classificação de Documentos e Geração de Texto (20h)",Período: 6,,,
+,Optativa,,Métricas e Estimativas de Software,4,0,60,60,"TE1: Medição de software:medidas, métricas e indicadores; medidas diretas e indiretas; métricas de produto, processo e projeto; Modelos de medição - abordagem GQM (Goal, Question, Metric) (10h)
+TE2: Métricas de produto: métricas estáticas, Fan-in/Fan-out, tamanho do código (LoC – Lines of Code, KLOC-Kilo Lines of Code), Complexidade Ciclomática (CC), tamanho do vocabulário, Profundidade de Aninhamento; métricas dinâmicas, tempo de execução, tempo para iniciar o sistema, tempo para carregar uma página; métricas orientadas a objetos (Métricas de Chidamber-Kemerer - CK) (20h)
+TE3: Métricas ágeis: WIP (Work in Progress), Lead Time, Cycle Time, Velocity, Throughput, Gráficos de burndown e burnup (10h)
+TE4: Estimativa de Software: Estimativas de tamanho do software; Estimativa dos riscos e incertezas do projeto; Estimativa de esforço; Estimativas de tempo; Estimativa de custo do projeto; Técnicas de Estimativas, análise de pontos de função e pontos de casos de uso, COCOMO e COCOMO II, Por Analogia, Botton-Up, Delphi, Planing Poker, Story points (20h)",Período: 6,"Métricas e Estimativas de Software, ofertada para alunos do oitavo período do curso, aborda o uso de métricas e técnicas de estimativas para monitorar atributos de qualidade de produto e processo de software. Nesta disciplina, os estudantes aprendem aplicações, importância e técnicas de medição da Engenharia de Software. Ao final da disciplina, o estudante será capaz de monitorar/analisar métricas de qualidade do software, identificando problemas no produto e processo de Engenharia de Software e estimando o custo de desenvolvimento de aplicações.","MARTINS, José Carlos Cordeiro. Gestão de projetos de desenvolvimento de software: (PMI-UML). Rio de Janeiro: Brasport, 2002. 189 p. ISBN 8574520993
+
+VARGAS, Ricardo Viana. Manual prático do plano de projeto: utilizando o PMBOK® guide . 4. ed. Rio de Janeiro: Brasport, 2011. 230 p. + 1 CD-ROM. ISBN 9788574524306.
+
+VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira; ALBERT, Renato Machado. Análise de pontos de função: medição, estimativas e gerenciamento de projetos de software . 13. ed. rev. e ampl. São Paulo, SP: Érica, 2013. 272 p. ISBN 9788536504520.","REZENDE, Denis Alcides. Engenharia de software e sistemas de informação. 2. ed. Rio de Janeiro: Brasport, 2002. 358p. ISBN 85-7452-094-2
+
+SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo, SP: Pearson Addison-Wesley, 2007. xiv, 552 p. ISBN 9788588639287.
+
+PRESSMAN, Roger S. Engenharia de software. 6. ed. Rio de Janeiro, RJ: McGraw-Hill, 2006. 720 p. ISBN 8586804258.
+
+PETERS, James F.; PEDRYCZ, Witold (Autor). Engenharia de software: teoria e prática. Rio de Janeiro, RJ: Campus, 2001. xvii, 602 p. ISBN 8535207465.
+
+PAULA FILHO, Wilson de Pádua. Engenharia de software: fundamentos, métodos e padrões. 2. ed. Rio de Janeiro, RJ: LTC, 2003. 602 p. ISBN 85-216-1339-3."
+,Optativa,,Introdução à Robótica,4,0,60,60,"TE1: Robôs: definições, classificações baseada na estrutura física e em níveis de autonomia, e aplicações (10h)
+TE2: Sensores e atuadores: definições, diferenciação de sensores proprioceptivos e extraceptivos e motores elétricos (10h)
+TE3: Localização: técnicas de localização, soluções de dead-reckoning e fusão de dados sensoriais (10h)
+TE4: Sistemas de controle cinemático: definição, controle PID e exemplificação para robô móvel com rodas e para manipulador serial (15h)
+TE5: Navegação: definição de espaço de configuração, planejamento de caminhos e geração de trajetórias (15h)",Período: 6,,,
+,Optativa,,Compiladores,4,0,60,60,"TE1. Compiladores e interpretadores: organização e estrutura; características de linguagens de programação (10h)
+TE2. Definição de linguagem: gramática formal, reconhecedores e autômatos (8h)
+TE3. Processo de compilação: análise léxica, sintática e semântica (24h)
+TE4. Código intermediário: Geração e otimização (18h)",Período: 6,,,
