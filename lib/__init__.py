@@ -32,9 +32,9 @@ Núcleo  & Unidades curriculares & CH [h]  & \\% da CH da área em relação à 
       if i == 0:
         tex += '\\multirow{4}{*}{Núcleo %s} & %s & %d & %d horas  \\\\\n' % (k, unit['Nome'], unit['TOTAL'], ch_area)
       elif i == 1:
-        tex += f"\\cline{2-3} & {unit['Nome']} & {unit['TOTAL']} & {round((ch_area*100)/ch_unit)}\\% (un. curriculares)\\\\\n"
+        tex += f"\\cline{{2-3}} & {unit['Nome']} & {unit['TOTAL']} & {round((ch_area*100)/ch_unit)}\\% (un. curriculares)\\\\\n"
       elif i == 2:
-        tex += f"\\cline{2-3} & {unit['Nome']} & {unit['TOTAL']} & {round((ch_area*100)/ch_total)}\\% (CH total)\\\\\n"
+        tex += f"\\cline{{2-3}} & {unit['Nome']} & {unit['TOTAL']} & {round((ch_area*100)/ch_total)}\\% (CH total)\\\\\n"
       else:
         tex += '\\cline{2-3} & %s & %d & \\\\\n' % (unit['Nome'], unit['TOTAL'])
 

@@ -135,7 +135,7 @@ TE3: Jogos tridimensionais: importação de objetos do Blender, RayCast, espelho
 
 SCHUYTEMA, Paul. Design de games: uma abordagem prática. São Paulo, SP: Cengage Learning, 2008. xix, 447 p. ISBN 9788522106158.
 
-RABIN, Steve (Editor). Introdução ao desenvolvimento de games. São Paulo, SP: Cengage Learning, c2012. v. ISBN 9788522111466 (v. 4). "," KERNIGHAN, Brian W.; RITCHIE, Dennis M. C, a linguagem de programação. Rio de Janeiro, RJ: Campus; Porto Alegre: EDISA, 1986. 208 p. ISBN 8570014104.
+RABIN, Steve (Editor). Introdução ao desenvolvimento de games. São Paulo, SP: Cengage Learning, c2012. v. ISBN 9788522111466 (v. 4). "," KERNIGHAN, Brian W.; RITCHIE, Dennis M. C, a linguagem de programação. Rio de Janeiro, RJ: Campus; Porto Alegre: EDISA, 1986.. 208 p. ISBN 8570014104.
 
 CESAR, Paulo. Introdução à geometria espacial. 4. ed. Rio de Janeiro, RJ: Sociedade Brasileira de Matemática, c1999. 93 p. (Coleção professor de matemática ; 10) ISBN 8524400854.
 
@@ -201,11 +201,11 @@ and Applications. New York : Nova Science Publishers, Inc. 2016
 
 Russell, Brian; Van Duren, Drew. Practical Internet of Things Security. Series: Community Experience Distilled. Birmingham,
 UK : Packt Publishing. 2016"
-,Optativa,-,Introdução à Gestão de Projetos,4,60,60,120,"TE1: Levantamento de Requisitos: mapeamento de usuários chaves, técnicas de levantamento, modelagem de projeto e validação da modelagem (30h);
-TE2: Processo de Produção: modelagem de processos, simulação de processo e validação da modelagem (30h);
-TE3: Gestão de Projetos: escopo do projeto, planejamento, execução e controle de projeto e lições aprendidas (30h);
-TE4: Lógica de Programação: variáveis, comandos de entrada e saída, estrutura de definição, estrutura de repetição e aplicação em robótica (30h).",Período: 6,,,
-,Optativa,,Programação Desktop,4,0,60,60,"TE1: Interfaces Gráficas: Fundamentos/Definições, Componentes de Interface e Eventos (15h)
+,Optativa,-,Introdução à Gestão de Projetos,4,60,60,120,"TE1: Levantamento de Requisitos: mapeamento de usuários chaves, técnicas de levantamento, modelagem de projeto e validação da modelagem (30h)
+TE2: Processo de Produção: modelagem de processos, simulação de processo e validação da modelagem (30h)
+TE3: Gestão de Projetos: escopo do projeto, planejamento, execução e controle de projeto e lições aprendidas (30h)
+TE4: Lógica de Programação: variáveis, comandos de entrada e saída, estrutura de definição, estrutura de repetição e aplicação em robótica (30h)",Período: 6,,,
+,Optativa,-,Programação Desktop,4,0,60,60,"TE1: Interfaces Gráficas: Fundamentos/Definições, Componentes de Interface e Eventos (15h)
 TE2: Manipulação de arquivos: bibliotecas de leitura e escrita de arquivos (15h)
 TE3: Integração com o Banco de Dados: bibliotecas/APIs de acesso a sistemas de gerenciamento de banco de dados e persistência de dados utilizando Object-Relational-Mapping (15h)
 TE4: Relatórios: APIs para a construção e visualização de informações em relatórios (15h)",Período: 6,"Programação Desktop, ofertada para alunos do oitavo período do curso, aborda o uso de APIs para implementação de interfaces gráficas e recursos do sistema operacional. Nesta disciplina, os estudantes aprendem a desenvolver aplicações com componentes de interface gráfica do sistema operacional, acesso ao sistema de arquivos e a sistemas de gerenciamento de banco de dados. Ao final da disciplina, o estudante será capaz de desenvolver aplicações com GUI, utilizando múltiplos recursos do sistema operacional e acesso a bancos de dados.","DEITEL, Paul J.; DEITEL, Harvey M. Java, como programar. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2010. xxix, 1144 p. + 1 CD-ROM (4 ¾ pol.) ISBN 9788576055631.
@@ -221,11 +221,11 @@ MORGAN, Michael. Java 2 para programadores profissionais. Rio de Janeiro: Ciênc
 PREISS, Bruno R. Estruturas de dados e algoritmos: padrões de projetos orientados a objetos com Java. Rio de Janeiro, RJ: Campus, c2001. xvi, 566 p. ISBN 9788535206937.
 
 LAFORE, Robert (Robert W.). Estruturas de dados e algoritmos em Java. Rio de Janeiro, RJ: Ciência Moderna, 2004. xxvi, 702 p. ISBN 8573933755."
-,Optativa,,Processamento de Linguagem Natural: Aplicações,4,0,60,60,"TE1: Processamento de Linguagem Natural: conceitos, definições e aplicações (10h)
+,Optativa,-,Processamento de Linguagem Natural: Aplicações,4,0,60,60,"TE1: Processamento de Linguagem Natural: conceitos, definições e aplicações (10h)
 TE2: Tarefas de PLN: Tokenização, Part-of-Speech (POS), Stop-Words, Lematização e Reconhecimento de Entidades Nomeadas (10h)
 TE3: Bag-Of-Words (BOW): representação, APIs de extração de características, padronização de entrada, redução de dimensionalidade (filtragem de stop-words, Stemmer e Lematização), n-gramas, importância de características/palavras e aplicações para Recuperação de Informação, Classificação de Documentos, Clusterização e Topicalização (20h)
 TE4: Deep Learning: Embeddings, Redes Neurais Recorrentes, Transformers, Large Language Models, Transfer Learning e aplicações para Classificação de Documentos e Geração de Texto (20h)",Período: 6,,,
-,Optativa,,Métricas e Estimativas de Software,4,0,60,60,"TE1: Medição de software:medidas, métricas e indicadores; medidas diretas e indiretas; métricas de produto, processo e projeto; Modelos de medição - abordagem GQM (Goal, Question, Metric) (10h)
+,Optativa,-,Métricas e Estimativas de Software,4,0,60,60,"TE1: Medição de software:medidas, métricas e indicadores; medidas diretas e indiretas; métricas de produto, processo e projeto; Modelos de medição - abordagem GQM (Goal, Question, Metric) (10h)
 TE2: Métricas de produto: métricas estáticas, Fan-in/Fan-out, tamanho do código (LoC – Lines of Code, KLOC-Kilo Lines of Code), Complexidade Ciclomática (CC), tamanho do vocabulário, Profundidade de Aninhamento; métricas dinâmicas, tempo de execução, tempo para iniciar o sistema, tempo para carregar uma página; métricas orientadas a objetos (Métricas de Chidamber-Kemerer - CK) (20h)
 TE3: Métricas ágeis: WIP (Work in Progress), Lead Time, Cycle Time, Velocity, Throughput, Gráficos de burndown e burnup (10h)
 TE4: Estimativa de Software: Estimativas de tamanho do software; Estimativa dos riscos e incertezas do projeto; Estimativa de esforço; Estimativas de tempo; Estimativa de custo do projeto; Técnicas de Estimativas, análise de pontos de função e pontos de casos de uso, COCOMO e COCOMO II, Por Analogia, Botton-Up, Delphi, Planing Poker, Story points (20h)",Período: 6,"Métricas e Estimativas de Software, ofertada para alunos do oitavo período do curso, aborda o uso de métricas e técnicas de estimativas para monitorar atributos de qualidade de produto e processo de software. Nesta disciplina, os estudantes aprendem aplicações, importância e técnicas de medição da Engenharia de Software. Ao final da disciplina, o estudante será capaz de monitorar/analisar métricas de qualidade do software, identificando problemas no produto e processo de Engenharia de Software e estimando o custo de desenvolvimento de aplicações.","MARTINS, José Carlos Cordeiro. Gestão de projetos de desenvolvimento de software: (PMI-UML). Rio de Janeiro: Brasport, 2002. 189 p. ISBN 8574520993
@@ -241,12 +241,12 @@ PRESSMAN, Roger S. Engenharia de software. 6. ed. Rio de Janeiro, RJ: McGraw-Hil
 PETERS, James F.; PEDRYCZ, Witold (Autor). Engenharia de software: teoria e prática. Rio de Janeiro, RJ: Campus, 2001. xvii, 602 p. ISBN 8535207465.
 
 PAULA FILHO, Wilson de Pádua. Engenharia de software: fundamentos, métodos e padrões. 2. ed. Rio de Janeiro, RJ: LTC, 2003. 602 p. ISBN 85-216-1339-3."
-,Optativa,,Introdução à Robótica,4,0,60,60,"TE1: Robôs: definições, classificações baseada na estrutura física e em níveis de autonomia, e aplicações (10h)
+,Optativa,-,Introdução à Robótica,4,0,60,60,"TE1: Robôs: definições, classificações baseada na estrutura física e em níveis de autonomia, e aplicações (10h)
 TE2: Sensores e atuadores: definições, diferenciação de sensores proprioceptivos e extraceptivos e motores elétricos (10h)
 TE3: Localização: técnicas de localização, soluções de dead-reckoning e fusão de dados sensoriais (10h)
 TE4: Sistemas de controle cinemático: definição, controle PID e exemplificação para robô móvel com rodas e para manipulador serial (15h)
 TE5: Navegação: definição de espaço de configuração, planejamento de caminhos e geração de trajetórias (15h)",Período: 6,,,
-,Optativa,,Compiladores,4,0,60,60,"TE1. Compiladores e interpretadores: organização e estrutura; características de linguagens de programação (10h)
-TE2. Definição de linguagem: gramática formal, reconhecedores e autômatos (8h)
-TE3. Processo de compilação: análise léxica, sintática e semântica (24h)
-TE4. Código intermediário: Geração e otimização (18h)",Período: 6,,,
+,Optativa,-,Compiladores,4,0,60,60,"TE1: Compiladores e interpretadores: organização e estrutura; características de linguagens de programação (10h)
+TE2: Definição de linguagem: gramática formal, reconhecedores e autômatos (8h)
+TE3: Processo de compilação: análise léxica, sintática e semântica (24h)
+TE4: Código intermediário: Geração e otimização (18h)",Período: 6,,,
